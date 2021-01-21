@@ -22,5 +22,6 @@ encoding//pb-global/src/ru/pb/global/dao/enums/QueryList.java=UTF-8
 encoding//pb-global/src/ru/pb/global/dao/impl/PlayerDaoImpl.java=UTF-8
 encoding//pb-global/src/ru/pb/global/enums/item/ItemConsumeType.java=UTF-8
 encoding//pb-global/src/ru/pb/global/models/PlayerStats.java=UTF-8
+encoding//pb-global/src/ru/pb/global/network/packets/BaseServerPacket.java=UTF-8
 encoding//pb-global/src/ru/pb/global/properties/PropertiesLoader.java=UTF-8
 encoding//pb-global/src/ru/pb/global/service/PlayerDaoService.java=UTF-8

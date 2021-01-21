@@ -31,8 +31,9 @@ public class GamePacketHandler extends PacketHandler {
 	private GamePacketHandler() {
 		addPacketPrototype(new PROTOCOL_BASE_ENTER_REQ(0xA13));
 		addPacketPrototype(new PROTOCOL_BASE_LEAVE_REQ(0xA11));
-		
+
 		addPacketPrototype(new PROTOCOL_CHANNEL_LIST_REQ(0xA0B));
+		addPacketPrototype(new CM_SCHANNEL_LIST(0xA0F));
 		addPacketPrototype(new PROTOCOL_CHANNEL_ANNOUNCE_REQ(0xA0D));
 		
 		addPacketPrototype(new PROTOCOL_LOBBY_ENTER_REQ(0xC07));
@@ -50,10 +51,7 @@ public class GamePacketHandler extends PacketHandler {
 		addPacketPrototype(new PROTOCOL_INVENTORY_ENTER_REQ(0xE01));
 		addPacketPrototype(new PROTOCOL_INVENTORY_LEAVE_REQ(0xE05));
 		
-		/*addPacketPrototype(new CM_CHANNEL_LIST(0xA0B));
-		addPacketPrototype(new CM_CHANNEL_ANNOUNCE(0xA0D));
-		addPacketPrototype(new CM_SCHANNEL_LIST(0xA0F));
-		
+		/*
 		addPacketPrototype(new CM_CHAT_MESSAGE(0xA43));
 		addPacketPrototype(new CM_CHAT_CLAN_MESSAGE(0x54E));
 		addPacketPrototype(new CM_CHAT_WHISPER_MESSAGE(0x122));

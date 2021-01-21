@@ -36,6 +36,6 @@ public class PROTOCOL_CHANNEL_ANNOUNCE_ACK extends ServerPacket {
 	public void writeImpl() {
 		writeD(channel.getId());
 		writeH(channel.getAnnounce().length());
-		writeS(channel.getAnnounce());
+		writeUnicode(channel.getAnnounce());
 	}
 }

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.global.network.packets;
@@ -24,9 +24,10 @@ import io.netty.buffer.Unpooled;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.ByteOrder;
+import java.nio.charset.StandardCharsets;
 
 /**
- * Базовый пакет серверов
+ * Ð‘Ð°Ð·Ð¾Ð²Ñ‹Ð¹ Ð¿Ð°ÐºÐµÑ‚ Ñ�ÐµÑ€Ð²ÐµÑ€Ð¾Ð²
  *
  * @author sjke
  */
@@ -106,6 +107,15 @@ public abstract class BaseServerPacket extends BasePacket {
 	 */
 	protected final void writeS(String text) {
 		writeS(text, text.length());
+	}
+	
+	/**
+	 * Write String to buffer
+	 *
+	 * @param text
+	 */
+	protected final void writeUnicode(String text) {
+		writeB(text.getBytes(StandardCharsets.UTF_16LE));
 	}
 
 	/**

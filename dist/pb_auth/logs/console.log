@@ -1377,3 +1377,73 @@ java.lang.NullPointerException: null
 18:31:13 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
 18:31:31 [INFO] Client [id:1, ip: 127.0.0.1] connected
 18:31:35 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:41:28 [INFO] Loaded properties from file 'system.properties'
+18:41:28 [INFO] Loaded properties from file 'jdbc.properties'
+18:41:28 [INFO] Database connected successfully!
+18:41:28 [INFO] Loaded 11  item(s) count.
+18:41:28 [INFO] Loaded 1 registered GameServers.
+18:41:28 [INFO] Loaded 0 blocked ip masks.
+18:41:28 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:41:28 [INFO] Loaded 11 starting items.
+18:41:28 [INFO] Loaded 9 client packet prototypes
+18:41:28 [INFO] Loaded 2 operations interaction with the game server
+18:41:28 [INFO] Loaded in 0 sec(0,000 min)
+18:41:28 [INFO] Used 8 mb, max 31 mb.
+18:41:28 [INFO] Used 26,75% percent memory.
+18:41:28 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:41:28 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:41:29 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:41:31 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:41:35 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:42:16 [INFO] Loaded properties from file 'system.properties'
+18:42:16 [INFO] Loaded properties from file 'jdbc.properties'
+18:42:16 [INFO] Database connected successfully!
+18:42:16 [INFO] Loaded 11  item(s) count.
+18:42:16 [INFO] Loaded 1 registered GameServers.
+18:42:16 [INFO] Loaded 0 blocked ip masks.
+18:42:16 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:42:16 [INFO] Loaded 11 starting items.
+18:42:16 [INFO] Loaded 9 client packet prototypes
+18:42:16 [INFO] Loaded 2 operations interaction with the game server
+18:42:16 [INFO] Loaded in 0 sec(0,000 min)
+18:42:16 [INFO] Used 8 mb, max 31 mb.
+18:42:16 [INFO] Used 26,75% percent memory.
+18:42:16 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:42:16 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:42:17 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:42:47 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:42:51 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:43:40 [INFO] Loaded properties from file 'system.properties'
+18:43:40 [INFO] Loaded properties from file 'jdbc.properties'
+18:43:40 [INFO] Database connected successfully!
+18:43:40 [INFO] Loaded 11  item(s) count.
+18:43:40 [INFO] Loaded 1 registered GameServers.
+18:43:40 [INFO] Loaded 0 blocked ip masks.
+18:43:40 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:43:40 [INFO] Loaded 11 starting items.
+18:43:40 [INFO] Loaded 9 client packet prototypes
+18:43:40 [INFO] Loaded 2 operations interaction with the game server
+18:43:40 [INFO] Loaded in 0 sec(0,000 min)
+18:43:40 [INFO] Used 8 mb, max 31 mb.
+18:43:40 [INFO] Used 26,83% percent memory.
+18:43:40 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:43:40 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:43:41 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:44:00 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:44:03 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:44:56 [INFO] Loaded properties from file 'system.properties'
+18:44:56 [INFO] Loaded properties from file 'jdbc.properties'
+18:44:56 [INFO] Database connected successfully!
+18:44:56 [INFO] Loaded 11  item(s) count.
+18:44:56 [INFO] Loaded 1 registered GameServers.
+18:44:56 [INFO] Loaded 0 blocked ip masks.
+18:44:56 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:44:56 [INFO] Loaded 11 starting items.
+18:44:56 [INFO] Loaded 9 client packet prototypes
+18:44:56 [INFO] Loaded 2 operations interaction with the game server
+18:44:56 [INFO] Loaded in 0 sec(0,000 min)
+18:44:56 [INFO] Used 8 mb, max 31 mb.
+18:44:56 [INFO] Used 27,01% percent memory.
+18:44:57 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:44:57 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:44:58 [INFO] GameServer [id:none, ip: 127.0.0.1] connected

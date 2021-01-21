@@ -22,11 +22,6 @@ package ru.pb.game.network.client.packets.server;
 
 import ru.pb.game.network.client.packets.ServerPacket;
 
-/**
- * �?еизме�?тный пакет, отправл�?ет�?�? вме�?те �? пекетов авторизации
- *
- * @author sjke
- */
 public class PROTOCOL_INVENTORY_LEAVE_ACK extends ServerPacket {
 
 	private int type;

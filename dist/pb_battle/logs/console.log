@@ -467,3 +467,15 @@
 17:58:46 [INFO] Connecting to /127.0.0.1:29890...
 17:58:48 [INFO] Server [/127.0.0.1:29890] not available...
 17:58:48 [INFO] BattleServer [id:2, ip: null] disconnected
+18:41:28 [INFO] Loaded properties from file 'system.properties'
+18:41:28 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:41:28 [INFO] Loaded 7 battle packet prototypes
+18:41:28 [INFO] Loaded in 0 sec(0,000 min)
+18:41:28 [INFO] Used 10 mb, max 61 mb.
+18:41:28 [INFO] Used 17,35% percent memory.
+18:41:28 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+18:41:28 [INFO] Connecting to /127.0.0.1:29890...
+18:41:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+18:41:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+18:41:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+18:41:29 [INFO] BattleServer successfully registred, response: AUTHED

@@ -23,11 +23,6 @@ package ru.pb.game.network.client.packets.server;
 import ru.pb.game.network.client.packets.ServerPacket;
 import ru.pb.global.utils.DateTimeUtil;
 
-/**
- * Пакет входа в инвентарь
- *
- * @author sjke, DarkSkeleton
- */
 public class PROTOCOL_INVENTORY_ENTER_ACK extends ServerPacket {
 	public PROTOCOL_INVENTORY_ENTER_ACK() {
 		super(0xE02);
@@ -35,6 +30,6 @@ public class PROTOCOL_INVENTORY_ENTER_ACK extends ServerPacket {
 
 	@Override
 	public void writeImpl() {
-		writeD(DateTimeUtil.getDateTime()); //дата и врем�? входа
+		writeD(DateTimeUtil.getDateTime());
 	}
 }

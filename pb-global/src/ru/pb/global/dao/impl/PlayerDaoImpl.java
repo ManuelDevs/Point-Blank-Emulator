@@ -61,6 +61,7 @@ public class PlayerDaoImpl implements PlayerDao {
 		return false;
 	}
 
+	@SuppressWarnings("resource")
 	@Override
 	public void create(Player entity) {
 		Connection con = null;
@@ -78,12 +79,17 @@ public class PlayerDaoImpl implements PlayerDao {
 			statement.setShort(7, entity.getPcCafe());
 			statement.setBoolean(8, entity.getOnline());
 			statement.executeUpdate();
-
+			
 			rs = statement.getGeneratedKeys();
 			rs.next();
 
 			entity.setId((Long) rs.getObject(1));
 			createEquipment(entity);
+			
+			statement = con.prepareStatement(PLAYER_CREATE_STATS.getQuery(), Statement.RETURN_GENERATED_KEYS);
+			statement.setLong(1, entity.getId());
+			statement.executeUpdate();
+			
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
@@ -112,13 +118,14 @@ public class PlayerDaoImpl implements PlayerDao {
 		}
 	}
 
+	@SuppressWarnings("resource")
 	@Override
 	public Player read(Long accountID) {
 		Connection con = null;
 		PreparedStatement statement = null;
 		ResultSet rs = null;
 		Player player = null;
-		if (accountID == null) {
+		if (accountID <= 0) {
 			return null;
 		}
 		try {
@@ -126,7 +133,8 @@ public class PlayerDaoImpl implements PlayerDao {
 			statement = con.prepareStatement(PLAYER_SELECT.getQuery());
 			statement.setLong(1, accountID);
 			rs = statement.executeQuery();
-			if (rs.next()) {
+			if(rs.next())
+			{
 				player = new Player();
 				player.setId(rs.getLong("id"));
 				player.setAccountId(rs.getLong("account_id"));
@@ -137,40 +145,36 @@ public class PlayerDaoImpl implements PlayerDao {
 				player.setExp(rs.getInt("exp"));
 				player.setPcCafe(rs.getShort("pc_cafe"));
 				player.setOnline(rs.getBoolean("online"));
-				PlayerStats stats = new PlayerStats();
-				stats.setSeasonFights(rs.getInt("season_fights"));
-				stats.setSeasonWins(rs.getInt("season_wins"));
-				stats.setSeasonLosts(rs.getInt("season_losts"));
-				stats.setSeasonKills(rs.getInt("season_kills"));
-				stats.setSeasonDeaths(rs.getInt("season_deaths"));
-				stats.setSeasonEscapes(rs.getInt("season_escapes"));
-				stats.setFights(rs.getInt("fights"));
-				stats.setWins(rs.getInt("wins"));
-				stats.setLosts(rs.getInt("losts"));
-				stats.setKills(rs.getInt("kills"));
-				stats.setDeaths(rs.getInt("deaths"));
-				stats.setEscapes(rs.getInt("escapes"));
-				stats.setSeriaWins(rs.getInt("seria_wins"));
-				stats.setKpd(rs.getInt("kpd"));
-				stats.setSeasonSeriaWins(rs.getInt("season_seria_wins"));
-				stats.setSeasonKpd(rs.getInt("season_kpd"));
-				player.setStats(stats);
-				if (rs.getLong("cl_id") != 0) {
-					Clan clan = new Clan();
-					clan.setId(rs.getLong("cl_id"));
-					clan.setName(rs.getString("cl_name"));
-					clan.setRank(rs.getShort("cl_rank"));
-					clan.setOwnerId(rs.getLong("cl_owner_id"));
-					clan.setColor(rs.getShort("cl_color"));
-					clan.setLogo1(rs.getShort("cl_logo1"));
-					clan.setLogo2(rs.getShort("cl_logo2"));
-					clan.setLogo3(rs.getShort("cl_logo3"));
-					clan.setLogo4(rs.getShort("cl_logo4"));
-					player.setClan(clan);
-				}
 			}
+			
 
-			if (player != null) {
+			if(player != null)
+			{
+				statement = con.prepareStatement(PLAYER_SELECT_STATS.getQuery());
+				statement.setLong(1, player.getId());
+				rs = statement.executeQuery();
+				if(rs.next())
+				{
+					PlayerStats stats = new PlayerStats();
+					stats.setSeasonFights(rs.getInt("season_fights"));
+					stats.setSeasonWins(rs.getInt("season_wins"));
+					stats.setSeasonLosts(rs.getInt("season_losts"));
+					stats.setSeasonKills(rs.getInt("season_kills"));
+					stats.setSeasonDeaths(rs.getInt("season_deaths"));
+					stats.setSeasonEscapes(rs.getInt("season_escapes"));
+					stats.setFights(rs.getInt("fights"));
+					stats.setWins(rs.getInt("wins"));
+					stats.setLosts(rs.getInt("losts"));
+					stats.setKills(rs.getInt("kills"));
+					stats.setDeaths(rs.getInt("deaths"));
+					stats.setEscapes(rs.getInt("escapes"));
+					stats.setSeriaWins(rs.getInt("seria_wins"));
+					stats.setKpd(rs.getInt("kpd"));
+					stats.setSeasonSeriaWins(rs.getInt("season_seria_wins"));
+					stats.setSeasonKpd(rs.getInt("season_kpd"));
+					player.setStats(stats);
+				}
+				
 				statement = con.prepareStatement(PLAYER_SELECT_EQIPMENT.getQuery());
 				statement.setLong(1, player.getId());
 				rs = statement.executeQuery();

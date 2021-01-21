@@ -22,6 +22,7 @@ package ru.pb.auth.network.client.packets.client;
 
 import ru.pb.auth.network.client.packets.ClientPacket;
 import ru.pb.auth.network.client.packets.server.PROTOCOL_BASE_USER_INFO_ACK;
+import ru.pb.auth.network.client.packets.server.PROTOCOL_BASE_USER_INVENTORY_ACK;
 import ru.pb.auth.network.client.packets.server.PROTOCOL_UNK_2679_ACK;
 import ru.pb.global.models.Player;
 import ru.pb.global.service.PlayerDaoService;
@@ -39,9 +40,11 @@ public class PROTOCOL_BASE_USER_INFO_REQ extends ClientPacket {
 	@Override
 	public void runImpl() {
 		Player player = PlayerDaoService.getInstance().read(getConnection().getAccount().getId());
-		if (player == null) 
-			player = PlayerDaoService.getInstance().createBasePlayer("", getConnection().getAccount().getId());
 		
+		if (player == null) {
+			player = PlayerDaoService.getInstance().createBasePlayer("", getConnection().getAccount().getId());
+		}
 		sendPacket(new PROTOCOL_BASE_USER_INFO_ACK(player, getConnection().getAccount()));
+		sendPacket(new PROTOCOL_BASE_USER_INVENTORY_ACK(player.getEqipment()));
 	}
 }

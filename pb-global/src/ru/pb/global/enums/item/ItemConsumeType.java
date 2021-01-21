@@ -15,20 +15,21 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.global.enums.item;
 
 /**
- * Тыпы потребления предмета.
+ * Ð¢Ñ‹Ð¿Ñ‹ Ð¿Ð¾Ñ‚Ñ€ÐµÐ±Ð»ÐµÐ½Ð¸Ñ� Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚Ð°.
  *
  * @author Felixx
  */
 public enum ItemConsumeType {
-	DURABLE(1), // Действует прочность итема (количество боев или поломка)
-	TEMPORARY(2), // Время жизни до определенной даты
-	PERMANENT(3); //  Нет прочности, нет даты окончания
+	DISABLED(0),
+	DURABLE(1),
+	TEMPORARY(2),
+	PERMANENT(3);
 	private int value;
 
 	ItemConsumeType(int value) {

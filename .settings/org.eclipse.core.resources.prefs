@@ -11,10 +11,16 @@ encoding//pb-auth/src/ru/pb/auth/network/client/packets/server/PROTOCOL_UNK_2679
 encoding//pb-auth/src/ru/pb/auth/properties/AuthServerProperty.java=UTF-8
 encoding//pb-battle/src/ru/pb/battle/Application.java=UTF-8
 encoding//pb-game/src/ru/pb/game/Application.java=UTF-8
+encoding//pb-game/src/ru/pb/game/chat/commands/DelRoomAdminCommand.java=UTF-8
+encoding//pb-game/src/ru/pb/game/chat/commands/KickPlayerAdminCommand.java=UTF-8
 encoding//pb-game/src/ru/pb/game/controller/GameServerController.java=UTF-8
+encoding//pb-game/src/ru/pb/game/network/client/packets/GamePacketHandler.java=UTF-8
+encoding//pb-game/src/ru/pb/game/network/client/packets/client/CM_ROOM_CLOSE_SLOT.java=UTF-8
 encoding//pb-global/src/ru/pb/global/controller/PlayerTemplateController.java=UTF-8
 encoding//pb-global/src/ru/pb/global/dao/PlayerDao.java=UTF-8
+encoding//pb-global/src/ru/pb/global/dao/enums/QueryList.java=UTF-8
 encoding//pb-global/src/ru/pb/global/dao/impl/PlayerDaoImpl.java=UTF-8
+encoding//pb-global/src/ru/pb/global/enums/item/ItemConsumeType.java=UTF-8
 encoding//pb-global/src/ru/pb/global/models/PlayerStats.java=UTF-8
 encoding//pb-global/src/ru/pb/global/properties/PropertiesLoader.java=UTF-8
 encoding//pb-global/src/ru/pb/global/service/PlayerDaoService.java=UTF-8

@@ -38,8 +38,6 @@ public class PROTOCOL_BASE_USER_INVENTORY_REQ extends ClientPacket {
 
 	@Override
 	public void runImpl() {
-		Player player = PlayerDaoService.getInstance().read(getConnection().getAccount().getId());
-		if(player != null)
-			sendPacket(new PROTOCOL_BASE_USER_INVENTORY_ACK(player.getEqipment()));
+		
 	}
 }

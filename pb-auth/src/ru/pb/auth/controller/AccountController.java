@@ -169,7 +169,6 @@ public class AccountController extends BaseController {
 		client.setAccount(account);
 		account.setConnection(client);
 		accountConnect(account);
-		log.debug("Successful login to account: " + account);
 		trialSessions.remove(client.getMac());
 		return State.AUTHED;
 	}

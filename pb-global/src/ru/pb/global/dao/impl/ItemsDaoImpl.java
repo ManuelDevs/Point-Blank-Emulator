@@ -44,7 +44,7 @@ public class ItemsDaoImpl implements ItemsDao {
 						rs.getInt("consume_value"),
 						new ItemRepair(rs.getInt("repair_credits"),
 								rs.getInt("repair_points"),
-								rs.getInt("repair_quantity"))
+								rs.getInt("repair_quantity")), rs.getInt("required_title")
 				));
 			}
 

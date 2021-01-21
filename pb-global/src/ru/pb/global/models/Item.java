@@ -25,11 +25,6 @@ import ru.pb.global.enums.item.ItemRepair;
 import ru.pb.global.enums.item.ItemSlotType;
 import ru.pb.global.enums.item.ItemType;
 
-/**
- * Предмет
- *
- * @author sjke, Felixx
- */
 public class Item {
 	private final int id;
 	private final ItemType itemType;
@@ -38,16 +33,22 @@ public class Item {
 	private final int consumeValue;
 	private final ItemConsumeType consumeType;
 	private final ItemRepair repair;
-
-	public Item(int id, ItemType itemType, ItemSlotType slotType, ItemConsumeType consumeType, int consumeValue, ItemRepair repair) {
+	private final int requiredTitle;
+	
+	public Item(int id, ItemType itemType, ItemSlotType slotType, ItemConsumeType consumeType, int consumeValue, ItemRepair repair, int requiredTitle) {
 		this.id = id;
 		this.itemType = itemType;
 		this.slotType = slotType;
 		this.consumeType = consumeType;
 		this.consumeValue = consumeValue;
 		this.repair = repair;
+		this.requiredTitle = requiredTitle;
 	}
 
+	public int getRequiredTitle() {
+		return requiredTitle;
+	}
+	
 	public int getId() {
 		return id;
 	}

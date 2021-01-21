@@ -22,11 +22,6 @@ package ru.pb.game.network.client.packets.server;
 
 import ru.pb.game.network.client.packets.ServerPacket;
 
-/**
- * Неизместный пакет, отправляется вместе с пекетов авторизации
- *
- * @author sjke
- */
 public class SM_UNK_2596 extends ServerPacket {
 
 	public SM_UNK_2596() {

@@ -887,3 +887,288 @@ java.lang.NullPointerException: null
 	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
 	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
 16:40:33 [INFO] Client [id:2, ip: 127.0.0.1] disconnected: test; address: /127.0.0.1:57526
+16:54:56 [INFO] Loaded properties from file 'system.properties'
+16:54:56 [INFO] Loaded properties from file 'jdbc.properties'
+16:54:56 [INFO] Database connected successfully!
+16:54:56 [INFO] Loaded 442  item(s) count.
+16:54:56 [INFO] Loaded 10 channels
+16:54:56 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+16:54:56 [INFO] Loaded 11 starting items.
+16:54:56 [INFO] Loaded 43 goods.
+16:54:56 [INFO] Loaded 43 used items.
+16:54:56 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+16:54:56 [INFO] Loaded 68 client packet prototypes
+16:54:56 [INFO] Loaded 1 battle packet prototypes
+16:54:56 [INFO] Loaded 2 operations interaction with the auth server
+16:54:56 [INFO] Load 9 admin commands.
+16:54:56 [INFO] Loaded in 0 sec(0,000 min)
+16:54:56 [INFO] Used 23 mb, max 910 mb.
+16:54:56 [INFO] Used 2,54% percent memory.
+16:54:56 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+16:54:56 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+16:54:56 [INFO] Connecting to /127.0.0.1:9889...
+16:54:57 [INFO] BattleClient [id:1, ip: 127.0.0.1] connected
+16:54:57 [INFO] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+16:54:57 [INFO] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+16:54:57 [INFO] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+16:54:57 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+16:54:57 [INFO] GameServer successfully registered at AuthClient side!
+16:55:18 [INFO] Client [id:2, ip: 127.0.0.1] connected; address: /127.0.0.1:57888
+16:55:20 [ERROR] Error handling (127.0.0.1), message [C] 0xB05 CM_SHOP_LIST
+java.lang.NullPointerException: null
+	at ru.pb.game.network.client.packets.client.CM_SHOP_LIST.runImpl(CM_SHOP_LIST.java:64) ~[pb-game.jar:na]
+	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
+	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
+16:55:33 [INFO] Client [id:2, ip: 127.0.0.1] disconnected: legend; address: /127.0.0.1:57888
+17:41:24 [INFO] Loaded properties from file 'system.properties'
+17:41:24 [INFO] Loaded properties from file 'jdbc.properties'
+17:41:24 [INFO] Database connected successfully!
+17:41:24 [INFO] Loaded 442  item(s) count.
+17:41:24 [INFO] Loaded 10 channels
+17:41:24 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+17:41:24 [INFO] Loaded 11 starting items.
+17:41:24 [INFO] Loaded 43 goods.
+17:41:24 [INFO] Loaded 43 used items.
+17:41:24 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+17:41:24 [INFO] Loaded 68 client packet prototypes
+17:41:24 [INFO] Loaded 1 battle packet prototypes
+17:41:24 [INFO] Loaded 2 operations interaction with the auth server
+17:41:24 [INFO] Load 9 admin commands.
+17:41:24 [INFO] Loaded in 0 sec(0,000 min)
+17:41:24 [INFO] Used 23 mb, max 910 mb.
+17:41:24 [INFO] Used 2,54% percent memory.
+17:41:25 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+17:41:25 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+17:41:25 [INFO] Connecting to /127.0.0.1:9889...
+17:41:25 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+17:41:25 [INFO] GameServer successfully registered at AuthClient side!
+17:41:46 [INFO] Client [id:1, ip: 127.0.0.1] connected; address: /127.0.0.1:58783
+17:42:15 [INFO] type: 0
+17:44:40 [INFO] Client [id:1, ip: 127.0.0.1] will be force disconnected: legend; address: /127.0.0.1:58783
+17:44:40 [INFO] recordEquipped
+17:44:40 [INFO] recordItems
+17:44:40 [INFO] Player Tester removed from channel 0
+17:44:40 [INFO] Client [id:1, ip: 127.0.0.1] disconnected: legend; address: /127.0.0.1:58783
+17:45:14 [INFO] Loaded properties from file 'system.properties'
+17:45:14 [INFO] Loaded properties from file 'jdbc.properties'
+17:45:14 [INFO] Database connected successfully!
+17:45:14 [INFO] Loaded 442  item(s) count.
+17:45:14 [INFO] Loaded 10 channels
+17:45:14 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+17:45:14 [INFO] Loaded 11 starting items.
+17:45:14 [INFO] Loaded 43 goods.
+17:45:14 [INFO] Loaded 43 used items.
+17:45:14 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+17:45:14 [INFO] Loaded 68 client packet prototypes
+17:45:14 [INFO] Loaded 1 battle packet prototypes
+17:45:14 [INFO] Loaded 2 operations interaction with the auth server
+17:45:15 [INFO] Load 9 admin commands.
+17:45:15 [INFO] Loaded in 0 sec(0,000 min)
+17:45:15 [INFO] Used 23 mb, max 910 mb.
+17:45:15 [INFO] Used 2,54% percent memory.
+17:45:15 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+17:45:15 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+17:45:15 [INFO] Connecting to /127.0.0.1:9889...
+17:45:15 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+17:45:15 [INFO] GameServer successfully registered at AuthClient side!
+17:45:21 [INFO] Client [id:1, ip: 127.0.0.1] connected; address: /127.0.0.1:58911
+17:45:33 [INFO] Client [id:1, ip: 127.0.0.1] will be force disconnected: legend; address: /127.0.0.1:58911
+17:45:33 [INFO] recordEquipped
+17:45:33 [INFO] recordItems
+17:45:33 [INFO] Player Tester removed from channel 0
+17:45:33 [INFO] Client [id:1, ip: 127.0.0.1] disconnected: legend; address: /127.0.0.1:58911
+17:46:23 [INFO] Client [id:2, ip: 127.0.0.1] connected; address: /127.0.0.1:58937
+17:46:42 [INFO] CHAT LOBBY
+17:46:44 [INFO] CHAT LOBBY
+17:47:15 [INFO] type: 0
+17:47:42 [INFO] C:1
+17:47:42 [INFO] D - ShopID:10000003
+17:47:42 [INFO] C:1
+17:47:42 [INFO] D:0
+17:47:42 [INFO] Q:0
+17:47:43 [INFO] type: 0
+17:47:51 [INFO] recordEquipped
+17:47:51 [INFO] recordItems
+17:47:51 [INFO] [4]: InsertItem100003003; consumeLost: 0
+17:47:51 [INFO] Player Tester removed from channel 0
+17:47:51 [INFO] Client [id:2, ip: 127.0.0.1] disconnected: legend; address: /127.0.0.1:58937
+17:58:06 [INFO] Loaded properties from file 'system.properties'
+17:58:06 [INFO] Loaded properties from file 'jdbc.properties'
+17:58:06 [INFO] Database connected successfully!
+17:58:06 [INFO] Loaded 11  item(s) count.
+17:58:06 [INFO] Loaded 10 channels
+17:58:06 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+17:58:06 [INFO] Loaded 11 starting items.
+17:58:06 [INFO] Loaded 0 goods.
+17:58:06 [INFO] Loaded 0 used items.
+17:58:06 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+17:58:06 [INFO] Loaded 2 client packet prototypes
+17:58:06 [INFO] Loaded 1 battle packet prototypes
+17:58:06 [INFO] Loaded 2 operations interaction with the auth server
+17:58:06 [INFO] Load 9 admin commands.
+17:58:06 [INFO] Loaded in 0 sec(0,000 min)
+17:58:06 [INFO] Used 20 mb, max 910 mb.
+17:58:06 [INFO] Used 2,26% percent memory.
+17:58:06 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+17:58:06 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+17:58:06 [INFO] Connecting to /127.0.0.1:9889...
+17:58:07 [INFO] BattleClient [id:1, ip: 127.0.0.1] connected
+17:58:07 [INFO] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+17:58:07 [INFO] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+17:58:07 [INFO] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+17:58:07 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+17:58:07 [INFO] GameServer successfully registered at AuthClient side!
+17:58:19 [INFO] Client [id:2, ip: 127.0.0.1] connected; address: /127.0.0.1:59197
+17:58:19 [ERROR] Error handling (127.0.0.1), message [C] 0xA13 PROTOCOL_BASE_ENTER_REQ
+java.lang.NullPointerException: null
+	at ru.pb.global.models.PlayerEqipment.addItem(PlayerEqipment.java:96) ~[pb-global.jar:na]
+	at ru.pb.global.dao.impl.PlayerDaoImpl.read(PlayerDaoImpl.java:192) ~[pb-global.jar:na]
+	at ru.pb.global.service.PlayerDaoService.read(PlayerDaoService.java:97) ~[pb-global.jar:na]
+	at ru.pb.game.network.client.packets.client.PROTOCOL_BASE_ENTER_REQ.runImpl(PROTOCOL_BASE_ENTER_REQ.java:49) ~[pb-game.jar:na]
+	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
+	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
+17:58:25 [INFO] Client [id:2, ip: 127.0.0.1] disconnected: legend; address: /127.0.0.1:59197
+17:59:03 [INFO] Loaded properties from file 'system.properties'
+17:59:03 [INFO] Loaded properties from file 'jdbc.properties'
+17:59:03 [INFO] Database connected successfully!
+17:59:03 [INFO] Loaded 11  item(s) count.
+17:59:03 [INFO] Loaded 10 channels
+17:59:03 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+17:59:03 [INFO] Loaded 11 starting items.
+17:59:03 [INFO] Loaded 0 goods.
+17:59:03 [INFO] Loaded 0 used items.
+17:59:03 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+17:59:03 [INFO] Loaded 2 client packet prototypes
+17:59:03 [INFO] Loaded 1 battle packet prototypes
+17:59:03 [INFO] Loaded 2 operations interaction with the auth server
+17:59:03 [INFO] Load 9 admin commands.
+17:59:03 [INFO] Loaded in 0 sec(0,000 min)
+17:59:03 [INFO] Used 20 mb, max 910 mb.
+17:59:03 [INFO] Used 2,26% percent memory.
+17:59:04 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+17:59:04 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+17:59:04 [INFO] Connecting to /127.0.0.1:9889...
+17:59:04 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+17:59:04 [INFO] GameServer successfully registered at AuthClient side!
+17:59:29 [INFO] Client [id:1, ip: 127.0.0.1] connected; address: /127.0.0.1:59293
+17:59:30 [WARN] Client [id:1, ip: 127.0.0.1] received unknown packet : 0xA0B [int: 2571] [0B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
++--------+-------------------------------------------------+----------------+
+18:05:46 [INFO] Loaded properties from file 'system.properties'
+18:05:46 [INFO] Loaded properties from file 'jdbc.properties'
+18:05:46 [INFO] Database connected successfully!
+18:05:46 [INFO] Loaded 11  item(s) count.
+18:05:46 [INFO] Loaded 10 channels
+18:05:46 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:05:46 [INFO] Loaded 11 starting items.
+18:05:46 [INFO] Loaded 0 goods.
+18:05:46 [INFO] Loaded 0 used items.
+18:05:46 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:05:46 [INFO] Loaded 4 client packet prototypes
+18:05:46 [INFO] Loaded 1 battle packet prototypes
+18:05:46 [INFO] Loaded 2 operations interaction with the auth server
+18:05:46 [INFO] Load 9 admin commands.
+18:05:46 [INFO] Loaded in 0 sec(0,000 min)
+18:05:46 [INFO] Used 20 mb, max 910 mb.
+18:05:46 [INFO] Used 2,26% percent memory.
+18:05:47 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+18:05:47 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+18:05:47 [INFO] Connecting to /127.0.0.1:9889...
+18:05:47 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+18:05:47 [INFO] GameServer successfully registered at AuthClient side!
+18:06:33 [INFO] Client [id:1, ip: 127.0.0.1] connected; address: /127.0.0.1:59425
+18:06:35 [WARN] Client [id:1, ip: 127.0.0.1] received unknown packet : 0xC07 [int: 3079] [0B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
++--------+-------------------------------------------------+----------------+
+18:06:52 [WARN] Client [id:1, ip: 127.0.0.1] received unknown packet : 0xA5E [int: 2654] [0B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
++--------+-------------------------------------------------+----------------+
+18:06:55 [INFO] recordEquipped
+18:06:55 [INFO] recordItems
+18:06:55 [INFO] Client [id:1, ip: 127.0.0.1] disconnected: legend; address: /127.0.0.1:59425
+18:14:42 [INFO] Loaded properties from file 'system.properties'
+18:14:42 [INFO] Loaded properties from file 'jdbc.properties'
+18:14:42 [INFO] Database connected successfully!
+18:14:42 [INFO] Loaded 11  item(s) count.
+18:14:42 [INFO] Loaded 10 channels
+18:14:42 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:14:42 [INFO] Loaded 11 starting items.
+18:14:42 [INFO] Loaded 0 goods.
+18:14:42 [INFO] Loaded 0 used items.
+18:14:42 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:14:42 [INFO] Loaded 9 client packet prototypes
+18:14:42 [INFO] Loaded 1 battle packet prototypes
+18:14:42 [INFO] Loaded 2 operations interaction with the auth server
+18:14:42 [INFO] Load 9 admin commands.
+18:14:42 [INFO] Loaded in 0 sec(0,000 min)
+18:14:42 [INFO] Used 20 mb, max 910 mb.
+18:14:42 [INFO] Used 2,26% percent memory.
+18:14:42 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+18:14:42 [INFO] Connecting to /127.0.0.1:9889...
+18:14:42 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+18:14:43 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+18:14:43 [INFO] GameServer successfully registered at AuthClient side!
+18:14:53 [INFO] Client [id:1, ip: 127.0.0.1] connected; address: /127.0.0.1:59567
+18:14:55 [WARN] Client [id:1, ip: 127.0.0.1] received unknown packet : 0xB05 [int: 2821] [4B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 00                                     |....            |
++--------+-------------------------------------------------+----------------+
+18:14:56 [WARN] Client [id:1, ip: 127.0.0.1] received unknown packet : 0xB55 [int: 2901] [0B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
++--------+-------------------------------------------------+----------------+
+18:31:12 [INFO] Loaded properties from file 'system.properties'
+18:31:12 [INFO] Loaded properties from file 'jdbc.properties'
+18:31:12 [INFO] Database connected successfully!
+18:31:12 [INFO] Loaded 11  item(s) count.
+18:31:12 [INFO] Loaded 10 channels
+18:31:12 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:31:12 [INFO] Loaded 11 starting items.
+18:31:12 [INFO] Loaded 0 goods.
+18:31:12 [INFO] Loaded 0 used items.
+18:31:12 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:31:12 [INFO] Loaded 13 client packet prototypes
+18:31:12 [INFO] Loaded 1 battle packet prototypes
+18:31:12 [INFO] Loaded 2 operations interaction with the auth server
+18:31:12 [INFO] Load 9 admin commands.
+18:31:12 [INFO] Loaded in 0 sec(0,000 min)
+18:31:12 [INFO] Used 20 mb, max 910 mb.
+18:31:12 [INFO] Used 2,26% percent memory.
+18:31:13 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+18:31:13 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+18:31:13 [INFO] Connecting to /127.0.0.1:9889...
+18:31:13 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+18:31:13 [INFO] GameServer successfully registered at AuthClient side!
+18:31:35 [INFO] Client [id:1, ip: 127.0.0.1] connected; address: /127.0.0.1:59802
+18:31:38 [WARN] Client [id:1, ip: 127.0.0.1] received unknown packet : 0xB55 [int: 2901] [0B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
++--------+-------------------------------------------------+----------------+
+18:31:56 [INFO] type: 0
+18:31:56 [WARN] Client [id:1, ip: 127.0.0.1] received unknown packet : 0xE01 [int: 3585] [0B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
++--------+-------------------------------------------------+----------------+
+18:32:00 [INFO] type: 0
+18:32:01 [WARN] Client [id:1, ip: 127.0.0.1] received unknown packet : 0xB55 [int: 2901] [0B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
++--------+-------------------------------------------------+----------------+
+18:32:05 [INFO] recordEquipped
+18:32:05 [INFO] recordItems
+18:32:05 [INFO] Player Tester removed from channel 0
+18:32:05 [INFO] Client [id:1, ip: 127.0.0.1] disconnected: legend; address: /127.0.0.1:59802

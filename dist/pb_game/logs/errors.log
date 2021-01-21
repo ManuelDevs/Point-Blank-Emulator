@@ -6,3 +6,18 @@ java.lang.NullPointerException: null
 	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
 	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
 	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
+16:55:20 [ERROR] Error handling (127.0.0.1), message [C] 0xB05 CM_SHOP_LIST
+java.lang.NullPointerException: null
+	at ru.pb.game.network.client.packets.client.CM_SHOP_LIST.runImpl(CM_SHOP_LIST.java:64) ~[pb-game.jar:na]
+	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
+	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
+17:58:19 [ERROR] Error handling (127.0.0.1), message [C] 0xA13 PROTOCOL_BASE_ENTER_REQ
+java.lang.NullPointerException: null
+	at ru.pb.global.models.PlayerEqipment.addItem(PlayerEqipment.java:96) ~[pb-global.jar:na]
+	at ru.pb.global.dao.impl.PlayerDaoImpl.read(PlayerDaoImpl.java:192) ~[pb-global.jar:na]
+	at ru.pb.global.service.PlayerDaoService.read(PlayerDaoService.java:97) ~[pb-global.jar:na]
+	at ru.pb.game.network.client.packets.client.PROTOCOL_BASE_ENTER_REQ.runImpl(PROTOCOL_BASE_ENTER_REQ.java:49) ~[pb-game.jar:na]
+	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
+	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]

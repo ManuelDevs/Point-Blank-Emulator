@@ -15,24 +15,19 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.game.network.client.packets.client;
 
 import ru.pb.game.network.client.packets.ClientPacket;
-import ru.pb.game.network.client.packets.server.SM_LOBBY_ENTER;
+import ru.pb.game.network.client.packets.server.PROTOCOL_LOBBY_ENTER_ACK;
 import ru.pb.game.network.client.packets.server.SM_ROOM_INFO;
 import ru.pb.global.enums.SlotState;
 import ru.pb.global.models.Player;
 import ru.pb.global.models.RoomSlot;
 import ru.pb.global.utils.concurrent.ThreadPoolManager;
 
-/**
- * Неизветный пакет
- *
- * @author sjke
- */
 public class CM_ROOM_CLOSE_SLOT extends ClientPacket {
 
 	private int slotId;
@@ -43,10 +38,10 @@ public class CM_ROOM_CLOSE_SLOT extends ClientPacket {
 
 	@Override
 	public void readImpl() {
-		slotId = readC(); // Слот для закрытия/открытия
-		readC(); // Всегда 0
-		readC(); // Всегда 0
-		readC(); // Всегда 16, если ОТКРЫВАЕМ ранее закрытый слот.
+		slotId = readC(); 
+		readC();
+		readC();
+		readC();
 	}
 
 	@Override
@@ -67,7 +62,7 @@ public class CM_ROOM_CLOSE_SLOT extends ClientPacket {
 			case SLOT_STATE_OUTPOST:
 			case SLOT_STATE_SHOP:
 			{
-				slot.getPlayer().getConnection().sendPacket(new SM_LOBBY_ENTER());
+				slot.getPlayer().getConnection().sendPacket(new PROTOCOL_LOBBY_ENTER_ACK());
 				slot.setState(SlotState.SLOT_STATE_EMPTY);
 			}
 		}

@@ -1,0 +1,369 @@
+[18:33:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[18:33:51|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Loaded properties from [system.properties]
+[18:33:51|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.host = [127.0.0.1]
+[18:33:51|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.port = [29890]
+[18:33:51|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.host = [127.0.0.1]
+[18:33:51|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.port = [40000]
+[18:33:51|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load show.byte.buffer = [false]
+[18:33:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[18:33:52|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[18:33:52|INFO |main                     |ru.pb.battle.controllers.RoomController        ] Loaded
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[18:33:52|INFO |main                     |ru.pb.battle.network.game.packets.BattlePacketHandler] Loaded 7 battle packet prototypes
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-battle.jar): Unversioned directory
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Unversioned directory
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0.000 min)
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 10 mb, max 61 mb.
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 16.91% percent memory.
+[18:33:52|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[18:33:55|INFO |pool-3-thread-1          |ru.pb.battle.network.client.BattleClientServer ] Listening to the UDP connections [/127.0.0.1:40000]
+[18:33:55|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[18:33:57|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: null] disconnected
+[18:33:57|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Server [/127.0.0.1:29890] not available...
+[18:34:07|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[18:34:07|INFO |nioEventLoopGroup-3-2    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:2, ip: 127.0.0.1] connected
+[18:34:07|INFO |nioEventLoopGroup-3-2    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:2, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+[18:34:07|INFO |nioEventLoopGroup-3-2    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:2, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+[18:34:07|INFO |PacketProcessor:0        |ru.pb.battle.network.game.packets.receivable.CM_REQUEST_AUTH_IN_GAMESERVER] BattleServer successfully registred, response: AUTHED
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[18:39:49|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Loaded properties from [system.properties]
+[18:39:49|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.host = [127.0.0.1]
+[18:39:49|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.port = [29890]
+[18:39:49|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.host = [127.0.0.1]
+[18:39:49|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.port = [40000]
+[18:39:49|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load show.byte.buffer = [false]
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[18:39:49|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[18:39:49|INFO |main                     |ru.pb.battle.controllers.RoomController        ] Loaded
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[18:39:49|INFO |main                     |ru.pb.battle.network.game.packets.BattlePacketHandler] Loaded 7 battle packet prototypes
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-battle.jar): Unversioned directory
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Unversioned directory
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0.000 min)
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 10 mb, max 61 mb.
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 17.01% percent memory.
+[18:39:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[18:39:51|INFO |pool-3-thread-1          |ru.pb.battle.network.client.BattleClientServer ] Listening to the UDP connections [/127.0.0.1:40000]
+[18:39:52|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[18:39:53|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: null] disconnected
+[18:39:53|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Server [/127.0.0.1:29890] not available...
+[18:40:03|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[18:40:03|INFO |nioEventLoopGroup-3-2    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:2, ip: 127.0.0.1] connected
+[18:40:03|INFO |nioEventLoopGroup-3-2    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:2, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+[18:40:03|INFO |nioEventLoopGroup-3-2    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:2, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+[18:40:03|INFO |PacketProcessor:0        |ru.pb.battle.network.game.packets.receivable.CM_REQUEST_AUTH_IN_GAMESERVER] BattleServer successfully registred, response: AUTHED
+[18:46:27|INFO |nioEventLoopGroup-3-2    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:2, ip: 127.0.0.1] disconnecting
+[18:46:27|INFO |nioEventLoopGroup-3-2    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:2, ip: 127.0.0.1] disconnected
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:42:20|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Loaded properties from [system.properties]
+[13:42:20|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.host = [127.0.0.1]
+[13:42:20|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.port = [29890]
+[13:42:20|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.host = [127.0.0.1]
+[13:42:20|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.port = [40009]
+[13:42:20|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load show.byte.buffer = [false]
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:42:20|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:42:20|INFO |main                     |ru.pb.battle.controllers.RoomController        ] Loaded
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:42:20|INFO |main                     |ru.pb.battle.network.game.packets.BattlePacketHandler] Loaded 7 battle packet prototypes
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-battle.jar): Type 'svnversion --help' for usage.
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 12 mb, max 61 mb.
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 19,51% percent memory.
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:42:20|INFO |pool-3-thread-1          |ru.pb.battle.network.client.BattleClientServer ] Listening to the UDP connections [/127.0.0.1:40009]
+[13:42:20|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[13:42:22|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Server [/127.0.0.1:29890] not available...
+[13:42:22|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: null] disconnected
+[13:42:32|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[13:42:34|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Server [/127.0.0.1:29890] not available...
+[13:42:34|INFO |nioEventLoopGroup-3-2    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:2, ip: null] disconnected
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:42:47|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Loaded properties from [system.properties]
+[13:42:47|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.host = [127.0.0.1]
+[13:42:47|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.port = [29890]
+[13:42:47|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.host = [127.0.0.1]
+[13:42:47|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.port = [40009]
+[13:42:47|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load show.byte.buffer = [false]
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:42:47|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:42:47|INFO |main                     |ru.pb.battle.controllers.RoomController        ] Loaded
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:42:47|INFO |main                     |ru.pb.battle.network.game.packets.BattlePacketHandler] Loaded 7 battle packet prototypes
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-battle.jar): Type 'svnversion --help' for usage.
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 12 mb, max 61 mb.
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 19,52% percent memory.
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:42:47|INFO |pool-3-thread-1          |ru.pb.battle.network.client.BattleClientServer ] Listening to the UDP connections [/127.0.0.1:40009]
+[13:42:47|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[13:42:49|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Server [/127.0.0.1:29890] not available...
+[13:42:49|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: null] disconnected
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:44:43|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Loaded properties from [system.properties]
+[13:44:43|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.host = [127.0.0.1]
+[13:44:43|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.port = [29890]
+[13:44:43|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.host = [127.0.0.1]
+[13:44:43|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.port = [40009]
+[13:44:43|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load show.byte.buffer = [false]
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:44:43|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:44:43|INFO |main                     |ru.pb.battle.controllers.RoomController        ] Loaded
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:44:43|INFO |main                     |ru.pb.battle.network.game.packets.BattlePacketHandler] Loaded 7 battle packet prototypes
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-battle.jar): Type 'svnversion --help' for usage.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 11 mb, max 61 mb.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 19,00% percent memory.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:44:43|INFO |pool-3-thread-1          |ru.pb.battle.network.client.BattleClientServer ] Listening to the UDP connections [/127.0.0.1:40009]
+[13:44:43|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[13:44:44|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] connected
+[13:44:44|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+[13:44:44|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+[13:44:44|INFO |PacketProcessor:0        |ru.pb.battle.network.game.packets.receivable.CM_REQUEST_AUTH_IN_GAMESERVER] BattleServer successfully registred, response: AUTHED
+[13:45:26|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] disconnecting
+[13:45:26|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] disconnected
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:45:50|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Loaded properties from [system.properties]
+[13:45:50|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.host = [127.0.0.1]
+[13:45:50|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.port = [29890]
+[13:45:50|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.host = [127.0.0.1]
+[13:45:50|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.port = [40009]
+[13:45:50|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load show.byte.buffer = [false]
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:45:50|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:45:50|INFO |main                     |ru.pb.battle.controllers.RoomController        ] Loaded
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:45:50|INFO |main                     |ru.pb.battle.network.game.packets.BattlePacketHandler] Loaded 7 battle packet prototypes
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-battle.jar): Type 'svnversion --help' for usage.
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 11 mb, max 61 mb.
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 18,97% percent memory.
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:45:51|INFO |pool-3-thread-1          |ru.pb.battle.network.client.BattleClientServer ] Listening to the UDP connections [/127.0.0.1:40009]
+[13:45:51|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[13:45:51|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] connected
+[13:45:51|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+[13:45:51|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+[13:45:51|INFO |PacketProcessor:0        |ru.pb.battle.network.game.packets.receivable.CM_REQUEST_AUTH_IN_GAMESERVER] BattleServer successfully registred, response: AUTHED
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:47:37|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Loaded properties from [system.properties]
+[13:47:37|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.host = [127.0.0.1]
+[13:47:37|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.port = [29890]
+[13:47:37|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.host = [127.0.0.1]
+[13:47:37|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.port = [40009]
+[13:47:37|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load show.byte.buffer = [false]
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:47:37|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:47:37|INFO |main                     |ru.pb.battle.controllers.RoomController        ] Loaded
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:47:37|INFO |main                     |ru.pb.battle.network.game.packets.BattlePacketHandler] Loaded 7 battle packet prototypes
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-battle.jar): Type 'svnversion --help' for usage.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 11 mb, max 61 mb.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 18,99% percent memory.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:47:37|INFO |pool-3-thread-1          |ru.pb.battle.network.client.BattleClientServer ] Listening to the UDP connections [/127.0.0.1:40009]
+[13:47:37|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[13:47:38|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] connected
+[13:47:38|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+[13:47:38|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+[13:47:38|INFO |PacketProcessor:0        |ru.pb.battle.network.game.packets.receivable.CM_REQUEST_AUTH_IN_GAMESERVER] BattleServer successfully registred, response: AUTHED
+[13:49:30|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:49:31|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Loaded properties from [system.properties]
+[13:49:31|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.host = [127.0.0.1]
+[13:49:31|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load game.server.port = [29890]
+[13:49:31|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.host = [127.0.0.1]
+[13:49:31|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load battle.server.port = [40009]
+[13:49:31|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Load show.byte.buffer = [false]
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:49:31|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:49:31|INFO |main                     |ru.pb.battle.controllers.RoomController        ] Loaded
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:49:31|INFO |main                     |ru.pb.battle.network.game.packets.BattlePacketHandler] Loaded 7 battle packet prototypes
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-battle.jar): Type 'svnversion --help' for usage.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 11 mb, max 61 mb.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 19,00% percent memory.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:49:31|INFO |pool-3-thread-1          |ru.pb.battle.network.client.BattleClientServer ] Listening to the UDP connections [/127.0.0.1:40009]
+[13:49:31|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[13:49:32|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] connected
+[13:49:32|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+[13:49:32|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+[13:49:32|INFO |PacketProcessor:0        |ru.pb.battle.network.game.packets.receivable.CM_REQUEST_AUTH_IN_GAMESERVER] BattleServer successfully registred, response: AUTHED
+[14:34:12|INFO |main                     |ru.pb.battle.properties.BattleServerProperty   ] Loaded properties from file 'system.properties'
+[14:34:12|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[14:34:12|INFO |main                     |ru.pb.battle.controllers.RoomController        ] Loaded
+[14:34:12|INFO |main                     |ru.pb.battle.network.game.packets.BattlePacketHandler] Loaded 7 battle packet prototypes
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-battle.jar): Type 'svnversion --help' for usage.
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 11 mb, max 61 mb.
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 18,95% percent memory.
+[14:34:12|INFO |pool-3-thread-1          |ru.pb.battle.network.client.BattleClientServer ] Listening to the UDP connections [/127.0.0.1:40009]
+[14:34:12|INFO |pool-3-thread-2          |ru.pb.battle.network.game.GameServerClient     ] Connecting to /127.0.0.1:29890...
+[14:34:13|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] connected
+[14:34:13|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+[14:34:13|INFO |nioEventLoopGroup-3-1    |ru.pb.battle.network.game.BattleConnection     ] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+[14:34:13|INFO |PacketProcessor:0        |ru.pb.battle.network.game.packets.receivable.CM_REQUEST_AUTH_IN_GAMESERVER] BattleServer successfully registred, response: AUTHED
+14:34:33 [INFO] Loaded properties from file 'system.properties'
+14:34:33 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:34:33 [INFO] Loaded
+14:34:33 [INFO] Loaded 7 battle packet prototypes
+14:34:33 [INFO] version (commons-io-2.4.jar): 2.4
+14:34:33 [INFO] version (logback-classic-1.0.13.jar): none
+14:34:33 [INFO] version (logback-core-1.0.13.jar): none
+14:34:33 [INFO] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+14:34:33 [INFO] revision (pb-battle.jar): Type 'svnversion --help' for usage.
+14:34:33 [INFO] revision (pb-global.jar): Type 'svnversion --help' for usage.
+14:34:33 [INFO] version (slf4j-api-1.7.5.jar): 1.7.5
+14:34:33 [INFO] ======================================================================-[ null ]
+14:34:33 [INFO] Loaded in 0 sec(0,000 min)
+14:34:33 [INFO] Used 11 mb, max 61 mb.
+14:34:33 [INFO] Used 18,97% percent memory.
+14:34:33 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+14:34:33 [INFO] Connecting to /127.0.0.1:29890...
+14:34:34 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+14:34:34 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+14:34:34 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+14:34:34 [INFO] BattleServer successfully registred, response: AUTHED
+14:36:38 [INFO] Loaded properties from file 'system.properties'
+14:36:38 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:36:38 [INFO] Loaded
+14:36:38 [INFO] Loaded 7 battle packet prototypes
+14:36:38 [INFO] Loaded in 0 sec(0,000 min)
+14:36:38 [INFO] Used 10 mb, max 61 mb.
+14:36:38 [INFO] Used 16,82% percent memory.
+14:36:38 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+14:36:38 [INFO] Connecting to /127.0.0.1:29890...
+14:36:40 [INFO] Server [/127.0.0.1:29890] not available...
+14:36:40 [INFO] BattleServer [id:1, ip: null] disconnected
+14:37:11 [INFO] Loaded properties from file 'system.properties'
+14:37:11 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:37:11 [INFO] RoomController loaded!
+14:37:11 [INFO] Loaded 7 battle packet prototypes
+14:37:11 [INFO] Loaded in 0 sec(0,000 min)
+14:37:11 [INFO] Used 10 mb, max 61 mb.
+14:37:11 [INFO] Used 17,34% percent memory.
+14:37:11 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+14:37:11 [INFO] Connecting to /127.0.0.1:29890...
+14:37:13 [INFO] Server [/127.0.0.1:29890] not available...
+14:37:13 [INFO] BattleServer [id:1, ip: null] disconnected
+14:37:27 [INFO] Loaded properties from file 'system.properties'
+14:37:27 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:37:27 [INFO] Loaded 7 battle packet prototypes
+14:37:27 [INFO] Loaded in 0 sec(0,000 min)
+14:37:27 [INFO] Used 10 mb, max 61 mb.
+14:37:27 [INFO] Used 16,82% percent memory.
+14:37:27 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+14:37:27 [INFO] Connecting to /127.0.0.1:29890...
+14:37:43 [INFO] Loaded properties from file 'system.properties'
+14:37:43 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:37:43 [INFO] Loaded 7 battle packet prototypes
+14:37:43 [INFO] Loaded in 0 sec(0,000 min)
+14:37:43 [INFO] Used 10 mb, max 61 mb.
+14:37:43 [INFO] Used 17,34% percent memory.
+14:37:43 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+14:37:43 [INFO] Connecting to /127.0.0.1:29890...
+14:37:44 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+14:37:44 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+14:37:44 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+14:37:44 [INFO] BattleServer successfully registred, response: AUTHED
+14:44:19 [INFO] Loaded properties from file 'system.properties'
+14:44:19 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:44:19 [INFO] Loaded 7 battle packet prototypes
+14:44:19 [INFO] Loaded in 0 sec(0,000 min)
+14:44:19 [INFO] Used 10 mb, max 61 mb.
+14:44:19 [INFO] Used 17,34% percent memory.
+14:44:19 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+14:44:20 [INFO] Connecting to /127.0.0.1:29890...
+14:44:20 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+14:44:20 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+14:44:20 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+14:44:20 [INFO] BattleServer successfully registred, response: AUTHED

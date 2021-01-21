@@ -1,0 +1,826 @@
+[18:33:57|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Loaded properties from [system.properties]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.host = [127.0.0.1]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.port = [9889]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.id = [1]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.password = [test]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.host = [127.0.0.1]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.port = [39191]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.boss.threads = [1]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.work.threads = [4]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.host = [127.0.0.1]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.port = [29890]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.boss.threads = [1]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.work.threads = [1]
+[18:33:57|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load show.byte.buffer = [false]
+[18:33:57|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Loaded properties from [jdbc.properties]
+[18:33:57|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load driver = [org.postgresql.Driver]
+[18:33:57|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load url = [jdbc:postgresql://localhost/]
+[18:33:57|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load username = [postgres]
+[18:33:57|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load password = [123456]
+[18:33:57|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load maxconnections = [100]
+[18:33:57|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load debug = [false]
+[18:33:57|INFO |main                     |ru.pb.global.info.PrintInfo                    ] =============================================================-[ Database init ]
+[18:33:57|INFO |main                     |ru.pb.global.dao.jdbc.DatabaseFactory          ] Database connection successful.
+[18:33:57|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ DAO Manager ]
+[18:33:57|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ DatabaseLoader ]
+[18:33:58|INFO |main                     |ru.pb.global.data.holder.ItemHolder            ] load 449  item(s) count.
+[18:33:58|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[18:33:58|INFO |main                     |ru.pb.game.controller.GameServerController     ] Loaded
+[18:33:58|INFO |main                     |ru.pb.game.controller.ChannelController        ] Loaded 10 channels
+[18:33:58|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded start player template
+[18:33:58|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded 25 start items
+[18:33:58|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 goods.
+[18:33:58|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 used items.
+[18:33:58|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[18:33:58|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[18:33:58|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[18:33:59|INFO |main                     |ru.pb.game.network.client.packets.GamePacketHandler] Loaded 68 client packet prototypes
+[18:33:59|INFO |main                     |ru.pb.game.network.battle.packets.BattlePacketHandler] Loaded 1 battle packet prototypes
+[18:33:59|INFO |main                     |ru.pb.game.network.auth.objects.AuthObjectHandler] Loaded 2 operations interaction with the auth server
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==============================================================-[ Chat handler ]
+[18:33:59|INFO |main                     |ru.pb.game.handler.AdminCommandHandler         ] Load 9 admin commands.
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-dbcp-1.4.jar): 1.4
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-pool-1.6.jar): 1.6
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (pb-game.jar): none
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Unversioned directory
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (postgresql-9.1-901.jdbc4.jar): none
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 2 sec(0.033 min)
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 24 mb, max 989 mb.
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 2.48% percent memory.
+[18:33:59|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[18:34:00|INFO |pool-3-thread-1          |ru.pb.game.network.client.ClientServer         ] Listening to the client connections in [/127.0.0.1:39191]
+[18:34:00|INFO |pool-3-thread-2          |ru.pb.game.network.battle.BattleServer         ] Listening to the battle server connections [/127.0.0.1:29890]
+[18:34:00|INFO |pool-3-thread-3          |ru.pb.game.network.auth.AuthClient             ] Connecting to /127.0.0.1:9889...
+[18:34:00|INFO |nioEventLoopGroup-6-1    |ru.pb.game.network.auth.AuthConnection         ] AuthClient [id:null, ip: 127.0.0.1] connected
+[18:34:01|INFO |PacketProcessor:0        |org.omg.CORBA.ObjectHolder                     ] GameServer successfully registered at AuthClient side!
+[18:34:07|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] connected
+[18:34:07|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+[18:34:07|INFO |PacketProcessor:0        |ru.pb.game.controller.BattleServerController   ] BattleClient [id:1, ip: 127.0.0.1] requested id [40000] successfully registred.
+[18:34:07|INFO |PacketProcessor:0        |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+[18:37:46|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.ClientConnection     ] Client [id:2, ip: 127.0.0.1] connected; address: /127.0.0.1:65461
+[18:37:56|WARN |nioEventLoopGroup-3-1    |ru.pb.global.network.packets.PacketHandler     ] Client [id:2, ip: 127.0.0.1] received unknown packet : 0xA15 [int: 2581] [32B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 00 00 00 01 00 00 00 37 00 00 00 06 00 00 00 |........7.......|
+|00000010| 00 00 64 3c 46 00 32 00 00 00 00 00 1f 00 00 00 |..d<F.2.........|
++--------+-------------------------------------------------+----------------+
+[18:38:21|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] recordEquipped
+[18:38:21|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] containsItem
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] [2]: UpdateItem1102003006; consumeLost: 0
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] containsItem
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] [2]: UpdateItem1006001024; consumeLost: 0
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] containsItem
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] [2]: UpdateItem1103003010; consumeLost: 0
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] recordItems
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] containsItem
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] [6]: UpdateItem1102003001; consumeLost: 0
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] containsItem
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] [6]: UpdateItem1103003010; consumeLost: 0
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.global.models.Channel                    ] Player [GM]Nikolen removed from channel 0
+[18:38:22|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.ClientConnection     ] Client [id:2, ip: 127.0.0.1] disconnected: admin; address: /127.0.0.1:65461
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Loaded properties from [system.properties]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.host = [127.0.0.1]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.port = [9889]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.id = [1]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.password = [test]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.host = [127.0.0.1]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.port = [39191]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.boss.threads = [1]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.work.threads = [4]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.host = [127.0.0.1]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.port = [29890]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.boss.threads = [1]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.work.threads = [1]
+[18:39:49|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load show.byte.buffer = [false]
+[18:39:49|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Loaded properties from [jdbc.properties]
+[18:39:49|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load driver = [org.postgresql.Driver]
+[18:39:49|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load url = [jdbc:postgresql://localhost/]
+[18:39:49|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load username = [postgres]
+[18:39:49|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load password = [123456]
+[18:39:49|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load maxconnections = [100]
+[18:39:49|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load debug = [false]
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] =============================================================-[ Database init ]
+[18:39:49|INFO |main                     |ru.pb.global.dao.jdbc.DatabaseFactory          ] Database connection successful.
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ DAO Manager ]
+[18:39:49|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ DatabaseLoader ]
+[18:39:51|INFO |main                     |ru.pb.global.data.holder.ItemHolder            ] load 449  item(s) count.
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[18:39:51|INFO |main                     |ru.pb.game.controller.GameServerController     ] Loaded
+[18:39:51|INFO |main                     |ru.pb.game.controller.ChannelController        ] Loaded 10 channels
+[18:39:51|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded start player template
+[18:39:51|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded 25 start items
+[18:39:51|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 goods.
+[18:39:51|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 used items.
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[18:39:51|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[18:39:51|INFO |main                     |ru.pb.game.network.client.packets.GamePacketHandler] Loaded 68 client packet prototypes
+[18:39:51|INFO |main                     |ru.pb.game.network.battle.packets.BattlePacketHandler] Loaded 1 battle packet prototypes
+[18:39:51|INFO |main                     |ru.pb.game.network.auth.objects.AuthObjectHandler] Loaded 2 operations interaction with the auth server
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==============================================================-[ Chat handler ]
+[18:39:51|INFO |main                     |ru.pb.game.handler.AdminCommandHandler         ] Load 9 admin commands.
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-dbcp-1.4.jar): 1.4
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-pool-1.6.jar): 1.6
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (pb-game.jar): none
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Unversioned directory
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (postgresql-9.1-901.jdbc4.jar): none
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 2 sec(0.033 min)
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 24 mb, max 989 mb.
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 2.48% percent memory.
+[18:39:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[18:39:53|INFO |pool-3-thread-1          |ru.pb.game.network.client.ClientServer         ] Listening to the client connections in [/127.0.0.1:39191]
+[18:39:53|INFO |pool-3-thread-2          |ru.pb.game.network.battle.BattleServer         ] Listening to the battle server connections [/127.0.0.1:29890]
+[18:39:54|INFO |pool-3-thread-3          |ru.pb.game.network.auth.AuthClient             ] Connecting to /127.0.0.1:9889...
+[18:39:55|INFO |pool-3-thread-3          |ru.pb.game.network.auth.AuthClient             ] Server [/127.0.0.1:9889] not available...
+[18:39:55|INFO |nioEventLoopGroup-6-1    |ru.pb.game.network.auth.AuthConnection         ] AuthClient [id:null, ip: null] disconnected
+[18:40:03|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] connected
+[18:40:03|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+[18:40:03|INFO |PacketProcessor:0        |ru.pb.game.controller.BattleServerController   ] BattleClient [id:1, ip: 127.0.0.1] requested id [40000] successfully registred.
+[18:40:03|INFO |PacketProcessor:0        |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+[18:40:05|INFO |pool-3-thread-3          |ru.pb.game.network.auth.AuthClient             ] Connecting to /127.0.0.1:9889...
+[18:40:05|INFO |nioEventLoopGroup-6-2    |ru.pb.game.network.auth.AuthConnection         ] AuthClient [id:null, ip: 127.0.0.1] connected
+[18:40:05|INFO |PacketProcessor:0        |org.omg.CORBA.ObjectHolder                     ] GameServer successfully registered at AuthClient side!
+[18:41:29|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.ClientConnection     ] Client [id:2, ip: 127.0.0.1] connected; address: /127.0.0.1:49191
+[18:41:39|WARN |nioEventLoopGroup-3-1    |ru.pb.global.network.packets.PacketHandler     ] Client [id:2, ip: 127.0.0.1] received unknown packet : 0xA15 [int: 2581] [32B]
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 00 00 00 01 00 00 00 37 00 00 00 06 00 00 00 |........7.......|
+|00000010| 00 00 64 3c 46 00 32 00 00 00 00 00 1f 00 00 00 |..d<F.2.........|
++--------+-------------------------------------------------+----------------+
+[18:42:25|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.packets.client.CM_SHOP_BUY_ITEM] C:1
+[18:42:25|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.packets.client.CM_SHOP_BUY_ITEM] D - ShopID:10000035
+[18:42:25|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.packets.client.CM_SHOP_BUY_ITEM] C:1
+[18:42:25|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.packets.client.CM_SHOP_BUY_ITEM] D:0
+[18:42:25|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.packets.client.CM_SHOP_BUY_ITEM] Q:0
+[18:42:25|INFO |PacketProcessor:0        |ru.pb.global.models.PlayerItem                 ] PERMANENT - initConsumeLost
+[18:42:46|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.packets.client.CM_SHOP_LEAVE] type: 0
+[18:43:59|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] recordEquipped
+[18:43:59|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] containsItem
+[18:44:00|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] [2]: UpdateItem1006001024; consumeLost: 0
+[18:44:00|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] containsItem
+[18:44:02|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] [2]: UpdateItem1103003010; consumeLost: 0
+[18:44:02|INFO |nioEventLoopGroup-3-1    |ru.pb.global.dao.impl.EquipmentDaoImpl         ] recordItems
+[18:44:02|INFO |nioEventLoopGroup-3-1    |ru.pb.global.models.Channel                    ] Player [GM]Nikolen removed from channel 0
+[18:44:02|INFO |nioEventLoopGroup-3-1    |ru.pb.game.network.client.ClientConnection     ] Client [id:2, ip: 127.0.0.1] disconnected: admin; address: /127.0.0.1:49191
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Loaded properties from [system.properties]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.host = [127.0.0.1]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.port = [9889]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.id = [1]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.password = [test]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.host = [127.0.0.1]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.port = [39191]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.boss.threads = [1]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.work.threads = [4]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.host = [127.0.0.1]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.port = [29890]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.boss.threads = [1]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.work.threads = [1]
+[13:42:20|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load show.byte.buffer = [false]
+[13:42:20|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Loaded properties from [jdbc.properties]
+[13:42:20|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load driver = [org.postgresql.Driver]
+[13:42:20|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load url = [jdbc:postgresql://localhost/pb_java]
+[13:42:20|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load username = [postgres]
+[13:42:20|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load password = [123456]
+[13:42:20|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load maxconnections = [100]
+[13:42:20|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load debug = [false]
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] =============================================================-[ Database init ]
+[13:42:20|INFO |main                     |ru.pb.global.dao.jdbc.DatabaseFactory          ] Database connection successful.
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ DAO Manager ]
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ DatabaseLoader ]
+[13:42:20|INFO |main                     |ru.pb.global.data.holder.ItemHolder            ] load 0  item(s) count.
+[13:42:20|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:42:20|INFO |main                     |ru.pb.game.controller.GameServerController     ] Loaded
+[13:42:20|INFO |main                     |ru.pb.game.controller.ChannelController        ] Loaded 0 channels
+[13:42:20|ERROR|main                     |ru.pb.global.controller.PlayerTemplateController] Error load current player template
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Loaded properties from [system.properties]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.host = [127.0.0.1]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.port = [9889]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.id = [1]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.password = [test]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.host = [127.0.0.1]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.port = [39191]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.boss.threads = [1]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.work.threads = [4]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.host = [127.0.0.1]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.port = [29890]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.boss.threads = [1]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.work.threads = [1]
+[13:42:47|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load show.byte.buffer = [false]
+[13:42:47|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Loaded properties from [jdbc.properties]
+[13:42:47|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load driver = [org.postgresql.Driver]
+[13:42:47|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load url = [jdbc:postgresql://localhost/pb_java]
+[13:42:47|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load username = [postgres]
+[13:42:47|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load password = [123456]
+[13:42:47|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load maxconnections = [100]
+[13:42:47|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load debug = [false]
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] =============================================================-[ Database init ]
+[13:42:47|INFO |main                     |ru.pb.global.dao.jdbc.DatabaseFactory          ] Database connection successful.
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ DAO Manager ]
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ DatabaseLoader ]
+[13:42:47|INFO |main                     |ru.pb.global.data.holder.ItemHolder            ] load 0  item(s) count.
+[13:42:47|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:42:47|INFO |main                     |ru.pb.game.controller.GameServerController     ] Loaded
+[13:42:47|INFO |main                     |ru.pb.game.controller.ChannelController        ] Loaded 0 channels
+[13:42:47|ERROR|main                     |ru.pb.global.controller.PlayerTemplateController] Error load current player template
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Loaded properties from [system.properties]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.host = [127.0.0.1]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.port = [9889]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.id = [1]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.password = [test]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.host = [127.0.0.1]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.port = [39191]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.boss.threads = [1]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.work.threads = [4]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.host = [127.0.0.1]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.port = [29890]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.boss.threads = [1]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.work.threads = [1]
+[13:44:43|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load show.byte.buffer = [false]
+[13:44:43|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Loaded properties from [jdbc.properties]
+[13:44:43|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load driver = [org.postgresql.Driver]
+[13:44:43|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load url = [jdbc:postgresql://localhost/pb_java]
+[13:44:43|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load username = [postgres]
+[13:44:43|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load password = [123456]
+[13:44:43|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load maxconnections = [100]
+[13:44:43|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load debug = [false]
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] =============================================================-[ Database init ]
+[13:44:43|INFO |main                     |ru.pb.global.dao.jdbc.DatabaseFactory          ] Database connection successful.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ DAO Manager ]
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ DatabaseLoader ]
+[13:44:43|INFO |main                     |ru.pb.global.data.holder.ItemHolder            ] load 442  item(s) count.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:44:43|INFO |main                     |ru.pb.game.controller.GameServerController     ] Loaded
+[13:44:43|INFO |main                     |ru.pb.game.controller.ChannelController        ] Loaded 10 channels
+[13:44:43|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded start player template
+[13:44:43|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded 0 start items
+[13:44:43|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 goods.
+[13:44:43|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 used items.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:44:43|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:44:43|INFO |main                     |ru.pb.game.network.client.packets.GamePacketHandler] Loaded 68 client packet prototypes
+[13:44:43|INFO |main                     |ru.pb.game.network.battle.packets.BattlePacketHandler] Loaded 1 battle packet prototypes
+[13:44:43|INFO |main                     |ru.pb.game.network.auth.objects.AuthObjectHandler] Loaded 2 operations interaction with the auth server
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==============================================================-[ Chat handler ]
+[13:44:43|INFO |main                     |ru.pb.game.handler.AdminCommandHandler         ] Load 9 admin commands.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-dbcp-1.4.jar): 1.4
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-pool-1.6.jar): 1.6
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (pb-game.jar): none
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (postgresql-9.1-901.jdbc4.jar): none
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 28 mb, max 910 mb.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 3,11% percent memory.
+[13:44:43|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:44:44|INFO |pool-3-thread-1          |ru.pb.game.network.client.ClientServer         ] Listening to the client connections in [/127.0.0.1:39191]
+[13:44:44|INFO |pool-3-thread-2          |ru.pb.game.network.battle.BattleServer         ] Listening to the battle server connections [/127.0.0.1:29890]
+[13:44:44|INFO |pool-3-thread-3          |ru.pb.game.network.auth.AuthClient             ] Connecting to /127.0.0.1:9889...
+[13:44:44|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] connected
+[13:44:44|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+[13:44:44|INFO |PacketProcessor:0        |ru.pb.game.controller.BattleServerController   ] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+[13:44:44|INFO |PacketProcessor:0        |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+[13:44:44|INFO |nioEventLoopGroup-6-1    |ru.pb.game.network.auth.AuthConnection         ] AuthClient [id:null, ip: 127.0.0.1] connected
+[13:44:44|INFO |PacketProcessor:0        |org.omg.CORBA.ObjectHolder                     ] GameServer successfully registered at AuthClient side!
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Loaded properties from [system.properties]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.host = [127.0.0.1]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.port = [9889]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.id = [1]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.password = [test]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.host = [127.0.0.1]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.port = [39191]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.boss.threads = [1]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.work.threads = [4]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.host = [127.0.0.1]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.port = [29890]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.boss.threads = [1]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.work.threads = [1]
+[13:45:50|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load show.byte.buffer = [false]
+[13:45:50|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Loaded properties from [jdbc.properties]
+[13:45:50|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load driver = [org.postgresql.Driver]
+[13:45:50|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load url = [jdbc:postgresql://localhost/pb_java]
+[13:45:50|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load username = [postgres]
+[13:45:50|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load password = [123456]
+[13:45:50|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load maxconnections = [100]
+[13:45:50|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load debug = [false]
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] =============================================================-[ Database init ]
+[13:45:50|INFO |main                     |ru.pb.global.dao.jdbc.DatabaseFactory          ] Database connection successful.
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ DAO Manager ]
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ DatabaseLoader ]
+[13:45:50|INFO |main                     |ru.pb.global.data.holder.ItemHolder            ] load 442  item(s) count.
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:45:50|INFO |main                     |ru.pb.game.controller.GameServerController     ] Loaded
+[13:45:50|INFO |main                     |ru.pb.game.controller.ChannelController        ] Loaded 10 channels
+[13:45:50|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded start player template
+[13:45:50|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded 0 start items
+[13:45:50|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 goods.
+[13:45:50|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 used items.
+[13:45:50|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:45:51|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:45:51|INFO |main                     |ru.pb.game.network.client.packets.GamePacketHandler] Loaded 68 client packet prototypes
+[13:45:51|INFO |main                     |ru.pb.game.network.battle.packets.BattlePacketHandler] Loaded 1 battle packet prototypes
+[13:45:51|INFO |main                     |ru.pb.game.network.auth.objects.AuthObjectHandler] Loaded 2 operations interaction with the auth server
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==============================================================-[ Chat handler ]
+[13:45:51|INFO |main                     |ru.pb.game.handler.AdminCommandHandler         ] Load 9 admin commands.
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-dbcp-1.4.jar): 1.4
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-pool-1.6.jar): 1.6
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (pb-game.jar): none
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (postgresql-9.1-901.jdbc4.jar): none
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 28 mb, max 910 mb.
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 3,11% percent memory.
+[13:45:51|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:45:51|INFO |pool-3-thread-1          |ru.pb.game.network.client.ClientServer         ] Listening to the client connections in [/127.0.0.1:39191]
+[13:45:51|INFO |pool-3-thread-2          |ru.pb.game.network.battle.BattleServer         ] Listening to the battle server connections [/127.0.0.1:29890]
+[13:45:51|INFO |pool-3-thread-3          |ru.pb.game.network.auth.AuthClient             ] Connecting to /127.0.0.1:9889...
+[13:45:51|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] connected
+[13:45:51|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+[13:45:51|INFO |PacketProcessor:0        |ru.pb.game.controller.BattleServerController   ] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+[13:45:51|INFO |PacketProcessor:0        |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+[13:45:51|INFO |nioEventLoopGroup-6-1    |ru.pb.game.network.auth.AuthConnection         ] AuthClient [id:null, ip: 127.0.0.1] connected
+[13:45:51|INFO |PacketProcessor:0        |org.omg.CORBA.ObjectHolder                     ] GameServer successfully registered at AuthClient side!
+[13:45:54|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] will be disconnected
+[13:45:54|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] disconnected
+[13:45:54|INFO |nioEventLoopGroup-5-1    |ru.pb.game.controller.BattleServerController   ] Unregister BattleServer id: 40009
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Loaded properties from [system.properties]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.host = [127.0.0.1]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.port = [9889]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.id = [1]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.password = [test]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.host = [127.0.0.1]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.port = [39191]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.boss.threads = [1]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.work.threads = [4]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.host = [127.0.0.1]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.port = [29890]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.boss.threads = [1]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.work.threads = [1]
+[13:47:37|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load show.byte.buffer = [false]
+[13:47:37|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Loaded properties from [jdbc.properties]
+[13:47:37|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load driver = [org.postgresql.Driver]
+[13:47:37|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load url = [jdbc:postgresql://localhost/pb_java]
+[13:47:37|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load username = [postgres]
+[13:47:37|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load password = [123456]
+[13:47:37|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load maxconnections = [100]
+[13:47:37|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load debug = [false]
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] =============================================================-[ Database init ]
+[13:47:37|INFO |main                     |ru.pb.global.dao.jdbc.DatabaseFactory          ] Database connection successful.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ DAO Manager ]
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ DatabaseLoader ]
+[13:47:37|INFO |main                     |ru.pb.global.data.holder.ItemHolder            ] load 442  item(s) count.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:47:37|INFO |main                     |ru.pb.game.controller.GameServerController     ] Loaded
+[13:47:37|INFO |main                     |ru.pb.game.controller.ChannelController        ] Loaded 10 channels
+[13:47:37|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded start player template
+[13:47:37|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded 0 start items
+[13:47:37|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 goods.
+[13:47:37|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 used items.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:47:37|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:47:37|INFO |main                     |ru.pb.game.network.client.packets.GamePacketHandler] Loaded 68 client packet prototypes
+[13:47:37|INFO |main                     |ru.pb.game.network.battle.packets.BattlePacketHandler] Loaded 1 battle packet prototypes
+[13:47:37|INFO |main                     |ru.pb.game.network.auth.objects.AuthObjectHandler] Loaded 2 operations interaction with the auth server
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==============================================================-[ Chat handler ]
+[13:47:37|INFO |main                     |ru.pb.game.handler.AdminCommandHandler         ] Load 9 admin commands.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-dbcp-1.4.jar): 1.4
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-pool-1.6.jar): 1.6
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-game.jar): Type 'svnversion --help' for usage.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (postgresql-9.1-901.jdbc4.jar): none
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 28 mb, max 910 mb.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 3,11% percent memory.
+[13:47:37|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:47:37|INFO |pool-3-thread-1          |ru.pb.game.network.client.ClientServer         ] Listening to the client connections in [/127.0.0.1:39191]
+[13:47:37|INFO |pool-3-thread-2          |ru.pb.game.network.battle.BattleServer         ] Listening to the battle server connections [/127.0.0.1:29890]
+[13:47:37|INFO |pool-3-thread-3          |ru.pb.game.network.auth.AuthClient             ] Connecting to /127.0.0.1:9889...
+[13:47:38|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] connected
+[13:47:38|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+[13:47:38|INFO |PacketProcessor:0        |ru.pb.game.controller.BattleServerController   ] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+[13:47:38|INFO |PacketProcessor:0        |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+[13:47:38|INFO |nioEventLoopGroup-6-1    |ru.pb.game.network.auth.AuthConnection         ] AuthClient [id:null, ip: 127.0.0.1] connected
+[13:47:38|INFO |PacketProcessor:0        |org.omg.CORBA.ObjectHolder                     ] GameServer successfully registered at AuthClient side!
+[13:49:30|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ================================================================-[ Properties ]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Loaded properties from [system.properties]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.host = [127.0.0.1]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load auth.server.port = [9889]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.id = [1]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.password = [test]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.host = [127.0.0.1]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.port = [39191]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.boss.threads = [1]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load game.server.count.work.threads = [4]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.host = [127.0.0.1]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.port = [29890]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.boss.threads = [1]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load udp.server.count.work.threads = [1]
+[13:49:31|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Load show.byte.buffer = [false]
+[13:49:31|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Loaded properties from [jdbc.properties]
+[13:49:31|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load driver = [org.postgresql.Driver]
+[13:49:31|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load url = [jdbc:postgresql://localhost/pb_java]
+[13:49:31|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load username = [postgres]
+[13:49:31|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load password = [123456]
+[13:49:31|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load maxconnections = [100]
+[13:49:31|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Load debug = [false]
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] =============================================================-[ Database init ]
+[13:49:31|INFO |main                     |ru.pb.global.dao.jdbc.DatabaseFactory          ] Database connection successful.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ DAO Manager ]
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ DatabaseLoader ]
+[13:49:31|INFO |main                     |ru.pb.global.data.holder.ItemHolder            ] load 442  item(s) count.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===============================================================-[ Controllers ]
+[13:49:31|INFO |main                     |ru.pb.game.controller.GameServerController     ] Loaded
+[13:49:31|INFO |main                     |ru.pb.game.controller.ChannelController        ] Loaded 10 channels
+[13:49:31|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded start player template
+[13:49:31|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded 0 start items
+[13:49:31|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 goods.
+[13:49:31|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 used items.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Thread manager ]
+[13:49:31|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ============================================================-[ Packet handler ]
+[13:49:31|INFO |main                     |ru.pb.game.network.client.packets.GamePacketHandler] Loaded 68 client packet prototypes
+[13:49:31|INFO |main                     |ru.pb.game.network.battle.packets.BattlePacketHandler] Loaded 1 battle packet prototypes
+[13:49:31|INFO |main                     |ru.pb.game.network.auth.objects.AuthObjectHandler] Loaded 2 operations interaction with the auth server
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==============================================================-[ Chat handler ]
+[13:49:31|INFO |main                     |ru.pb.game.handler.AdminCommandHandler         ] Load 9 admin commands.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Library ]
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-dbcp-1.4.jar): 1.4
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-pool-1.6.jar): 1.6
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-game.jar): Type 'svnversion --help' for usage.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (postgresql-9.1-901.jdbc4.jar): none
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ==========================================================-[ Load information ]
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 28 mb, max 910 mb.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 3,11% percent memory.
+[13:49:31|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ===================================================================-[ Network ]
+[13:49:31|INFO |pool-3-thread-1          |ru.pb.game.network.client.ClientServer         ] Listening to the client connections in [/127.0.0.1:39191]
+[13:49:31|INFO |pool-3-thread-2          |ru.pb.game.network.battle.BattleServer         ] Listening to the battle server connections [/127.0.0.1:29890]
+[13:49:31|INFO |pool-3-thread-3          |ru.pb.game.network.auth.AuthClient             ] Connecting to /127.0.0.1:9889...
+[13:49:32|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] connected
+[13:49:32|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+[13:49:32|INFO |PacketProcessor:0        |ru.pb.game.controller.BattleServerController   ] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+[13:49:32|INFO |PacketProcessor:0        |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+[13:49:32|INFO |nioEventLoopGroup-6-1    |ru.pb.game.network.auth.AuthConnection         ] AuthClient [id:null, ip: 127.0.0.1] connected
+[13:49:32|INFO |PacketProcessor:0        |org.omg.CORBA.ObjectHolder                     ] GameServer successfully registered at AuthClient side!
+[14:34:12|INFO |main                     |ru.pb.game.properties.GameServerProperty       ] Loaded properties from file 'system.properties'
+[14:34:12|INFO |main                     |ru.pb.global.properties.DataBaseProperty       ] Loaded properties from file 'jdbc.properties'
+[14:34:12|INFO |main                     |ru.pb.global.dao.jdbc.DatabaseFactory          ] Database connected successfully!
+[14:34:12|INFO |main                     |ru.pb.global.data.holder.ItemHolder            ] load 442  item(s) count.
+[14:34:12|INFO |main                     |ru.pb.game.controller.GameServerController     ] Loaded
+[14:34:12|INFO |main                     |ru.pb.game.controller.ChannelController        ] Loaded 10 channels
+[14:34:12|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded start player template
+[14:34:12|INFO |main                     |ru.pb.global.controller.PlayerTemplateController] Loaded 0 start items
+[14:34:12|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 goods.
+[14:34:12|INFO |main                     |ru.pb.game.controller.GoodsController          ] Loaded 43 used items.
+[14:34:12|INFO |main                     |ru.pb.global.utils.concurrent.ThreadPoolManager] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+[14:34:12|INFO |main                     |ru.pb.game.network.client.packets.GamePacketHandler] Loaded 68 client packet prototypes
+[14:34:12|INFO |main                     |ru.pb.game.network.battle.packets.BattlePacketHandler] Loaded 1 battle packet prototypes
+[14:34:12|INFO |main                     |ru.pb.game.network.auth.objects.AuthObjectHandler] Loaded 2 operations interaction with the auth server
+[14:34:12|INFO |main                     |ru.pb.game.handler.AdminCommandHandler         ] Load 9 admin commands.
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-dbcp-1.4.jar): 1.4
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-io-2.4.jar): 2.4
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (commons-pool-1.6.jar): 1.6
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-classic-1.0.13.jar): none
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (logback-core-1.0.13.jar): none
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-game.jar): Type 'svnversion --help' for usage.
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] revision (pb-global.jar): Type 'svnversion --help' for usage.
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (postgresql-9.1-901.jdbc4.jar): none
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] version (slf4j-api-1.7.5.jar): 1.7.5
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] ======================================================================-[ null ]
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Loaded in 0 sec(0,000 min)
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 28 mb, max 910 mb.
+[14:34:12|INFO |main                     |ru.pb.global.info.PrintInfo                    ] Used 3,11% percent memory.
+[14:34:12|INFO |pool-3-thread-1          |ru.pb.game.network.client.ClientServer         ] Listening to the client connections in [/127.0.0.1:39191]
+[14:34:12|INFO |pool-3-thread-2          |ru.pb.game.network.battle.BattleServer         ] Listening to the battle server connections [/127.0.0.1:29890]
+[14:34:12|INFO |pool-3-thread-3          |ru.pb.game.network.auth.AuthClient             ] Connecting to /127.0.0.1:9889...
+[14:34:13|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] connected
+[14:34:13|INFO |nioEventLoopGroup-5-1    |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+[14:34:13|INFO |PacketProcessor:0        |ru.pb.game.controller.BattleServerController   ] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+[14:34:13|INFO |PacketProcessor:0        |ru.pb.game.network.battle.FromBattleToGameConnection] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+[14:34:13|INFO |nioEventLoopGroup-6-1    |ru.pb.game.network.auth.AuthConnection         ] AuthClient [id:null, ip: 127.0.0.1] connected
+[14:34:13|INFO |PacketProcessor:0        |org.omg.CORBA.ObjectHolder                     ] GameServer successfully registered at AuthClient side!
+14:34:33 [INFO] Loaded properties from file 'system.properties'
+14:34:33 [INFO] Loaded properties from file 'jdbc.properties'
+14:34:33 [INFO] Database connected successfully!
+14:34:33 [INFO] load 442  item(s) count.
+14:34:33 [INFO] Loaded
+14:34:33 [INFO] Loaded 10 channels
+14:34:33 [INFO] Loaded start player template
+14:34:33 [INFO] Loaded 0 start items
+14:34:33 [INFO] Loaded 43 goods.
+14:34:33 [INFO] Loaded 43 used items.
+14:34:33 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:34:33 [INFO] Loaded 68 client packet prototypes
+14:34:33 [INFO] Loaded 1 battle packet prototypes
+14:34:33 [INFO] Loaded 2 operations interaction with the auth server
+14:34:33 [INFO] Load 9 admin commands.
+14:34:33 [INFO] version (commons-dbcp-1.4.jar): 1.4
+14:34:33 [INFO] version (commons-io-2.4.jar): 2.4
+14:34:33 [INFO] version (commons-pool-1.6.jar): 1.6
+14:34:33 [INFO] version (logback-classic-1.0.13.jar): none
+14:34:33 [INFO] version (logback-core-1.0.13.jar): none
+14:34:33 [INFO] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+14:34:33 [INFO] revision (pb-game.jar): Type 'svnversion --help' for usage.
+14:34:33 [INFO] revision (pb-global.jar): Type 'svnversion --help' for usage.
+14:34:33 [INFO] version (postgresql-9.1-901.jdbc4.jar): none
+14:34:33 [INFO] version (slf4j-api-1.7.5.jar): 1.7.5
+14:34:33 [INFO] ======================================================================-[ null ]
+14:34:33 [INFO] Loaded in 0 sec(0,000 min)
+14:34:33 [INFO] Used 25 mb, max 910 mb.
+14:34:33 [INFO] Used 2,82% percent memory.
+14:34:33 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+14:34:33 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+14:34:33 [INFO] Connecting to /127.0.0.1:9889...
+14:34:34 [INFO] BattleClient [id:1, ip: 127.0.0.1] connected
+14:34:34 [INFO] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+14:34:34 [INFO] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+14:34:34 [INFO] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+14:34:34 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+14:34:34 [INFO] GameServer successfully registered at AuthClient side!
+14:35:03 [INFO] Loaded properties from file 'system.properties'
+14:35:03 [INFO] Loaded properties from file 'jdbc.properties'
+14:35:03 [INFO] Database connected successfully!
+14:35:03 [INFO] load 442  item(s) count.
+14:35:03 [INFO] Loaded
+14:35:03 [INFO] Loaded 10 channels
+14:35:03 [INFO] Loaded start player template
+14:35:03 [INFO] Loaded 0 start items
+14:35:03 [INFO] Loaded 43 goods.
+14:35:03 [INFO] Loaded 43 used items.
+14:35:03 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:35:03 [INFO] Loaded 68 client packet prototypes
+14:35:03 [INFO] Loaded 1 battle packet prototypes
+14:35:03 [INFO] Loaded 2 operations interaction with the auth server
+14:35:03 [INFO] Load 9 admin commands.
+14:35:03 [INFO] version (commons-dbcp-1.4.jar): 1.4
+14:35:03 [INFO] version (commons-io-2.4.jar): 2.4
+14:35:03 [INFO] version (commons-pool-1.6.jar): 1.6
+14:35:03 [INFO] version (logback-classic-1.0.13.jar): none
+14:35:03 [INFO] version (logback-core-1.0.13.jar): none
+14:35:03 [INFO] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+14:35:03 [INFO] revision (pb-game.jar): Type 'svnversion --help' for usage.
+14:35:03 [INFO] revision (pb-global.jar): Type 'svnversion --help' for usage.
+14:35:03 [INFO] version (postgresql-9.1-901.jdbc4.jar): none
+14:35:03 [INFO] version (slf4j-api-1.7.5.jar): 1.7.5
+14:35:03 [INFO] ======================================================================-[ null ]
+14:35:03 [INFO] Loaded in 0 sec(0,000 min)
+14:35:03 [INFO] Used 25 mb, max 910 mb.
+14:35:03 [INFO] Used 2,82% percent memory.
+14:35:03 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+14:35:03 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+14:35:03 [INFO] Connecting to /127.0.0.1:9889...
+14:35:05 [INFO] Server [/127.0.0.1:9889] not available...
+14:35:05 [INFO] AuthClient [id:null, ip: null] disconnected
+14:35:11 [INFO] Loaded properties from file 'system.properties'
+14:35:11 [INFO] Loaded properties from file 'jdbc.properties'
+14:35:11 [INFO] Database connected successfully!
+14:35:11 [INFO] load 442  item(s) count.
+14:35:11 [INFO] Loaded
+14:35:11 [INFO] Loaded 10 channels
+14:35:11 [INFO] Loaded start player template
+14:35:11 [INFO] Loaded 0 start items
+14:35:11 [INFO] Loaded 43 goods.
+14:35:11 [INFO] Loaded 43 used items.
+14:35:11 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:35:11 [INFO] Loaded 68 client packet prototypes
+14:35:11 [INFO] Loaded 1 battle packet prototypes
+14:35:11 [INFO] Loaded 2 operations interaction with the auth server
+14:35:12 [INFO] Load 9 admin commands.
+14:35:12 [INFO] version (commons-dbcp-1.4.jar): 1.4
+14:35:12 [INFO] version (commons-io-2.4.jar): 2.4
+14:35:12 [INFO] version (commons-pool-1.6.jar): 1.6
+14:35:12 [INFO] version (logback-classic-1.0.13.jar): none
+14:35:12 [INFO] version (logback-core-1.0.13.jar): none
+14:35:12 [INFO] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+14:35:12 [INFO] revision (pb-game.jar): Type 'svnversion --help' for usage.
+14:35:12 [INFO] revision (pb-global.jar): Type 'svnversion --help' for usage.
+14:35:12 [INFO] version (postgresql-9.1-901.jdbc4.jar): none
+14:35:12 [INFO] version (slf4j-api-1.7.5.jar): 1.7.5
+14:35:12 [INFO] ======================================================================-[ null ]
+14:35:12 [INFO] Loaded in 0 sec(0,000 min)
+14:35:12 [INFO] Used 25 mb, max 910 mb.
+14:35:12 [INFO] Used 2,82% percent memory.
+14:35:12 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+14:35:12 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+14:35:12 [INFO] Connecting to /127.0.0.1:9889...
+14:35:14 [INFO] Server [/127.0.0.1:9889] not available...
+14:35:14 [INFO] AuthClient [id:null, ip: null] disconnected
+14:35:24 [INFO] Connecting to /127.0.0.1:9889...
+14:35:26 [INFO] Server [/127.0.0.1:9889] not available...
+14:35:26 [INFO] AuthClient [id:null, ip: null] disconnected
+14:35:46 [INFO] Loaded properties from file 'system.properties'
+14:35:46 [INFO] Loaded properties from file 'jdbc.properties'
+14:35:46 [INFO] Database connected successfully!
+14:35:47 [INFO] load 442  item(s) count.
+14:35:47 [INFO] Loaded
+14:35:47 [INFO] Loaded 10 channels
+14:35:47 [INFO] Loaded start player template
+14:35:47 [INFO] Loaded 0 start items
+14:35:47 [INFO] Loaded 43 goods.
+14:35:47 [INFO] Loaded 43 used items.
+14:35:47 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:35:47 [INFO] Loaded 68 client packet prototypes
+14:35:47 [INFO] Loaded 1 battle packet prototypes
+14:35:47 [INFO] Loaded 2 operations interaction with the auth server
+14:35:47 [INFO] Load 9 admin commands.
+14:35:47 [INFO] version (commons-dbcp-1.4.jar): 1.4
+14:35:47 [INFO] version (commons-io-2.4.jar): 2.4
+14:35:47 [INFO] version (commons-pool-1.6.jar): 1.6
+14:35:47 [INFO] version (logback-classic-1.0.13.jar): none
+14:35:47 [INFO] version (logback-core-1.0.13.jar): none
+14:35:47 [INFO] version (netty-all-4.0.14.Final.jar): 4.0.14.Final
+14:35:47 [INFO] revision (pb-game.jar): Type 'svnversion --help' for usage.
+14:35:47 [INFO] revision (pb-global.jar): Type 'svnversion --help' for usage.
+14:35:47 [INFO] version (postgresql-9.1-901.jdbc4.jar): none
+14:35:47 [INFO] version (slf4j-api-1.7.5.jar): 1.7.5
+14:35:47 [INFO] ======================================================================-[ null ]
+14:35:47 [INFO] Loaded in 0 sec(0,000 min)
+14:35:47 [INFO] Used 28 mb, max 910 mb.
+14:35:47 [INFO] Used 3,11% percent memory.
+14:35:47 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+14:35:47 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+14:35:47 [INFO] Connecting to /127.0.0.1:9889...
+14:35:49 [INFO] Server [/127.0.0.1:9889] not available...
+14:35:49 [INFO] AuthClient [id:null, ip: null] disconnected
+14:36:21 [INFO] Loaded properties from file 'system.properties'
+14:36:21 [INFO] Loaded properties from file 'jdbc.properties'
+14:36:21 [INFO] Database connected successfully!
+14:36:21 [INFO] load 442  item(s) count.
+14:36:21 [INFO] Loaded
+14:36:21 [INFO] Loaded 10 channels
+14:36:21 [INFO] Loaded start player template
+14:36:21 [INFO] Loaded 0 start items
+14:36:21 [INFO] Loaded 43 goods.
+14:36:21 [INFO] Loaded 43 used items.
+14:36:21 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:36:21 [INFO] Loaded 68 client packet prototypes
+14:36:21 [INFO] Loaded 1 battle packet prototypes
+14:36:21 [INFO] Loaded 2 operations interaction with the auth server
+14:36:21 [INFO] Load 9 admin commands.
+14:36:21 [INFO] Loaded in 0 sec(0,000 min)
+14:36:21 [INFO] Used 23 mb, max 910 mb.
+14:36:21 [INFO] Used 2,54% percent memory.
+14:36:21 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+14:36:21 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+14:36:21 [INFO] Connecting to /127.0.0.1:9889...
+14:36:23 [INFO] Server [/127.0.0.1:9889] not available...
+14:36:23 [INFO] AuthClient [id:null, ip: null] disconnected
+14:36:26 [INFO] Loaded properties from file 'system.properties'
+14:36:26 [INFO] Loaded properties from file 'jdbc.properties'
+14:36:26 [INFO] Database connected successfully!
+14:36:26 [INFO] load 442  item(s) count.
+14:36:26 [INFO] Loaded
+14:36:26 [INFO] Loaded 10 channels
+14:36:26 [INFO] Loaded start player template
+14:36:26 [INFO] Loaded 0 start items
+14:36:26 [INFO] Loaded 43 goods.
+14:36:26 [INFO] Loaded 43 used items.
+14:36:26 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:36:26 [INFO] Loaded 68 client packet prototypes
+14:36:26 [INFO] Loaded 1 battle packet prototypes
+14:36:26 [INFO] Loaded 2 operations interaction with the auth server
+14:36:26 [INFO] Load 9 admin commands.
+14:36:26 [INFO] Loaded in 0 sec(0,000 min)
+14:36:26 [INFO] Used 23 mb, max 910 mb.
+14:36:26 [INFO] Used 2,54% percent memory.
+14:36:26 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+14:36:26 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+14:36:26 [INFO] Connecting to /127.0.0.1:9889...
+14:36:28 [INFO] Server [/127.0.0.1:9889] not available...
+14:36:28 [INFO] AuthClient [id:null, ip: null] disconnected
+14:37:43 [INFO] Loaded properties from file 'system.properties'
+14:37:43 [INFO] Loaded properties from file 'jdbc.properties'
+14:37:43 [INFO] Database connected successfully!
+14:37:43 [INFO] load 442  item(s) count.
+14:37:43 [INFO] Loaded
+14:37:43 [INFO] Loaded 10 channels
+14:37:43 [INFO] Loaded start player template
+14:37:43 [INFO] Loaded 0 start items
+14:37:43 [INFO] Loaded 43 goods.
+14:37:43 [INFO] Loaded 43 used items.
+14:37:43 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:37:43 [INFO] Loaded 68 client packet prototypes
+14:37:43 [INFO] Loaded 1 battle packet prototypes
+14:37:43 [INFO] Loaded 2 operations interaction with the auth server
+14:37:43 [INFO] Load 9 admin commands.
+14:37:43 [INFO] Loaded in 0 sec(0,000 min)
+14:37:43 [INFO] Used 23 mb, max 910 mb.
+14:37:43 [INFO] Used 2,54% percent memory.
+14:37:43 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+14:37:43 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+14:37:43 [INFO] Connecting to /127.0.0.1:9889...
+14:37:44 [INFO] BattleClient [id:1, ip: 127.0.0.1] connected
+14:37:44 [INFO] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+14:37:44 [INFO] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+14:37:44 [INFO] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+14:37:44 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+14:37:44 [INFO] GameServer successfully registered at AuthClient side!
+14:37:59 [INFO] BattleClient [id:1, ip: 127.0.0.1] will be disconnected
+14:37:59 [INFO] BattleClient [id:1, ip: 127.0.0.1] disconnected
+14:37:59 [INFO] Unregister BattleServer id: 40009
+14:38:15 [INFO] Loaded properties from file 'system.properties'
+14:38:15 [INFO] Loaded properties from file 'jdbc.properties'
+14:38:15 [INFO] Database connected successfully!
+14:38:15 [INFO] load 442  item(s) count.
+14:38:15 [INFO] Loaded
+14:38:15 [INFO] Loaded 10 channels
+14:38:15 [INFO] Loaded start player template
+14:38:15 [INFO] Loaded 0 start items
+14:38:15 [INFO] Loaded 43 goods.
+14:38:15 [INFO] Loaded 43 used items.
+14:38:15 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:38:15 [INFO] Loaded 68 client packet prototypes
+14:38:15 [INFO] Loaded 1 battle packet prototypes
+14:38:15 [INFO] Loaded 2 operations interaction with the auth server
+14:38:15 [INFO] Load 9 admin commands.
+14:38:15 [INFO] Loaded in 0 sec(0,000 min)
+14:38:15 [INFO] Used 23 mb, max 910 mb.
+14:38:15 [INFO] Used 2,54% percent memory.
+14:38:15 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+14:38:15 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+14:38:15 [INFO] Connecting to /127.0.0.1:9889...
+14:38:15 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+14:38:15 [INFO] GameServer successfully registered at AuthClient side!
+14:44:19 [INFO] Loaded properties from file 'system.properties'
+14:44:19 [INFO] Loaded properties from file 'jdbc.properties'
+14:44:19 [INFO] Database connected successfully!
+14:44:19 [INFO] load 442  item(s) count.
+14:44:19 [INFO] Loaded
+14:44:19 [INFO] Loaded 10 channels
+14:44:19 [INFO] Loaded start player template
+14:44:19 [INFO] Loaded 0 start items
+14:44:19 [INFO] Loaded 43 goods.
+14:44:19 [INFO] Loaded 43 used items.
+14:44:19 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+14:44:19 [INFO] Loaded 68 client packet prototypes
+14:44:19 [INFO] Loaded 1 battle packet prototypes
+14:44:19 [INFO] Loaded 2 operations interaction with the auth server
+14:44:19 [INFO] Load 9 admin commands.
+14:44:19 [INFO] Loaded in 0 sec(0,000 min)
+14:44:19 [INFO] Used 23 mb, max 910 mb.
+14:44:19 [INFO] Used 2,54% percent memory.
+14:44:20 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+14:44:20 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+14:44:20 [INFO] Connecting to /127.0.0.1:9889...
+14:44:20 [INFO] BattleClient [id:1, ip: 127.0.0.1] connected
+14:44:20 [INFO] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+14:44:20 [INFO] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+14:44:20 [INFO] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4

@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//pb-auth/src/ru/pb/auth/Application.java=UTF-8
+encoding//pb-auth/src/ru/pb/auth/controller/AccountController.java=UTF-8
+encoding//pb-auth/src/ru/pb/auth/network/client/packets/AuthPacketHandler.java=UTF-8
+encoding//pb-auth/src/ru/pb/auth/network/client/packets/client/PROTOCOL_BASE_LOGIN_REQ.java=UTF-8
+encoding//pb-auth/src/ru/pb/auth/network/client/packets/server/PROTOCOL_BASE_SERVER_LIST.java=UTF-8
+encoding//pb-auth/src/ru/pb/auth/properties/AuthServerProperty.java=UTF-8
+encoding//pb-battle/src/ru/pb/battle/Application.java=UTF-8
+encoding//pb-game/src/ru/pb/game/Application.java=UTF-8
+encoding//pb-global/src/ru/pb/global/properties/PropertiesLoader.java=UTF-8

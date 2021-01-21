@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="[3]PB_GAME_LIBRARY" default="dist" basedir=".">
+	<description>PB Game Server</description>
+	<property name="root" location="pb-game"/>
+	<property name="src" location="${root}/src"/>
+	<property name="libs" location="libs"/>
+	<property name="svnlibs" location="libs-svn"/>
+	<property name="gamelibs" location="dist/pb_game/libs"/>
+	<property name="build" location="${root}/build"/>
+	<property name="build.classes" location="${build}/classes"/>
+	<property name="jar_class" value="ru.pb.game.Application"/>
+
+	<path id="classpath">
+		<fileset dir="${libs}">
+			<include name="*.jar"/>
+			<exclude name="pb-game.jar"/>
+		</fileset>
+	</path>
+
+	<target name="clean" description="Removes build directory.">
+		<delete dir="${build}"/>
+		<delete file="${libs}/pb-game.jar"/>
+		<delete file="${gamelibs}/pb-game.jar"/>
+	</target>
+
+	<target name="dirs" depends="clean" description="Create Dirs.">
+		<mkdir dir="${build}"/>
+		<mkdir dir="${build.classes}"/>
+	</target>
+
+	<target name="compile" depends="dirs" description="Compile the source." >
+		<javac includeantruntime="false" destdir="${build.classes}" optimize="off" debug="on" source="1.7" target="1.7" encoding="UTF-8" nowarn="off">
+			<compilerarg value="-Xlint:all"></compilerarg>
+			<src path="${src}"/>
+			<classpath refid="classpath"/>
+		</javac>
+
+		<tstamp>
+			<format property="build.tstamp" pattern="yyyy.MM.dd HH:mm"/>
+		</tstamp>
+		
+		<exec dir="${svnlibs}" executable="${svnlibs}/svnversion" outputproperty="game.revision" failifexecutionfails="true">
+			<arg line="-n ${src}"/>
+		</exec>
+
+		<echo message="Subversion revision: ${game.revision}"/>
+
+		<concat destfile="${build}/classes/ru/pb/game/build-info.ini">version=${game.revision}
+builddate=${build.tstamp}: ${user.name}/${os.name}</concat>
+		
+		<jar destfile="${build}/pb-game.jar" description="Add classes in JAR." >
+			<fileset dir="${build.classes}"/>
+			<manifest>
+				<attribute name="Main-Class" value="${jar_class}"/>
+				<attribute name="Implementation-Revision" value="${game.revision}"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="dist" depends="compile" description="Create Dirs.">
+		<copy todir="${libs}">
+			<fileset dir="${build}">
+				<include name="pb-game.jar"/>
+			</fileset>
+		</copy>
+		
+		<copy todir="${gamelibs}">
+			<fileset dir="${build}">
+				<include name="pb-game.jar"/>
+			</fileset>
+		</copy>
+	</target>
+</project>

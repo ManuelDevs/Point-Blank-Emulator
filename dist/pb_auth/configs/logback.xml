@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Java Server Emulator Project Blackout / PointBlank
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  ~
+  ~ Authors: DarkSkeleton, sjke, Felixx
+  ~ Copyright (C) 2013 PBDev™
+  -->
+
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>utf8</charset>
+            <pattern> %d{HH:mm:ss} [%level] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="CONSOLE_TO_FILE" class="ru.pb.global.logging.LogToZipAppender">
+        <param name="backupDir" value="logs/backup"/>
+        <param name="backupDateFormat" value="yyyy-MM-dd HH-mm-ss"/>
+        <param name="file" value="logs/console.log"/>
+        <encoder>
+            <charset>utf-8</charset>
+            <pattern> %d{HH:mm:ss} [%level] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ERROR_TO_FILE" class="ru.pb.global.logging.LogToZipAppender">
+        <param name="backupDir" value="logs/backup"/>
+        <param name="backupDateFormat" value="yyyy-MM-dd HH-mm-ss"/>
+        <param name="file" value="logs/errors.log"/>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <charset>utf-8</charset>
+            <pattern> %d{HH:mm:ss} [%level] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="UNK_PACKETS_TO_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/unknown_packets.log</file>
+        <append>true</append>
+        <encoder>
+            <Pattern>%message%n</Pattern>
+        </encoder>
+    </appender>
+
+    <logger name="ru.pb.core.network.packets.PacketHandler" level="WARN" additivity="true">
+        <appender-ref ref="UNK_PACKETS_TO_FILE"/>
+    </logger>
+
+    <appender name="DATABASE_DEBUG_TO_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/database_debug.log</file>
+        <append>true</append>
+        <encoder>
+            <Pattern>%message%n</Pattern>
+        </encoder>
+    </appender>
+
+    <logger name="ru.pb.global.dao.jdbc.DatabaseUtils" level="DEBUG" additivity="true">
+        <appender-ref ref="DATABASE_DEBUG_TO_FILE"/>
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="CONSOLE_TO_FILE"/>
+        <appender-ref ref="ERROR_TO_FILE"/>
+    </root>
+
+</configuration>

@@ -1,2 +1,8 @@
 [13:42:20|ERROR|main                  |ru.pb.global.controller.PlayerTemplateController] Error load current player template
 [13:42:47|ERROR|main                  |ru.pb.global.controller.PlayerTemplateController] Error load current player template
+16:40:25 [ERROR] Error handling (127.0.0.1), message [C] 0xB05 CM_SHOP_LIST
+java.lang.NullPointerException: null
+	at ru.pb.game.network.client.packets.client.CM_SHOP_LIST.runImpl(CM_SHOP_LIST.java:64) ~[pb-game.jar:na]
+	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
+	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]

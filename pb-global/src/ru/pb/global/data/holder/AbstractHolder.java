@@ -12,7 +12,7 @@ public abstract class AbstractHolder {
 	protected Logger log = LoggerFactory.getLogger(getClass());
 
 	public void log() {
-		log.info(String.format("load %d %s(s) count.", size(), StringUtils.afterSpaceToUpperCase(getClass().getSimpleName().replace("Holder", "")).toLowerCase()));
+		log.info(String.format("Loaded %d %s(s) count.", size(), StringUtils.afterSpaceToUpperCase(getClass().getSimpleName().replace("Holder", "")).toLowerCase()));
 	}
 
 	public void info(String s) {

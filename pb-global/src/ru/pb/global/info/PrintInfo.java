@@ -56,7 +56,6 @@ public class PrintInfo {
 
 	public void printLoadInfos() {
 		long seconds = (System.currentTimeMillis() - startTime) / 1000;
-		System.out.println();
 		print("Loaded in %d sec(%.3f min)", seconds, (seconds / 60F));
 		print("Used %s, max %s.", MemoryInfo.getMemoryUsedMb(), MemoryInfo.getMemoryMaxMb());
 		print("Used %.2f%% percent memory.", MemoryInfo.getMemoryUsagePercent());

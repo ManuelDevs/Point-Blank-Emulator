@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.global.controller;
@@ -23,11 +23,6 @@ package ru.pb.global.controller;
 import ru.pb.global.models.PlayerCreateTemplate;
 import ru.pb.global.service.PlayerDaoService;
 
-/**
- * Шаблоны снаряжения игроков
- *
- * @author sjke
- */
 public class PlayerTemplateController extends BaseController {
 
 	private static final PlayerCreateTemplate template = PlayerDaoService.getInstance().readStartTemplate();
@@ -37,8 +32,8 @@ public class PlayerTemplateController extends BaseController {
 			log.error("Error load current player template");
 			System.exit(-1);
 		}
-		log.info("Loaded start player template");
-		log.info("Loaded " + template.getItems().size() + " start items");
+		log.info("Loaded start player template.");
+		log.info("Loaded " + template.getItems().size() + " starting items.");
 	}
 
 	public PlayerCreateTemplate getTemplate() {

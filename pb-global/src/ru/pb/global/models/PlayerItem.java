@@ -61,18 +61,15 @@ public class PlayerItem {
 	public void initConsumeLost() {
 		switch (item.getConsumeType()) {
 			case TEMPORARY: {
-				consumeLost = item.getConsumeValue(); /*DateTimeUtil.getDateTime(item.getConsumeValue());*/
-				LoggerFactory.getLogger(getClass()).info("TEMPORARY - initConsumeLost");
+				consumeLost = item.getConsumeValue();
 				break;
 			}
 			case DURABLE: {
 				consumeLost = item.getConsumeValue();
-				LoggerFactory.getLogger(getClass()).info("DURABLE - initConsumeLost");
 				break;
 			}
 			case PERMANENT: {
 				consumeLost = 0;
-				LoggerFactory.getLogger(getClass()).info("PERMANENT - initConsumeLost");
 				break;
 			}
 		}

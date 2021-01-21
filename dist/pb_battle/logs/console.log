@@ -367,3 +367,43 @@
 14:44:20 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
 14:44:20 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
 14:44:20 [INFO] BattleServer successfully registred, response: AUTHED
+16:37:08 [INFO] Loaded properties from file 'system.properties'
+16:37:08 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+16:37:08 [INFO] Loaded 7 battle packet prototypes
+16:37:08 [INFO] Loaded in 0 sec(0,000 min)
+16:37:08 [INFO] Used 10 mb, max 61 mb.
+16:37:08 [INFO] Used 16,81% percent memory.
+16:37:08 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+16:37:08 [INFO] Connecting to /127.0.0.1:29890...
+16:37:09 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+16:37:09 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+16:37:09 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+16:37:09 [INFO] BattleServer successfully registred, response: AUTHED
+16:37:27 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnecting
+16:37:27 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnected
+16:39:36 [INFO] Loaded properties from file 'system.properties'
+16:39:36 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+16:39:36 [INFO] Loaded 7 battle packet prototypes
+16:39:36 [INFO] Loaded in 0 sec(0,000 min)
+16:39:36 [INFO] Used 10 mb, max 61 mb.
+16:39:36 [INFO] Used 17,35% percent memory.
+16:39:37 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+16:39:37 [INFO] Connecting to /127.0.0.1:29890...
+16:39:37 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+16:39:37 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+16:39:37 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+16:39:37 [INFO] BattleServer successfully registred, response: AUTHED
+16:40:36 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnecting
+16:40:36 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnected
+16:40:46 [INFO] Connecting to /127.0.0.1:29890...
+16:40:48 [INFO] Server [/127.0.0.1:29890] not available...
+16:40:48 [INFO] BattleServer [id:2, ip: null] disconnected
+16:40:58 [INFO] Connecting to /127.0.0.1:29890...
+16:41:00 [INFO] Server [/127.0.0.1:29890] not available...
+16:41:00 [INFO] BattleServer [id:3, ip: null] disconnected
+16:41:10 [INFO] Connecting to /127.0.0.1:29890...
+16:41:12 [INFO] Server [/127.0.0.1:29890] not available...
+16:41:12 [INFO] BattleServer [id:4, ip: null] disconnected
+16:41:22 [INFO] Connecting to /127.0.0.1:29890...
+16:41:24 [INFO] Server [/127.0.0.1:29890] not available...
+16:41:24 [INFO] BattleServer [id:5, ip: null] disconnected

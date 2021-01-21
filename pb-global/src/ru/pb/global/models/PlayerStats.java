@@ -15,13 +15,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.global.models;
 
 /**
- * Статисткиа игрока
+ * Ð¡Ñ‚Ð°Ñ‚Ð¸Ñ�Ñ‚ÐºÐ¸Ð° Ð¸Ð³Ñ€Ð¾ÐºÐ°
  *
  * @author sjke
  */
@@ -106,6 +106,14 @@ public class PlayerStats {
 
 	public void setSeasonEscapes(int seasonEscapes) {
 		this.seasonEscapes = seasonEscapes;
+	}
+	
+	public int getDraws() {
+		return this.fights - (this.wins + this.losts);
+	}
+
+	public int getSeasonDraws() {
+		return this.fights - (this.wins + this.losts);
 	}
 
 	public int getFights() {

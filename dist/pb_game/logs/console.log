@@ -824,3 +824,66 @@
 14:44:20 [INFO] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
 14:44:20 [INFO] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
 14:44:20 [INFO] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+16:37:08 [INFO] Loaded properties from file 'system.properties'
+16:37:08 [INFO] Loaded properties from file 'jdbc.properties'
+16:37:08 [INFO] Database connected successfully!
+16:37:08 [INFO] Loaded 442  item(s) count.
+16:37:08 [INFO] Loaded 10 channels
+16:37:08 [INFO] Loaded start player template.
+16:37:08 [INFO] Loaded 11 starting items.
+16:37:08 [INFO] Loaded 43 goods.
+16:37:08 [INFO] Loaded 43 used items.
+16:37:08 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+16:37:08 [INFO] Loaded 68 client packet prototypes
+16:37:08 [INFO] Loaded 1 battle packet prototypes
+16:37:08 [INFO] Loaded 2 operations interaction with the auth server
+16:37:08 [INFO] Load 9 admin commands.
+16:37:08 [INFO] Loaded in 0 sec(0,000 min)
+16:37:08 [INFO] Used 23 mb, max 910 mb.
+16:37:08 [INFO] Used 2,54% percent memory.
+16:37:08 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+16:37:08 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+16:37:08 [INFO] Connecting to /127.0.0.1:9889...
+16:37:09 [INFO] BattleClient [id:1, ip: 127.0.0.1] connected
+16:37:09 [INFO] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+16:37:09 [INFO] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+16:37:09 [INFO] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+16:37:09 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+16:37:09 [INFO] GameServer successfully registered at AuthClient side!
+16:37:20 [INFO] Client [id:2, ip: 127.0.0.1] connected; address: /127.0.0.1:57321
+16:37:25 [INFO] AuthClient [id:1, ip: 127.0.0.1] disconnecting
+16:37:25 [INFO] AuthClient [id:1, ip: 127.0.0.1] disconnected
+16:39:36 [INFO] Loaded properties from file 'system.properties'
+16:39:36 [INFO] Loaded properties from file 'jdbc.properties'
+16:39:36 [INFO] Database connected successfully!
+16:39:36 [INFO] Loaded 442  item(s) count.
+16:39:36 [INFO] Loaded 10 channels
+16:39:36 [INFO] Loaded start player template.
+16:39:36 [INFO] Loaded 11 starting items.
+16:39:36 [INFO] Loaded 43 goods.
+16:39:36 [INFO] Loaded 43 used items.
+16:39:36 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+16:39:37 [INFO] Loaded 68 client packet prototypes
+16:39:37 [INFO] Loaded 1 battle packet prototypes
+16:39:37 [INFO] Loaded 2 operations interaction with the auth server
+16:39:37 [INFO] Load 9 admin commands.
+16:39:37 [INFO] Loaded in 0 sec(0,000 min)
+16:39:37 [INFO] Used 23 mb, max 910 mb.
+16:39:37 [INFO] Used 2,54% percent memory.
+16:39:37 [INFO] Listening to the client connections in [/127.0.0.1:39191]
+16:39:37 [INFO] Listening to the battle server connections [/127.0.0.1:29890]
+16:39:37 [INFO] Connecting to /127.0.0.1:9889...
+16:39:37 [INFO] BattleClient [id:1, ip: 127.0.0.1] connected
+16:39:37 [INFO] BattleClient [id:1, ip: 127.0.0.1] reading packet: [C] 0x00 CM_REQUEST_AUTH_BATTLE_SERVER
+16:39:37 [INFO] BattleClient [id:1, ip: 127.0.0.1] requested id [40009] successfully registred.
+16:39:37 [INFO] BattleClient [id:1, ip: 127.0.0.1] sending packet: [S] 0x01 SM_REQUEST_AUTH_BATTLE_SERVER; capacity: 4; writable: 4
+16:39:37 [INFO] AuthClient [id:null, ip: 127.0.0.1] connected
+16:39:37 [INFO] GameServer successfully registered at AuthClient side!
+16:40:17 [INFO] Client [id:2, ip: 127.0.0.1] connected; address: /127.0.0.1:57526
+16:40:25 [ERROR] Error handling (127.0.0.1), message [C] 0xB05 CM_SHOP_LIST
+java.lang.NullPointerException: null
+	at ru.pb.game.network.client.packets.client.CM_SHOP_LIST.runImpl(CM_SHOP_LIST.java:64) ~[pb-game.jar:na]
+	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
+	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
+16:40:33 [INFO] Client [id:2, ip: 127.0.0.1] disconnected: test; address: /127.0.0.1:57526

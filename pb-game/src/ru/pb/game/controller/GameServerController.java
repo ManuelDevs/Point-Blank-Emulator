@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.game.controller;
@@ -30,19 +30,10 @@ import java.util.Collections;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ConcurrentSkipListMap;
 
-/**
- * Контроллер игровых серверов подключенных к серверу авторизации
- *
- * @author sjke
- */
 public class GameServerController extends BaseController {
 
 	private static ConcurrentMap<Integer, GameServerInfo> gameservers = new ConcurrentSkipListMap<Integer, GameServerInfo>();
 	private static GameServerInfo currentGameServerInfo;
-
-	private GameServerController() {
-		log.info("Loaded");
-	}
 
 	public static GameServerController getInstance() {
 		return Singleton.INSTANCE;

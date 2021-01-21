@@ -46,10 +46,6 @@ public class AccountController extends BaseController {
 	private Lock lock = new ReentrantLock();
 	private Calendar c;
 
-	private AccountController() {
-		log.info("Loaded");
-	}
-
 	public static AccountController getInstance() {
 		return Singleton.INSTANCE;
 	}

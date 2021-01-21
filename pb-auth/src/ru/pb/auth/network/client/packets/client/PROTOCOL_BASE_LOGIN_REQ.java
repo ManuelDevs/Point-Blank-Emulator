@@ -23,7 +23,6 @@ package ru.pb.auth.network.client.packets.client;
 import ru.pb.auth.controller.AccountController;
 import ru.pb.auth.network.client.packets.ClientPacket;
 import ru.pb.auth.network.client.packets.server.PROTOCOL_BASE_LOGIN_ACK;
-import ru.pb.auth.network.client.packets.server.SM_UNK_545;
 import ru.pb.global.enums.LoginAccess;
 import ru.pb.global.enums.State;
 import ru.pb.global.utils.NetworkUtil;

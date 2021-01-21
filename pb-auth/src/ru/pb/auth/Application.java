@@ -63,7 +63,9 @@ public class Application {
 		LoaderController.loadControllers();
 		AuthPacketHandler.getInstance();
 		GameObjectHandler.getInstance();
+		System.out.println();
 		PrintInfo.getInstance().printLoadInfos();
+		System.out.println();
 		ExecutorService service = Executors.newFixedThreadPool(2);
 		service.submit(new GameServer());
 		service.submit(new ClientServer());

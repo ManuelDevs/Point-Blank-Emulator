@@ -25,24 +25,19 @@ import ru.pb.auth.network.client.ClientConnection;
 import ru.pb.auth.network.client.packets.client.*;
 import ru.pb.global.network.packets.PacketHandler;
 
-/**
- * ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚Ñ‡Ð¸Ðº Ð¿Ð°ÐºÐµÑ‚Ð¾Ð² Ð¾Ñ‚ Ð³ÐµÐ¹Ð¼ Ñ�ÐµÑ€Ð²ÐµÑ€Ð°
- *
- * @author sjke
- */
 public class AuthPacketHandler extends PacketHandler {
 
+	@SuppressWarnings("unchecked")
 	private AuthPacketHandler() {
-		/*addPacketPrototype(new CM_LOGIN(0xA01));
-		addPacketPrototype(new CM_ACCOUNT_INFO(0xA05));
-		addPacketPrototype(new CM_MY_FRIENDS_INFO(0xA07));
-		addPacketPrototype(new CM_UNK_2661(0xA65));
-		addPacketPrototype(new CM_FREE_ITEMS_OF_LEVELUP(0xA6C));
-		addPacketPrototype(new CM_LEAVE(0xA11));
-		addPacketPrototype(new CM_DISCONNECT(0xA5E));
-		addPacketPrototype(new CM_UPDATE_GAMESERVERS(0xA0F));*/
 		addPacketPrototype(new PROTOCOL_BASE_LOGIN_REQ(2561));
 		addPacketPrototype(new PROTOCOL_BASE_DISCONNECT_REQ(2654));
+		addPacketPrototype(new PROTOCOL_BASE_USER_INFO_REQ(2565));
+		addPacketPrototype(new PROTOCOL_BASE_USER_INVENTORY_REQ(2698));
+		addPacketPrototype(new PROTOCOL_BASE_USER_CONFIGS_REQ(2567));
+		addPacketPrototype(new PROTOCOL_BASE_RANK_AWARDS_REQ(2666));
+		addPacketPrototype(new PROTOCOL_BASE_SERVER_CHANGE_REQ(2577));
+		addPacketPrototype(new PROTOCOL_UPDATE_GAMESERVERS_REQ(2575));
+		addPacketPrototype(new PROTOCOL_UNK_2678_REQ(2678));
 		log.info("Loaded " + packetsPrototypes.size() + " client packet prototypes");
 	}
 

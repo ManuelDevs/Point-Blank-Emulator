@@ -2,8 +2,8 @@ package ru.pb.global.enums;
 
 
 public enum ItemState {
-	UPDATE,   //Состояние при котором вещь будет обновлена в базе данных
-	INSERT, //Состояние при котором вещь не будет обновлена в базе данных
+	UPDATE,
+	INSERT,
 	DELETE,
-	NOTHING;   //Состояние при котором вещь будет удалена из базы данных
+	NOTHING;
 }

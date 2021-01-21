@@ -31,4 +31,14 @@ public class PlayerCreateTemplate {
 	public CopyOnWriteArrayList<PlayerItem> getItems() {
 		return items;
 	}
+	
+	public int getStartGp()
+	{
+		return this.startgp;
+	}
+	
+	public int getStartMoney()
+	{
+		return this.startmoney;
+	}
 }

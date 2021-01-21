@@ -32,7 +32,7 @@ public class PlayerTemplateController extends BaseController {
 			log.error("Error load current player template");
 			System.exit(-1);
 		}
-		log.info("Loaded start player template.");
+		log.info("Loaded start player template. [Gp: " + template.getStartGp() + "; Money: " + template.getStartMoney());
 		log.info("Loaded " + template.getItems().size() + " starting items.");
 	}
 

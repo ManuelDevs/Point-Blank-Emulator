@@ -23,6 +23,7 @@ package ru.pb.auth.controller;
 import ru.pb.auth.network.client.ClientConnection;
 import ru.pb.auth.properties.AuthServerProperty;
 import ru.pb.global.controller.BaseController;
+import ru.pb.global.controller.PlayerTemplateController;
 import ru.pb.global.enums.State;
 import ru.pb.global.models.Account;
 import ru.pb.global.service.AccountDaoService;
@@ -113,7 +114,6 @@ public class AccountController extends BaseController {
 				!lengthInValid(password, AuthServerProperty.getInstance().PASSWORD_MAX_LENGTH) ||
 				hasBadSymbols(login, AuthServerProperty.getInstance().ACCOUNT_BAD_SYMBOLS) ||
 				hasBadSymbols(password, AuthServerProperty.getInstance().PASSWORD_BAD_SYMBOLS)) {
-			log.info("Account: " + login + " contains bad symbols or bad length.[Check the contents of login & password]");
 			state = State.ERROR_AUTH;
 		} else if (isAccountConnected(login)) {
 			boolean disconect = false;  // TODO Config
@@ -146,19 +146,16 @@ public class AccountController extends BaseController {
 					account.setLogin(login);
 					account.setPassword(password);
 					account.setActive(true);
-					account.setEmail(login + "@none.ru");
-					account.setMoney(0);
+					account.setEmail(login + "@pbdev.eu");
+					account.setMoney(PlayerTemplateController.getInstance().getTemplate().getStartMoney());
 					AccountDaoService.getInstance().create(account);
-					log.info("Created new account: " + login);
 					if (account.getId() != null) {
 						state = authAccount(client, account);
 					} else {
 						state = State.ERROR_AUTH;
-						log.info("Error create new account: " + login);
 					}
 				} else {
 					state = State.ERROR_AUTH;
-					log.info("Authorization failed to account: " + login);
 				}
 			} else {
 				state = authAccount(client, account);

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.global.service;
@@ -28,7 +28,7 @@ import ru.pb.global.models.PlayerCreateTemplate;
 import ru.pb.global.models.PlayerStats;
 
 /**
- * Сервис для работы с игроками
+ * Ð¡ÐµÑ€Ð²Ð¸Ñ� Ð´Ð»Ñ� Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ñ� Ð¸Ð³Ñ€Ð¾ÐºÐ°Ð¼Ð¸
  *
  * @author sjke
  */
@@ -46,11 +46,11 @@ public class PlayerDaoService {
 		Player player = new Player();
 		player.setName(playerName);
 		player.setAccountId(id);
-		player.setColor((byte) 0); // TODO template
-		player.setRank((short) 0); // TODO template
-		player.setGp(0); // TODO template
+		player.setColor((byte) 0);
+		player.setRank((short) 0);
+		player.setGp(PlayerTemplateController.getInstance().getTemplate().getStartGp());
 		player.setExp(0);
-		player.setPcCafe((short) 0); // TODO template
+		player.setPcCafe((short) 0);
 		player.setOnline(true);
 		player.setEqipment(PlayerTemplateController.getInstance().getTemplate().getEqipment());
 		PlayerStats stats = new PlayerStats();

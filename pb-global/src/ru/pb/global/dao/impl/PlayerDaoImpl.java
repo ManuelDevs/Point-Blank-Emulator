@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.global.dao.impl;
@@ -35,7 +35,7 @@ import java.util.List;
 import static ru.pb.global.dao.enums.QueryList.*;
 
 /**
- * Дао для работы с игроками
+ * Ð”Ð°Ð¾ Ð´Ð»Ñ� Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ñ� Ð¸Ð³Ñ€Ð¾ÐºÐ°Ð¼Ð¸
  *
  * @author sjke
  */
@@ -210,12 +210,12 @@ public class PlayerDaoImpl implements PlayerDao {
 			rs = statement.executeQuery();
 
 			int startmoney = 0;
-			int stargp = 0;
+			int startgp = 0;
 			List<PlayerItem> list = new ArrayList<PlayerItem>();
 			while (rs.next()) {
 				if (rs.getInt("item_id") == 0) {
 					startmoney = rs.getInt("startmoney");
-					stargp = rs.getInt("startgp");
+					startgp = rs.getInt("startgp");
 					continue;
 				}
 				list.add(new PlayerItem(
@@ -224,7 +224,7 @@ public class PlayerDaoImpl implements PlayerDao {
 						rs.getInt("count"),
 						false));
 			}
-			template = new PlayerCreateTemplate(startmoney, stargp);
+			template = new PlayerCreateTemplate(startmoney, startgp);
 			for (PlayerItem item : list)
 				template.addPlayerItem(item);
 

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.global.dao;
@@ -24,18 +24,11 @@ import ru.pb.global.models.Player;
 import ru.pb.global.models.PlayerCreateTemplate;
 
 /**
- * Дао для работы с игроками
+ * Ð”Ð°Ð¾ Ð´Ð»Ñ� Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ñ� Ð¸Ð³Ñ€Ð¾ÐºÐ°Ð¼Ð¸
  *
  * @author sjke
  */
 public interface PlayerDao {
-
-	/**
-	 * Проверка на занятость имени игрока
-	 *
-	 * @param name имя игрока
-	 * @return boolean
-	 */
 	boolean playerExist(String name);
 
 	PlayerCreateTemplate readStartTemplate();

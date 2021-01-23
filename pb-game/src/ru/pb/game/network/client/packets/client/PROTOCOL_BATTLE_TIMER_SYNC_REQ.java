@@ -41,10 +41,7 @@ public class PROTOCOL_BATTLE_TIMER_SYNC_REQ extends ClientPacket {
 						member.getConnection().sendPacket(new PROTOCOL_BATTLE_END_ACK(member, getConnection().getRoom()));
 				
 				room.resetRoom();
-				
-				log.info("Battle ended for time lost!");
 			}
-			else log.info("Battle time lost updated!");
 		}
 	}
 }

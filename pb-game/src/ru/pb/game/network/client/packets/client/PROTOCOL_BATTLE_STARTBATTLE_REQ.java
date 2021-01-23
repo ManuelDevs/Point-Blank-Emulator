@@ -109,7 +109,6 @@ public class PROTOCOL_BATTLE_STARTBATTLE_REQ extends ClientPacket {
 			{
 				this.spawnPlayers();
 			}
-			else log.info("BATTLE_START Not ready to go. [Ready: " + redReady + "|" + blueReady + "; Load: " + redLoad + "|" + blueLoad);
 		}
 		else
 		{
@@ -127,8 +126,6 @@ public class PROTOCOL_BATTLE_STARTBATTLE_REQ extends ClientPacket {
 	
 	private void spawnPlayers()
 	{
-		log.info("Spawning player");
-		
 		Room room = getConnection().getRoom();
 		for (int i = 0; i < 16; i++)
         {
@@ -160,7 +157,6 @@ public class PROTOCOL_BATTLE_STARTBATTLE_REQ extends ClientPacket {
 						
 					}
 					else slot.getPlayer().getConnection().sendPacket(new PROTOCOL_BATTLE_TIMERSYNC_ACK(room));
-					log.info("Spawning player with PRE_BATTLE state");
 				}
 				else if(room.getState() == RoomState.BATTLE)
 				{
@@ -173,14 +169,12 @@ public class PROTOCOL_BATTLE_STARTBATTLE_REQ extends ClientPacket {
 					else slot.getPlayer().getConnection().sendPacket(new PROTOCOL_BATTLE_ROUND_RESTART_ACK(room));
 					 slot.getPlayer().getConnection().sendPacket(new PROTOCOL_BATTLE_TIMERSYNC_ACK(room));
 					 // TODO: Send battle record
-					log.info("Spawning player with BATTLE state");
 				}
 			}
         }
 		
 		if(room.getState() == RoomState.PRE_BATTLE)
 		{
-			log.info("State of battle updated to BATTLE");
 			room.setState(RoomState.BATTLE);
 			for(Player member : room.getPlayers().values())
 				member.getConnection().sendPacket(new PROTOCOL_BATTLE_ROOM_INFO_ACK(room));

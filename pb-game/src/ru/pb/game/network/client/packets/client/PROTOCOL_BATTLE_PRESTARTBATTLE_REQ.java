@@ -63,8 +63,6 @@ public class PROTOCOL_BATTLE_PRESTARTBATTLE_REQ extends ClientPacket {
 				sendPacket(new PROTOCOL_BATTLE_PRESTARTBATTLE_ACK(room, player, true, true));
 				if(player.getId() != room.getLeader().getId())
 					room.getLeader().getConnection().sendPacket(new PROTOCOL_BATTLE_PRESTARTBATTLE_ACK(room, player, true, false));
-
-				log.info("Room prestarting correctly.");
 			}
 			else
 			{

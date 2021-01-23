@@ -114,8 +114,6 @@ public class PROTOCOL_ROOM_CREATE_REQ extends ClientPacket {
 		room.setLeader(getConnection().getPlayer());
 		room.addPlayer(getConnection().getPlayer());
 		room.setChannelId(getConnection().getServerChannel().getId());
-		
-		log.info("Room created. [Id: " + room.getId() + "; Type: " + room.getTypeEnum().toString() + "; Kill mask: " + room.getKillMask() + "]");
 	}
 
 	@Override

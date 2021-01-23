@@ -30,17 +30,15 @@ public class Item {
 	private final ItemType itemType;
 	private final ItemSlotType slotType;
 
-	private final int consumeValue;
 	private final ItemConsumeType consumeType;
 	private final ItemRepair repair;
 	private final int requiredTitle;
 	
-	public Item(int id, ItemType itemType, ItemSlotType slotType, ItemConsumeType consumeType, int consumeValue, ItemRepair repair, int requiredTitle) {
+	public Item(int id, ItemType itemType, ItemSlotType slotType, ItemConsumeType consumeType, ItemRepair repair, int requiredTitle) {
 		this.id = id;
 		this.itemType = itemType;
 		this.slotType = slotType;
 		this.consumeType = consumeType;
-		this.consumeValue = consumeValue;
 		this.repair = repair;
 		this.requiredTitle = requiredTitle;
 	}
@@ -64,9 +62,9 @@ public class Item {
 	public ItemConsumeType getConsumeType() {
 		return consumeType;
 	}
-
+	
 	public int getConsumeValue() {
-		return consumeValue;
+		return 1;
 	}
 
 	public ItemRepair getRepair() {

@@ -19,8 +19,9 @@
  */
 
 package ru.pb.auth.network.client.packets.server;
-
 import ru.pb.auth.network.client.packets.ServerPacket;
+import ru.pb.global.dao.DaoManager;
+import ru.pb.global.enums.MainMaps;
 import ru.pb.global.enums.item.ItemConsumeType;
 import ru.pb.global.enums.item.ItemSlotType;
 import ru.pb.global.enums.item.ItemType;
@@ -98,22 +99,111 @@ public class PROTOCOL_BASE_USER_INFO_ACK extends ServerPacket {
 		writeH(0); // sight color
 		writeC(31);
 
-		writeC(0);  // Outpost
+		writeC(1);  // Outpost
 		writeD(0); 
 		writeD(0);
 		writeD(0);
 		writeD(0);
-		writeC(1); // actual mission
-		writeC(1); // card 1
+		writeC(0); // active mission
+		writeC(0); // card 1
 		writeC(0); // card 2
 		writeC(0); // card 3
 		writeC(0); // card 4
-		writeB(new byte[20]); // card info 1
-		writeB(new byte[20]); // card info 2
-		writeB(new byte[20]); // card info 3 
-		writeB(new byte[20]); // card info 4 
-	}
+		
+		for(int i = 0; i < 10; i++)
+			writeH(0);
+		for(int i = 0; i < 10; i++)
+			writeH(0);
+		for(int i = 0; i < 10; i++)
+			writeH(0);
+		for(int i = 0; i < 10; i++)
+			writeH(0);
 
+		writeC(0); // mission id 1
+		writeC(0); // mission id 2
+		writeC(0); // mission id 3
+		writeC(0); // mission id 4
+
+		writeB(new byte[40]); // C with count of completed task per mission
+		writeB(new byte[40]); // C with count of completed task per mission
+		writeB(new byte[40]); // C with count of completed task per mission
+		writeB(new byte[40]); // C with count of completed task per mission
+
+		writeC(0); // title pos 1
+		writeC(0); // title pos 2
+		writeC(0); // title pos 3
+		writeC(0); // title pos 4
+		writeC(0); // title pos 5
+		writeC(0); // title pos 6
+		writeH(0);
+		writeC(0); // title equipped 1
+		writeC(0); // title equipped 2
+		writeC(0); // title equipped 3
+		writeD(0); // title slots
+
+		writeD(MainMaps.TUTORIAL.ordinal());
+		writeD(MainMaps.DEATHMATCH.ordinal());
+		writeD(25);
+		writeD(MainMaps.CHAOS.ordinal());
+		writeD(MainMaps.ELIMINATE.ordinal());
+		writeD(MainMaps.DEFENSE.ordinal());
+		writeD(MainMaps.AI.ordinal());
+		writeD(MainMaps.DINO.ordinal());
+		writeD(MainMaps.SNIPER.ordinal());
+		writeD(MainMaps.SHOTGUN.ordinal());
+		writeD(MainMaps.HEADHUNTER.ordinal());
+		writeD(MainMaps.KNUCKLE.ordinal());
+		writeD(MainMaps.CROSSCOUNTER.ordinal());
+		writeD(MainMaps.DESTROYER.ordinal());
+		writeD(1);
+		
+		writeH((short)(1031 + DaoManager.getInstance().getMapsDao().getModes().size())); //1130 - Antes
+		writeH(DaoManager.getInstance().getMapsDao().getMapList(1));
+		writeH(DaoManager.getInstance().getMapsDao().getMapList(2));
+		writeH(DaoManager.getInstance().getMapsDao().getMapList(3));
+		writeH(DaoManager.getInstance().getMapsDao().getMapList(4));
+		writeH(DaoManager.getInstance().getMapsDao().getMapList(5));
+		writeH(DaoManager.getInstance().getMapsDao().getMapList(6));
+		writeH(DaoManager.getInstance().getMapsDao().getMapList(7));
+		writeH(DaoManager.getInstance().getMapsDao().getMapList(8));
+		writeH(DaoManager.getInstance().getMapsDao().getMapList(9));
+		
+        for(short mode : DaoManager.getInstance().getMapsDao().getModes())
+            writeH(mode);
+        
+        writeB(new byte[] {
+            0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0
+        });
+        
+        for(byte tag : DaoManager.getInstance().getMapsDao().getTags())
+        	writeC(tag);
+        
+        writeC(0);
+        writeC(0);
+        writeC(0);
+        writeC(0);
+        writeC(0);
+
+        writeC(0);
+        writeC(1);
+        writeH(57326);
+        writeH(3);
+
+        writeD(0);
+        writeD(0);
+        writeC(0);
+        writeH(20);
+        writeD(0);
+        writeD(0);
+        writeB(new byte[13]);
+        writeC((player.getRank() == 53 || player.getRank() == 54) ? 1 : 0);
+        writeC(0);
+        writeC(0);
+        writeC((byte)0); //christmas
+        writeD(0);
+	}
+	
 	private void writeEquipedItems(PlayerEqipment equipment) {
 		writeD(equipment.getEquippedItemBySlot(ItemSlotType.CHAR_RED) == null ? 0 : equipment.getEquippedItemBySlot(ItemSlotType.CHAR_RED).getItem().getId());
 		writeD(equipment.getEquippedItemBySlot(ItemSlotType.CHAR_BLUE) == null ? 0 : equipment.getEquippedItemBySlot(ItemSlotType.CHAR_BLUE).getItem().getId());

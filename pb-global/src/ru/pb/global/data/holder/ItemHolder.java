@@ -7,9 +7,6 @@ import ru.pb.global.models.PlayerItem;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ConcurrentSkipListMap;
 
-/**
- * @author Felixx
- */
 public class ItemHolder extends AbstractHolder {
 	public static ItemHolder getInstance() {
 		return Singleton.INSTANCE;
@@ -47,7 +44,7 @@ public class ItemHolder extends AbstractHolder {
 	public PlayerItem createItem(final ItemLocation loc, final int itemId, final int count) {
 		Item template = getTemplate(itemId);
 		if (template == null) {
-			log.info("Item Template missing for Id: " + itemId); // TODO логирование в файл, из инвенторя (addItem(item) если итем нулл то читер.)
+			log.info("Item Template missing for Id: " + itemId);
 			return null;
 		}
 		return new PlayerItem(loc, getTemplate(itemId), count, true);

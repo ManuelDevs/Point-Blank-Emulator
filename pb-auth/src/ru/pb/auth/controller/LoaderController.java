@@ -22,11 +22,6 @@ package ru.pb.auth.controller;
 
 import ru.pb.global.controller.PlayerTemplateController;
 
-/**
- * Базовый контроллер для сервера авторизации
- *
- * @author sjke
- */
 public final class LoaderController {
 
 	public static void loadControllers() {

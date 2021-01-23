@@ -39,24 +39,24 @@ public class PROTOCOL_BASE_USER_INVENTORY_ACK extends ServerPacket {
 	public void writeImpl() {
 		writeD(equipment.getItemsByType(ItemType.CHARACTER).size());
 		for (PlayerItem item : equipment.getItemsByType(ItemType.CHARACTER)) {
-			writeQ(item.getItem().getConsumeType() == ItemConsumeType.PERMANENT ? 0 : item.getId());
+			writeQ(item.getId());
 			writeD(item.getItem().getId());
-			writeC(item.getItem().getConsumeType().getValue());
-			writeD(item.getConsumeLost());
+			writeC(item.getConsumeLost());
+			writeD(item.getCount());
 		}
 		writeD(equipment.getItemsByType(ItemType.WEAPON).size());
 		for (PlayerItem item : equipment.getItemsByType(ItemType.WEAPON)) {
-			writeQ(item.getItem().getConsumeType() == ItemConsumeType.PERMANENT ? 0 : item.getId());
+			writeQ(item.getId());
 			writeD(item.getItem().getId());
-			writeC(item.getItem().getConsumeType().getValue());
-			writeD(item.getConsumeLost());
+			writeC(item.getConsumeLost());
+			writeD(item.getCount());
 		}
 		writeD(equipment.getItemsByType(ItemType.COUPON).size());
 		for (PlayerItem item : equipment.getItemsByType(ItemType.COUPON)) {
-			writeQ(item.getItem().getConsumeType() == ItemConsumeType.PERMANENT ? 0 : item.getId());
+			writeQ(item.getId());
 			writeD(item.getItem().getId());
-			writeC(item.getItem().getConsumeType().getValue());
-			writeD(item.getConsumeLost());
+			writeC(item.getConsumeLost());
+			writeD(item.getCount());
 		}
 		
 		writeD(0);

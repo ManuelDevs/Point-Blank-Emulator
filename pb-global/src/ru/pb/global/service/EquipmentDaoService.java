@@ -3,18 +3,8 @@ package ru.pb.global.service;
 import ru.pb.global.dao.DaoManager;
 import ru.pb.global.dao.EquipmentDao;
 import ru.pb.global.models.Player;
+import ru.pb.global.models.PlayerItem;
 
-/**
- * Сервис для работы с инвентарем персонажа
- * - Целью сервиса является корректное сохранение игровых вещей персонажа
- * при выходе из игры. Под сохранением понимается добавление новых, изменение старых
- * и удаление ненужных вещей в базу данных по результатам игровой деятельности за сессию.
- * *Под сессией понимается промежуток игровой деятельности начинающийся входом на сервер
- * и заканчивающийся выходом с сервера
- * Авторы: Felixx, Grizly
- * Date: 10.12.13
- * Time: 23:02
- */
 
 public class EquipmentDaoService {
 	private static final EquipmentDao equipmentDao = DaoManager.getInstance().getEquipmentDao();
@@ -36,5 +26,9 @@ public class EquipmentDaoService {
 
 	public void writeEquipped(Player entity) {
 		equipmentDao.recordEquipped(entity);
+	}
+	
+	public void registerItem(Player entity, PlayerItem playerItem) {
+		equipmentDao.registerItem(entity, playerItem);
 	}
 }

@@ -41,7 +41,6 @@ public class ItemsDaoImpl implements ItemsDao {
 						ItemType.valueOf(rs.getString("type")),
 						ItemSlotType.valueOf(rs.getString("slot_type")),
 						ItemConsumeType.valueOf(rs.getString("consume_type")),
-						rs.getInt("consume_value"),
 						new ItemRepair(rs.getInt("repair_credits"),
 								rs.getInt("repair_points"),
 								rs.getInt("repair_quantity")), rs.getInt("required_title")

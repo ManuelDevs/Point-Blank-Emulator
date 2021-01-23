@@ -20,7 +20,7 @@ import java.util.List;
 
 import ru.pb.game.network.client.packets.ClientPacket;
 import ru.pb.game.network.client.packets.server.PROTOCOL_INVENTORY_LEAVE_ACK;
-import ru.pb.game.network.client.packets.server.SM_ROOM_INFO;
+import ru.pb.game.network.client.packets.server.PROTOCOL_ROOM_SLOT_INFO_ACK;
 import ru.pb.global.enums.ItemState;
 import ru.pb.global.enums.SlotState;
 import ru.pb.global.enums.item.ItemSlotType;
@@ -218,18 +218,10 @@ public class PROTOCOL_INVENTORY_LEAVE_REQ extends ClientPacket {
 			equipArmors(getConnection().getPlayer().getEqipment());
 		}
 
+
 		final Room room = getConnection().getRoom();
-		if(room != null) {
-			room.getRoomSlotByPlayer(getConnection().getPlayer()).setState(SlotState.SLOT_STATE_NORMAL);
-			ThreadPoolManager.getInstance().executeTask(new Runnable() {
-				@Override
-				public void run() {
-					for(Player member : getConnection().getRoom().getPlayers().values()) {
-						member.getConnection().sendPacket(new SM_ROOM_INFO(room));
-					}
-				}
-			});
-		}
+		if(room != null)
+			room.updateRoomSlotState(room.getRoomSlotByPlayer(getConnection().getPlayer()), SlotState.SLOT_STATE_NORMAL);
 		sendPacket(new PROTOCOL_INVENTORY_LEAVE_ACK(type));
 	}
 }

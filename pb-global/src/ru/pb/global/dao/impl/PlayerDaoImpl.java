@@ -105,10 +105,10 @@ public class PlayerDaoImpl implements PlayerDao {
 			statement = con.prepareStatement(PLAYER_EQUIPMENT_INSERT.getQuery());
 			statement.setLong(1, entity.getId());
 			for (PlayerItem item : PlayerTemplateController.getInstance().getTemplate().getItems()) {
-				statement.setLong(2, item.getItem().getId());
-				statement.setLong(3, item.getCount());
+				statement.setInt(2, item.getItem().getId());
+				statement.setInt(3, item.getCount());
 				statement.setString(4, item.getItemLocation().name());
-				statement.setLong(5, item.getConsumeLost());
+				statement.setInt(5, item.getConsumeLost());
 				statement.executeUpdate();
 			}
 		} catch (Exception ex) {
@@ -184,11 +184,11 @@ public class PlayerDaoImpl implements PlayerDao {
 						break;
 					}
 					PlayerItem item = new PlayerItem(
-							rs.getLong("id"),
+							rs.getInt("id"),
 							ItemLocation.valueOf(rs.getString("loc")),
 							ItemHolder.getInstance().getTemplate(rs.getInt("item_id")),
 							rs.getInt("count"),
-							false);
+							rs.getInt("consume_lost"));
 					eqipment.addItem(item, ItemLocation.EQUIPPED == ItemLocation.valueOf(rs.getString("loc")));
 				}
 				player.setEqipment(eqipment);

@@ -1447,3 +1447,2995 @@ java.lang.NullPointerException: null
 18:44:57 [INFO] Listening to the game server connections [/127.0.0.1:9889]
 18:44:57 [INFO] Listening to the client connections [/127.0.0.1:39190]
 18:44:58 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:45:22 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:45:26 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:46:13 [INFO] Client [id:2, ip: 127.0.0.1] connected
+18:46:22 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+18:49:03 [INFO] Loaded properties from file 'system.properties'
+18:49:03 [INFO] Loaded properties from file 'jdbc.properties'
+18:49:03 [INFO] Database connected successfully!
+18:49:03 [INFO] Loaded 13  item(s) count.
+18:49:03 [INFO] Loaded 1 registered GameServers.
+18:49:03 [INFO] Loaded 0 blocked ip masks.
+18:49:03 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:49:03 [INFO] Loaded 11 starting items.
+18:49:03 [INFO] Loaded 9 client packet prototypes
+18:49:03 [INFO] Loaded 2 operations interaction with the game server
+18:49:03 [INFO] Loaded in 0 sec(0,000 min)
+18:49:03 [INFO] Used 8 mb, max 31 mb.
+18:49:03 [INFO] Used 26,92% percent memory.
+18:49:03 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:49:03 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:49:04 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:49:41 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:49:45 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+19:34:59 [INFO] Loaded properties from file 'system.properties'
+19:34:59 [INFO] Loaded properties from file 'jdbc.properties'
+19:34:59 [INFO] Database connected successfully!
+19:34:59 [INFO] Loaded 13  item(s) count.
+19:34:59 [INFO] Loaded 1 registered GameServers.
+19:34:59 [INFO] Loaded 0 blocked ip masks.
+19:34:59 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+19:34:59 [INFO] Loaded 11 starting items.
+19:34:59 [INFO] Loaded 9 client packet prototypes
+19:34:59 [INFO] Loaded 2 operations interaction with the game server
+19:34:59 [INFO] Loaded in 0 sec(0,000 min)
+19:34:59 [INFO] Used 8 mb, max 31 mb.
+19:34:59 [INFO] Used 26,82% percent memory.
+19:35:00 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+19:35:00 [INFO] Listening to the client connections [/127.0.0.1:39190]
+19:35:02 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+19:35:19 [INFO] Client [id:1, ip: 127.0.0.1] connected
+19:35:23 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+19:39:09 [INFO] Loaded properties from file 'system.properties'
+19:39:09 [INFO] Loaded properties from file 'jdbc.properties'
+19:39:09 [INFO] Database connected successfully!
+19:39:09 [INFO] Loaded 13  item(s) count.
+19:39:09 [INFO] Loaded 1 registered GameServers.
+19:39:09 [INFO] Loaded 0 blocked ip masks.
+19:39:09 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+19:39:09 [INFO] Loaded 11 starting items.
+19:39:09 [INFO] Loaded 9 client packet prototypes
+19:39:09 [INFO] Loaded 2 operations interaction with the game server
+19:39:09 [INFO] Loaded in 0 sec(0,000 min)
+19:39:09 [INFO] Used 8 mb, max 31 mb.
+19:39:09 [INFO] Used 26,80% percent memory.
+19:39:10 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+19:39:10 [INFO] Listening to the client connections [/127.0.0.1:39190]
+19:39:11 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+19:39:51 [INFO] Client [id:1, ip: 127.0.0.1] connected
+19:39:55 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+19:50:42 [INFO] Loaded properties from file 'system.properties'
+19:50:42 [INFO] Loaded properties from file 'jdbc.properties'
+19:50:42 [INFO] Database connected successfully!
+19:50:42 [INFO] Loaded 13  item(s) count.
+19:50:42 [INFO] Loaded 1 registered GameServers.
+19:50:42 [INFO] Loaded 0 blocked ip masks.
+19:50:42 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+19:50:42 [INFO] Loaded 11 starting items.
+19:50:42 [INFO] Loaded 9 client packet prototypes
+19:50:42 [INFO] Loaded 2 operations interaction with the game server
+19:50:42 [INFO] Loaded in 0 sec(0,000 min)
+19:50:42 [INFO] Used 8 mb, max 31 mb.
+19:50:42 [INFO] Used 26,96% percent memory.
+19:50:43 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+19:50:43 [INFO] Listening to the client connections [/127.0.0.1:39190]
+19:50:44 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+19:51:09 [INFO] Client [id:1, ip: 127.0.0.1] connected
+19:51:14 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+19:51:41 [INFO] Loaded properties from file 'system.properties'
+19:51:41 [INFO] Loaded properties from file 'jdbc.properties'
+19:51:41 [INFO] Database connected successfully!
+19:51:42 [INFO] Loaded 13  item(s) count.
+19:51:42 [INFO] Loaded 1 registered GameServers.
+19:51:42 [INFO] Loaded 0 blocked ip masks.
+19:51:42 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+19:51:42 [INFO] Loaded 11 starting items.
+19:51:42 [INFO] Loaded 9 client packet prototypes
+19:51:42 [INFO] Loaded 2 operations interaction with the game server
+19:51:42 [INFO] Loaded in 0 sec(0,000 min)
+19:51:42 [INFO] Used 8 mb, max 31 mb.
+19:51:42 [INFO] Used 26,93% percent memory.
+19:51:42 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+19:51:42 [INFO] Listening to the client connections [/127.0.0.1:39190]
+19:51:43 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+19:51:56 [INFO] Client [id:1, ip: 127.0.0.1] connected
+19:52:00 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+19:54:07 [INFO] Loaded properties from file 'system.properties'
+19:54:07 [INFO] Loaded properties from file 'jdbc.properties'
+19:54:07 [INFO] Database connected successfully!
+19:54:08 [INFO] Loaded 13  item(s) count.
+19:54:08 [INFO] Loaded 1 registered GameServers.
+19:54:08 [INFO] Loaded 0 blocked ip masks.
+19:54:08 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+19:54:08 [INFO] Loaded 11 starting items.
+19:54:08 [INFO] Loaded 9 client packet prototypes
+19:54:08 [INFO] Loaded 2 operations interaction with the game server
+19:54:08 [INFO] Loaded in 0 sec(0,000 min)
+19:54:08 [INFO] Used 8 mb, max 31 mb.
+19:54:08 [INFO] Used 27,04% percent memory.
+19:54:08 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+19:54:08 [INFO] Listening to the client connections [/127.0.0.1:39190]
+19:54:09 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+19:54:10 [INFO] Client [id:1, ip: 127.0.0.1] connected
+19:54:10 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+19:54:13 [INFO] Client [id:2, ip: 127.0.0.1] connected
+19:54:16 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+19:55:27 [INFO] Loaded properties from file 'system.properties'
+19:55:27 [INFO] Loaded properties from file 'jdbc.properties'
+19:55:27 [INFO] Database connected successfully!
+19:55:27 [INFO] Loaded 13  item(s) count.
+19:55:27 [INFO] Loaded 1 registered GameServers.
+19:55:27 [INFO] Loaded 0 blocked ip masks.
+19:55:27 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+19:55:27 [INFO] Loaded 11 starting items.
+19:55:27 [INFO] Loaded 9 client packet prototypes
+19:55:27 [INFO] Loaded 2 operations interaction with the game server
+19:55:27 [INFO] Loaded in 0 sec(0,000 min)
+19:55:27 [INFO] Used 8 mb, max 31 mb.
+19:55:27 [INFO] Used 26,93% percent memory.
+19:55:28 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+19:55:28 [INFO] Listening to the client connections [/127.0.0.1:39190]
+19:55:28 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+19:56:00 [INFO] Loaded properties from file 'system.properties'
+19:56:00 [INFO] Loaded properties from file 'jdbc.properties'
+19:56:00 [INFO] Database connected successfully!
+19:56:00 [INFO] Loaded 13  item(s) count.
+19:56:00 [INFO] Loaded 1 registered GameServers.
+19:56:00 [INFO] Loaded 0 blocked ip masks.
+19:56:00 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+19:56:00 [INFO] Loaded 11 starting items.
+19:56:00 [INFO] Loaded 9 client packet prototypes
+19:56:00 [INFO] Loaded 2 operations interaction with the game server
+19:56:00 [INFO] Loaded in 0 sec(0,000 min)
+19:56:00 [INFO] Used 8 mb, max 31 mb.
+19:56:00 [INFO] Used 26,95% percent memory.
+19:56:00 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+19:56:00 [INFO] Listening to the client connections [/127.0.0.1:39190]
+19:56:01 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+19:56:03 [INFO] Client [id:1, ip: 127.0.0.1] connected
+19:56:07 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+19:58:31 [INFO] Loaded properties from file 'system.properties'
+19:58:31 [INFO] Loaded properties from file 'jdbc.properties'
+19:58:31 [INFO] Database connected successfully!
+19:58:31 [INFO] Loaded 13  item(s) count.
+19:58:31 [INFO] Loaded 1 registered GameServers.
+19:58:31 [INFO] Loaded 0 blocked ip masks.
+19:58:31 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+19:58:31 [INFO] Loaded 11 starting items.
+19:58:31 [INFO] Loaded 9 client packet prototypes
+19:58:31 [INFO] Loaded 2 operations interaction with the game server
+19:58:31 [INFO] Loaded in 0 sec(0,000 min)
+19:58:31 [INFO] Used 8 mb, max 31 mb.
+19:58:31 [INFO] Used 26,87% percent memory.
+19:58:32 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+19:58:32 [INFO] Listening to the client connections [/127.0.0.1:39190]
+19:58:32 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+19:59:05 [INFO] Client [id:1, ip: 127.0.0.1] connected
+19:59:08 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:02:24 [INFO] Loaded properties from file 'system.properties'
+20:02:24 [INFO] Loaded properties from file 'jdbc.properties'
+20:02:24 [INFO] Database connected successfully!
+20:02:24 [INFO] Loaded 13  item(s) count.
+20:02:24 [INFO] Loaded 1 registered GameServers.
+20:02:24 [INFO] Loaded 0 blocked ip masks.
+20:02:24 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:02:24 [INFO] Loaded 11 starting items.
+20:02:24 [INFO] Loaded 9 client packet prototypes
+20:02:24 [INFO] Loaded 2 operations interaction with the game server
+20:02:24 [INFO] Loaded in 0 sec(0,000 min)
+20:02:24 [INFO] Used 8 mb, max 31 mb.
+20:02:24 [INFO] Used 26,77% percent memory.
+20:02:24 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:02:24 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:02:25 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:02:34 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:02:38 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:10:06 [INFO] Loaded properties from file 'system.properties'
+20:10:06 [INFO] Loaded properties from file 'jdbc.properties'
+20:10:06 [INFO] Database connected successfully!
+20:10:06 [INFO] Loaded 13  item(s) count.
+20:10:06 [INFO] Loaded 1 registered GameServers.
+20:10:06 [INFO] Loaded 0 blocked ip masks.
+20:10:06 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:10:06 [INFO] Loaded 11 starting items.
+20:10:06 [INFO] Loaded 9 client packet prototypes
+20:10:06 [INFO] Loaded 2 operations interaction with the game server
+20:10:06 [INFO] Loaded in 0 sec(0,000 min)
+20:10:06 [INFO] Used 8 mb, max 31 mb.
+20:10:06 [INFO] Used 26,83% percent memory.
+20:10:06 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:10:06 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:10:07 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:10:35 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:10:39 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:15:29 [INFO] Loaded properties from file 'system.properties'
+20:15:29 [INFO] Loaded properties from file 'jdbc.properties'
+20:15:29 [INFO] Database connected successfully!
+20:15:29 [INFO] Loaded 13  item(s) count.
+20:15:29 [INFO] Loaded 1 registered GameServers.
+20:15:29 [INFO] Loaded 0 blocked ip masks.
+20:15:29 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:15:29 [INFO] Loaded 11 starting items.
+20:15:29 [INFO] Loaded 9 client packet prototypes
+20:15:29 [INFO] Loaded 2 operations interaction with the game server
+20:15:29 [INFO] Loaded in 0 sec(0,000 min)
+20:15:29 [INFO] Used 8 mb, max 31 mb.
+20:15:29 [INFO] Used 26,91% percent memory.
+20:15:29 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:15:29 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:15:30 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:15:51 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:15:57 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:17:46 [INFO] Client [id:2, ip: 127.0.0.1] connected
+20:17:49 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+20:19:01 [INFO] Loaded properties from file 'system.properties'
+20:19:01 [INFO] Loaded properties from file 'jdbc.properties'
+20:19:01 [INFO] Database connected successfully!
+20:19:01 [INFO] Loaded 13  item(s) count.
+20:19:01 [INFO] Loaded 1 registered GameServers.
+20:19:01 [INFO] Loaded 0 blocked ip masks.
+20:19:01 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:19:01 [INFO] Loaded 11 starting items.
+20:19:01 [INFO] Loaded 9 client packet prototypes
+20:19:01 [INFO] Loaded 2 operations interaction with the game server
+20:19:01 [INFO] Loaded in 0 sec(0,000 min)
+20:19:01 [INFO] Used 8 mb, max 31 mb.
+20:19:01 [INFO] Used 26,85% percent memory.
+20:19:01 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:19:01 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:19:02 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:19:20 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:20:54 [INFO] Loaded properties from file 'system.properties'
+20:20:54 [INFO] Loaded properties from file 'jdbc.properties'
+20:20:54 [INFO] Database connected successfully!
+20:20:54 [INFO] Loaded 13  item(s) count.
+20:20:54 [INFO] Loaded 1 registered GameServers.
+20:20:54 [INFO] Loaded 0 blocked ip masks.
+20:20:54 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:20:54 [INFO] Loaded 11 starting items.
+20:20:54 [INFO] Loaded 9 client packet prototypes
+20:20:54 [INFO] Loaded 2 operations interaction with the game server
+20:20:54 [INFO] Loaded in 0 sec(0,000 min)
+20:20:54 [INFO] Used 8 mb, max 31 mb.
+20:20:54 [INFO] Used 26,90% percent memory.
+20:20:54 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:20:54 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:20:55 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:21:08 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:21:11 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:22:42 [INFO] Loaded properties from file 'system.properties'
+20:22:42 [INFO] Loaded properties from file 'jdbc.properties'
+20:22:42 [INFO] Database connected successfully!
+20:22:42 [INFO] Loaded 13  item(s) count.
+20:22:42 [INFO] Loaded 1 registered GameServers.
+20:22:42 [INFO] Loaded 0 blocked ip masks.
+20:22:42 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:22:42 [INFO] Loaded 11 starting items.
+20:22:42 [INFO] Loaded 9 client packet prototypes
+20:22:42 [INFO] Loaded 2 operations interaction with the game server
+20:22:42 [INFO] Loaded in 0 sec(0,000 min)
+20:22:42 [INFO] Used 8 mb, max 31 mb.
+20:22:42 [INFO] Used 26,87% percent memory.
+20:22:42 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:22:42 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:22:43 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:25:43 [INFO] Loaded properties from file 'system.properties'
+20:25:43 [INFO] Loaded properties from file 'jdbc.properties'
+20:25:43 [INFO] Database connected successfully!
+20:25:43 [INFO] Loaded 13  item(s) count.
+20:25:43 [INFO] Loaded 1 registered GameServers.
+20:25:43 [INFO] Loaded 0 blocked ip masks.
+20:25:43 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:25:43 [INFO] Loaded 11 starting items.
+20:25:43 [INFO] Loaded 9 client packet prototypes
+20:25:43 [INFO] Loaded 2 operations interaction with the game server
+20:25:43 [INFO] Loaded in 0 sec(0,000 min)
+20:25:43 [INFO] Used 8 mb, max 31 mb.
+20:25:43 [INFO] Used 27,11% percent memory.
+20:25:43 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:25:43 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:25:44 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:25:45 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:25:48 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:32:48 [INFO] Loaded properties from file 'system.properties'
+20:32:48 [INFO] Loaded properties from file 'jdbc.properties'
+20:32:48 [INFO] Database connected successfully!
+20:32:48 [INFO] Loaded 13  item(s) count.
+20:32:48 [INFO] Loaded 1 registered GameServers.
+20:32:48 [INFO] Loaded 0 blocked ip masks.
+20:32:48 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:32:48 [INFO] Loaded 11 starting items.
+20:32:48 [INFO] Loaded 9 client packet prototypes
+20:32:48 [INFO] Loaded 2 operations interaction with the game server
+20:32:48 [INFO] Loaded in 0 sec(0,000 min)
+20:32:48 [INFO] Used 8 mb, max 31 mb.
+20:32:48 [INFO] Used 26,80% percent memory.
+20:32:48 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:32:48 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:32:49 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:32:50 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:32:58 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:35:26 [INFO] Client [id:2, ip: 127.0.0.1] connected
+20:35:30 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+20:35:56 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+20:35:56 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+21:50:01 [INFO] Loaded properties from file 'system.properties'
+21:50:01 [INFO] Loaded properties from file 'jdbc.properties'
+21:50:01 [INFO] Database connected successfully!
+21:50:01 [INFO] Loaded 13  item(s) count.
+21:50:01 [INFO] Loaded 1 registered GameServers.
+21:50:01 [INFO] Loaded 0 blocked ip masks.
+21:50:01 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:50:01 [INFO] Loaded 11 starting items.
+21:50:01 [INFO] Loaded 9 client packet prototypes
+21:50:01 [INFO] Loaded 2 operations interaction with the game server
+21:50:01 [INFO] Loaded in 0 sec(0,000 min)
+21:50:01 [INFO] Used 8 mb, max 31 mb.
+21:50:01 [INFO] Used 27,16% percent memory.
+21:50:02 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:50:02 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:52:16 [INFO] Loaded properties from file 'system.properties'
+21:52:16 [INFO] Loaded properties from file 'jdbc.properties'
+21:52:16 [INFO] Database connected successfully!
+21:52:16 [INFO] Loaded 13  item(s) count.
+21:52:16 [INFO] Loaded 1 registered GameServers.
+21:52:16 [INFO] Loaded 0 blocked ip masks.
+21:52:16 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:52:16 [INFO] Loaded 11 starting items.
+21:52:16 [INFO] Loaded 9 client packet prototypes
+21:52:17 [INFO] Loaded 2 operations interaction with the game server
+21:52:17 [INFO] Loaded in 0 sec(0,000 min)
+21:52:17 [INFO] Used 8 mb, max 31 mb.
+21:52:17 [INFO] Used 27,14% percent memory.
+21:52:17 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:52:17 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:52:59 [INFO] Loaded properties from file 'system.properties'
+21:52:59 [INFO] Loaded properties from file 'jdbc.properties'
+21:52:59 [INFO] Database connected successfully!
+21:52:59 [INFO] Loaded 13  item(s) count.
+21:52:59 [INFO] Loaded 1 registered GameServers.
+21:52:59 [INFO] Loaded 0 blocked ip masks.
+21:52:59 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:52:59 [INFO] Loaded 11 starting items.
+21:52:59 [INFO] Loaded 9 client packet prototypes
+21:52:59 [INFO] Loaded 2 operations interaction with the game server
+21:52:59 [INFO] Loaded in 0 sec(0,000 min)
+21:52:59 [INFO] Used 8 mb, max 31 mb.
+21:52:59 [INFO] Used 27,24% percent memory.
+21:53:00 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:53:00 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:53:18 [INFO] Loaded properties from file 'system.properties'
+21:53:18 [INFO] Loaded properties from file 'jdbc.properties'
+21:53:18 [INFO] Database connected successfully!
+21:53:18 [INFO] Loaded 13  item(s) count.
+21:53:18 [INFO] Loaded 1 registered GameServers.
+21:53:19 [INFO] Loaded 0 blocked ip masks.
+21:53:19 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:53:19 [INFO] Loaded 11 starting items.
+21:53:19 [INFO] Loaded 9 client packet prototypes
+21:53:19 [INFO] Loaded 2 operations interaction with the game server
+21:53:19 [INFO] Loaded in 0 sec(0,000 min)
+21:53:19 [INFO] Used 8 mb, max 31 mb.
+21:53:19 [INFO] Used 27,13% percent memory.
+21:53:19 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:53:19 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:54:18 [INFO] Loaded properties from file 'system.properties'
+21:54:18 [INFO] Loaded properties from file 'jdbc.properties'
+21:54:18 [INFO] Database connected successfully!
+21:54:18 [INFO] Loaded 13  item(s) count.
+21:54:18 [INFO] Loaded 1 registered GameServers.
+21:54:18 [INFO] Loaded 0 blocked ip masks.
+21:54:18 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:54:18 [INFO] Loaded 11 starting items.
+21:54:18 [INFO] Loaded 9 client packet prototypes
+21:54:18 [INFO] Loaded 2 operations interaction with the game server
+21:54:18 [INFO] Loaded in 0 sec(0,000 min)
+21:54:18 [INFO] Used 8 mb, max 31 mb.
+21:54:18 [INFO] Used 27,29% percent memory.
+21:54:18 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:54:18 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:55:16 [INFO] Loaded properties from file 'system.properties'
+21:55:16 [INFO] Loaded properties from file 'jdbc.properties'
+21:55:16 [INFO] Database connected successfully!
+21:55:16 [INFO] Loaded 13  item(s) count.
+21:55:16 [INFO] Loaded 1 registered GameServers.
+21:55:16 [INFO] Loaded 0 blocked ip masks.
+21:55:16 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:55:16 [INFO] Loaded 11 starting items.
+21:55:16 [INFO] Loaded 9 client packet prototypes
+21:55:16 [INFO] Loaded 2 operations interaction with the game server
+21:55:16 [INFO] Loaded in 0 sec(0,000 min)
+21:55:16 [INFO] Used 8 mb, max 31 mb.
+21:55:16 [INFO] Used 27,16% percent memory.
+21:55:17 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:55:17 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:55:46 [INFO] Loaded properties from file 'system.properties'
+21:55:46 [INFO] Loaded properties from file 'jdbc.properties'
+21:55:46 [INFO] Database connected successfully!
+21:55:46 [INFO] Loaded 13  item(s) count.
+21:55:46 [INFO] Loaded 1 registered GameServers.
+21:55:46 [INFO] Loaded 0 blocked ip masks.
+21:55:46 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:55:46 [INFO] Loaded 11 starting items.
+21:55:46 [INFO] Loaded 9 client packet prototypes
+21:55:46 [INFO] Loaded 2 operations interaction with the game server
+21:55:46 [INFO] Loaded in 0 sec(0,000 min)
+21:55:46 [INFO] Used 8 mb, max 31 mb.
+21:55:46 [INFO] Used 27,11% percent memory.
+21:55:46 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:55:46 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:57:10 [INFO] Loaded properties from file 'system.properties'
+21:57:10 [INFO] Loaded properties from file 'jdbc.properties'
+21:57:10 [INFO] Database connected successfully!
+21:57:10 [INFO] Loaded 13  item(s) count.
+21:57:10 [INFO] Loaded 1 registered GameServers.
+21:57:10 [INFO] Loaded 0 blocked ip masks.
+21:57:10 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:57:10 [INFO] Loaded 11 starting items.
+21:57:10 [INFO] Loaded 9 client packet prototypes
+21:57:10 [INFO] Loaded 2 operations interaction with the game server
+21:57:10 [INFO] Loaded in 0 sec(0,000 min)
+21:57:10 [INFO] Used 8 mb, max 31 mb.
+21:57:10 [INFO] Used 27,13% percent memory.
+21:57:10 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:57:10 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:57:41 [INFO] Loaded properties from file 'system.properties'
+21:57:41 [INFO] Loaded properties from file 'jdbc.properties'
+21:57:41 [INFO] Database connected successfully!
+21:57:42 [INFO] Loaded 13  item(s) count.
+21:57:42 [INFO] Loaded 1 registered GameServers.
+21:57:42 [INFO] Loaded 0 blocked ip masks.
+21:57:42 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:57:42 [INFO] Loaded 11 starting items.
+21:57:42 [INFO] Loaded 9 client packet prototypes
+21:57:42 [INFO] Loaded 2 operations interaction with the game server
+21:57:42 [INFO] Loaded in 0 sec(0,000 min)
+21:57:42 [INFO] Used 8 mb, max 31 mb.
+21:57:42 [INFO] Used 27,21% percent memory.
+21:57:42 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:57:42 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:58:55 [INFO] Loaded properties from file 'system.properties'
+21:58:55 [INFO] Loaded properties from file 'jdbc.properties'
+21:58:55 [INFO] Database connected successfully!
+21:58:55 [INFO] Loaded 13  item(s) count.
+21:58:55 [INFO] Loaded 1 registered GameServers.
+21:58:55 [INFO] Loaded 0 blocked ip masks.
+21:58:55 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:58:55 [INFO] Loaded 11 starting items.
+21:58:55 [INFO] Loaded 9 client packet prototypes
+21:58:55 [INFO] Loaded 2 operations interaction with the game server
+21:58:55 [INFO] Loaded in 0 sec(0,000 min)
+21:58:55 [INFO] Used 8 mb, max 31 mb.
+21:58:55 [INFO] Used 27,24% percent memory.
+21:58:55 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:58:55 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:59:12 [INFO] Loaded properties from file 'system.properties'
+21:59:12 [INFO] Loaded properties from file 'jdbc.properties'
+21:59:12 [INFO] Database connected successfully!
+21:59:12 [INFO] Loaded 13  item(s) count.
+21:59:12 [INFO] Loaded 1 registered GameServers.
+21:59:12 [INFO] Loaded 0 blocked ip masks.
+21:59:12 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:59:12 [INFO] Loaded 11 starting items.
+21:59:12 [INFO] Loaded 9 client packet prototypes
+21:59:12 [INFO] Loaded 2 operations interaction with the game server
+21:59:12 [INFO] Loaded in 0 sec(0,000 min)
+21:59:12 [INFO] Used 8 mb, max 31 mb.
+21:59:12 [INFO] Used 27,14% percent memory.
+21:59:12 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:59:12 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:00:50 [INFO] Loaded properties from file 'system.properties'
+22:00:50 [INFO] Loaded properties from file 'jdbc.properties'
+22:00:50 [INFO] Database connected successfully!
+22:00:50 [INFO] Loaded 13  item(s) count.
+22:00:50 [INFO] Loaded 1 registered GameServers.
+22:00:50 [INFO] Loaded 0 blocked ip masks.
+22:00:50 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:00:50 [INFO] Loaded 11 starting items.
+22:00:50 [INFO] Loaded 9 client packet prototypes
+22:00:50 [INFO] Loaded 2 operations interaction with the game server
+22:00:50 [INFO] Loaded in 0 sec(0,000 min)
+22:00:50 [INFO] Used 8 mb, max 31 mb.
+22:00:50 [INFO] Used 27,03% percent memory.
+22:00:50 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:00:50 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:04:48 [INFO] Loaded properties from file 'system.properties'
+22:04:48 [INFO] Loaded properties from file 'jdbc.properties'
+22:04:48 [INFO] Database connected successfully!
+22:04:48 [INFO] Loaded 13  item(s) count.
+22:04:48 [INFO] Loaded 1 registered GameServers.
+22:04:48 [INFO] Loaded 0 blocked ip masks.
+22:04:48 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:04:48 [INFO] Loaded 11 starting items.
+22:04:48 [INFO] Loaded 9 client packet prototypes
+22:04:48 [INFO] Loaded 2 operations interaction with the game server
+22:04:48 [INFO] Loaded in 0 sec(0,000 min)
+22:04:48 [INFO] Used 8 mb, max 31 mb.
+22:04:48 [INFO] Used 27,11% percent memory.
+22:04:48 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:04:48 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:04:48 [INFO] The server has been shutdown!
+22:04:48 [INFO] Networking is closed!
+22:14:44 [INFO] Loaded properties from file 'system.properties'
+22:14:44 [INFO] Loaded properties from file 'jdbc.properties'
+22:14:44 [INFO] Database connected successfully!
+22:14:44 [INFO] Loaded 13  item(s) count.
+22:14:44 [INFO] Loaded 1 registered GameServers.
+22:14:44 [INFO] Loaded 0 blocked ip masks.
+22:14:44 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:14:44 [INFO] Loaded 11 starting items.
+22:14:44 [INFO] Loaded 9 client packet prototypes
+22:14:44 [INFO] Loaded 2 operations interaction with the game server
+22:14:44 [INFO] Loaded in 0 sec(0,000 min)
+22:14:44 [INFO] Used 8 mb, max 31 mb.
+22:14:44 [INFO] Used 27,31% percent memory.
+22:14:45 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:14:45 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:14:45 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+22:15:11 [INFO] Client [id:1, ip: 127.0.0.1] connected
+22:15:14 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+22:20:55 [INFO] Loaded properties from file 'system.properties'
+22:20:55 [INFO] Loaded properties from file 'jdbc.properties'
+22:20:55 [INFO] Database connected successfully!
+22:20:55 [INFO] Loaded 13  item(s) count.
+22:20:55 [INFO] Loaded 1 registered GameServers.
+22:20:55 [INFO] Loaded 0 blocked ip masks.
+22:20:55 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:20:55 [INFO] Loaded 11 starting items.
+22:20:55 [INFO] Loaded 9 client packet prototypes
+22:20:55 [INFO] Loaded 2 operations interaction with the game server
+22:20:55 [INFO] Loaded in 0 sec(0,000 min)
+22:20:55 [INFO] Used 8 mb, max 31 mb.
+22:20:55 [INFO] Used 27,40% percent memory.
+22:20:55 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:20:55 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:20:56 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+22:21:04 [INFO] Client [id:1, ip: 127.0.0.1] connected
+22:21:08 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+22:26:42 [INFO] Loaded properties from file 'system.properties'
+22:26:42 [INFO] Loaded properties from file 'jdbc.properties'
+22:26:42 [INFO] Database connected successfully!
+22:26:42 [INFO] Loaded 13  item(s) count.
+22:26:42 [INFO] Loaded 1 registered GameServers.
+22:26:42 [INFO] Loaded 0 blocked ip masks.
+22:26:42 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:26:42 [INFO] Loaded 11 starting items.
+22:26:42 [INFO] Loaded 9 client packet prototypes
+22:26:42 [INFO] Loaded 2 operations interaction with the game server
+22:26:42 [INFO] Loaded in 0 sec(0,000 min)
+22:26:42 [INFO] Used 8 mb, max 31 mb.
+22:26:42 [INFO] Used 27,12% percent memory.
+22:26:43 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:26:43 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:26:43 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+22:27:06 [INFO] Client [id:1, ip: 127.0.0.1] connected
+22:27:34 [INFO] Loaded properties from file 'system.properties'
+22:27:34 [INFO] Loaded properties from file 'jdbc.properties'
+22:27:34 [INFO] Database connected successfully!
+22:27:34 [INFO] Loaded 13  item(s) count.
+22:27:34 [INFO] Loaded 1 registered GameServers.
+22:27:34 [INFO] Loaded 0 blocked ip masks.
+22:27:34 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:27:34 [INFO] Loaded 11 starting items.
+22:27:34 [INFO] Loaded 9 client packet prototypes
+22:27:34 [INFO] Loaded 2 operations interaction with the game server
+22:27:34 [INFO] Loaded in 0 sec(0,000 min)
+22:27:34 [INFO] Used 8 mb, max 31 mb.
+22:27:34 [INFO] Used 27,27% percent memory.
+22:27:35 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:27:35 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:27:35 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+22:28:13 [INFO] Client [id:1, ip: 127.0.0.1] connected
+22:40:39 [INFO] Loaded properties from file 'system.properties'
+22:40:39 [INFO] Loaded properties from file 'jdbc.properties'
+22:40:39 [INFO] Database connected successfully!
+22:40:39 [INFO] Loaded 13  item(s) count.
+22:40:39 [INFO] Loaded 1 registered GameServers.
+22:40:39 [INFO] Loaded 0 blocked ip masks.
+22:40:39 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:40:39 [INFO] Loaded 11 starting items.
+22:40:39 [INFO] Loaded 9 client packet prototypes
+22:40:39 [INFO] Loaded 2 operations interaction with the game server
+22:40:39 [INFO] Loaded in 0 sec(0,000 min)
+22:40:39 [INFO] Used 8 mb, max 31 mb.
+22:40:39 [INFO] Used 27,58% percent memory.
+22:40:39 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:40:39 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:40:40 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+22:40:55 [INFO] Client [id:1, ip: 127.0.0.1] connected
+22:40:59 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+22:41:54 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+22:41:54 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+22:52:08 [INFO] Loaded properties from file 'system.properties'
+22:52:08 [INFO] Loaded properties from file 'jdbc.properties'
+22:52:08 [INFO] Database connected successfully!
+22:52:08 [INFO] Loaded 13  item(s) count.
+22:52:08 [INFO] Loaded 1 registered GameServers.
+22:52:08 [INFO] Loaded 0 blocked ip masks.
+22:52:08 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:52:08 [INFO] Loaded 11 starting items.
+22:52:08 [INFO] Loaded 9 client packet prototypes
+22:52:08 [INFO] Loaded 2 operations interaction with the game server
+22:52:08 [INFO] Loaded in 0 sec(0,000 min)
+22:52:08 [INFO] Used 8 mb, max 31 mb.
+22:52:08 [INFO] Used 27,71% percent memory.
+22:52:09 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:52:09 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:52:26 [INFO] Loaded properties from file 'system.properties'
+22:52:26 [INFO] Loaded properties from file 'jdbc.properties'
+22:52:26 [INFO] Database connected successfully!
+22:52:26 [INFO] Loaded 13  item(s) count.
+22:52:26 [INFO] Loaded 1 registered GameServers.
+22:52:26 [INFO] Loaded 0 blocked ip masks.
+22:52:26 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:52:26 [INFO] Loaded 11 starting items.
+22:52:26 [INFO] Loaded 9 client packet prototypes
+22:52:26 [INFO] Loaded 2 operations interaction with the game server
+22:52:26 [INFO] Loaded in 0 sec(0,000 min)
+22:52:26 [INFO] Used 8 mb, max 31 mb.
+22:52:26 [INFO] Used 27,77% percent memory.
+22:52:26 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:52:26 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:52:40 [INFO] Loaded properties from file 'system.properties'
+22:52:40 [INFO] Loaded properties from file 'jdbc.properties'
+22:52:40 [INFO] Database connected successfully!
+22:52:40 [INFO] Loaded 13  item(s) count.
+22:52:40 [INFO] Loaded 1 registered GameServers.
+22:52:40 [INFO] Loaded 0 blocked ip masks.
+22:52:40 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:52:40 [INFO] Loaded 11 starting items.
+22:52:40 [INFO] Loaded 9 client packet prototypes
+22:52:40 [INFO] Loaded 2 operations interaction with the game server
+22:52:40 [INFO] Loaded in 0 sec(0,000 min)
+22:52:40 [INFO] Used 8 mb, max 31 mb.
+22:52:40 [INFO] Used 28,32% percent memory.
+22:52:40 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:52:40 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:57:09 [INFO] Loaded properties from file 'system.properties'
+22:57:09 [INFO] Loaded properties from file 'jdbc.properties'
+22:57:09 [INFO] Database connected successfully!
+22:57:09 [INFO] Loaded 13  item(s) count.
+22:57:09 [INFO] Loaded 1 registered GameServers.
+22:57:09 [INFO] Loaded 0 blocked ip masks.
+22:57:09 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:57:09 [INFO] Loaded 11 starting items.
+22:57:09 [INFO] Loaded 9 client packet prototypes
+22:57:09 [INFO] Loaded 2 operations interaction with the game server
+22:57:09 [INFO] Loaded in 0 sec(0,000 min)
+22:57:09 [INFO] Used 8 mb, max 31 mb.
+22:57:09 [INFO] Used 28,43% percent memory.
+22:57:09 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:57:09 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:57:10 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+22:57:14 [INFO] Client [id:1, ip: 127.0.0.1] connected
+22:57:21 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+22:59:12 [INFO] Loaded properties from file 'system.properties'
+22:59:12 [INFO] Loaded properties from file 'jdbc.properties'
+22:59:12 [INFO] Database connected successfully!
+22:59:12 [INFO] Loaded 13  item(s) count.
+22:59:12 [INFO] Loaded 1 registered GameServers.
+22:59:12 [INFO] Loaded 0 blocked ip masks.
+22:59:12 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+22:59:12 [INFO] Loaded 11 starting items.
+22:59:12 [INFO] Loaded 9 client packet prototypes
+22:59:12 [INFO] Loaded 2 operations interaction with the game server
+22:59:12 [INFO] Loaded in 0 sec(0,000 min)
+22:59:12 [INFO] Used 8 mb, max 31 mb.
+22:59:12 [INFO] Used 28,37% percent memory.
+22:59:12 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+22:59:12 [INFO] Listening to the client connections [/127.0.0.1:39190]
+22:59:13 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+22:59:32 [INFO] Client [id:1, ip: 127.0.0.1] connected
+22:59:35 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+09:36:26 [INFO] Loaded properties from file 'system.properties'
+09:36:26 [INFO] Loaded properties from file 'jdbc.properties'
+09:36:26 [INFO] Database connected successfully!
+09:36:26 [INFO] Loaded 13  item(s) count.
+09:36:27 [INFO] Loaded 1 registered GameServers.
+09:36:27 [INFO] Loaded 0 blocked ip masks.
+09:36:27 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:36:27 [INFO] Loaded 11 starting items.
+09:36:27 [INFO] Loaded 9 client packet prototypes
+09:36:27 [INFO] Loaded 2 operations interaction with the game server
+09:36:27 [INFO] Loaded in 0 sec(0,000 min)
+09:36:27 [INFO] Used 8 mb, max 31 mb.
+09:36:27 [INFO] Used 27,67% percent memory.
+09:36:27 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:36:27 [INFO] Listening to the client connections [/127.0.0.1:39190]
+09:36:59 [INFO] Loaded properties from file 'system.properties'
+09:36:59 [INFO] Loaded properties from file 'jdbc.properties'
+09:36:59 [INFO] Database connected successfully!
+09:37:00 [INFO] Loaded 13  item(s) count.
+09:37:00 [INFO] Loaded 1 registered GameServers.
+09:37:00 [INFO] Loaded 0 blocked ip masks.
+09:37:00 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:37:00 [INFO] Loaded 11 starting items.
+09:37:00 [INFO] Loaded 9 client packet prototypes
+09:37:00 [INFO] Loaded 2 operations interaction with the game server
+09:37:00 [INFO] Loaded in 0 sec(0,000 min)
+09:37:00 [INFO] Used 8 mb, max 31 mb.
+09:37:00 [INFO] Used 27,71% percent memory.
+09:37:00 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:37:00 [INFO] Listening to the client connections [/127.0.0.1:39190]
+09:37:31 [INFO] Loaded properties from file 'system.properties'
+09:37:31 [INFO] Loaded properties from file 'jdbc.properties'
+09:37:31 [INFO] Database connected successfully!
+09:37:32 [INFO] Loaded 13  item(s) count.
+09:37:32 [INFO] Loaded 1 registered GameServers.
+09:37:32 [INFO] Loaded 0 blocked ip masks.
+09:37:32 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:37:32 [INFO] Loaded 11 starting items.
+09:37:32 [INFO] Loaded 9 client packet prototypes
+09:37:32 [INFO] Loaded 2 operations interaction with the game server
+09:37:32 [INFO] Loaded in 0 sec(0,000 min)
+09:37:32 [INFO] Used 8 mb, max 31 mb.
+09:37:32 [INFO] Used 28,25% percent memory.
+09:37:32 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:37:32 [INFO] Listening to the client connections [/127.0.0.1:39190]
+09:38:18 [INFO] Loaded properties from file 'system.properties'
+09:38:18 [INFO] Loaded properties from file 'jdbc.properties'
+09:38:18 [INFO] Database connected successfully!
+09:38:18 [INFO] Loaded 13  item(s) count.
+09:38:18 [INFO] Loaded 1 registered GameServers.
+09:38:18 [INFO] Loaded 0 blocked ip masks.
+09:38:18 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:38:18 [INFO] Loaded 11 starting items.
+09:38:18 [INFO] Loaded 9 client packet prototypes
+09:38:18 [INFO] Loaded 2 operations interaction with the game server
+09:38:18 [INFO] Loaded in 0 sec(0,000 min)
+09:38:18 [INFO] Used 8 mb, max 31 mb.
+09:38:18 [INFO] Used 28,34% percent memory.
+09:38:18 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:38:18 [INFO] Listening to the client connections [/127.0.0.1:39190]
+09:39:32 [INFO] Loaded properties from file 'system.properties'
+09:39:32 [INFO] Loaded properties from file 'jdbc.properties'
+09:39:32 [INFO] Database connected successfully!
+09:39:32 [INFO] Loaded 13  item(s) count.
+09:39:32 [INFO] Loaded 1 registered GameServers.
+09:39:32 [INFO] Loaded 0 blocked ip masks.
+09:39:32 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:39:32 [INFO] Loaded 11 starting items.
+09:39:32 [INFO] Loaded 9 client packet prototypes
+09:39:32 [INFO] Loaded 2 operations interaction with the game server
+09:39:32 [INFO] Loaded in 0 sec(0,000 min)
+09:39:32 [INFO] Used 8 mb, max 31 mb.
+09:39:32 [INFO] Used 27,88% percent memory.
+09:39:32 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:39:32 [INFO] Listening to the client connections [/127.0.0.1:39190]
+09:39:35 [INFO] Client [id:1, ip: 127.0.0.1] connected
+09:39:42 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+09:39:49 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+09:40:50 [INFO] Client [id:2, ip: 127.0.0.1] connected
+09:40:54 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+09:41:51 [INFO] Loaded properties from file 'system.properties'
+09:41:51 [INFO] Loaded properties from file 'jdbc.properties'
+09:41:51 [INFO] Database connected successfully!
+09:41:51 [INFO] Loaded 13  item(s) count.
+09:41:51 [INFO] Loaded 1 registered GameServers.
+09:41:51 [INFO] Loaded 0 blocked ip masks.
+09:41:51 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:41:51 [INFO] Loaded 11 starting items.
+09:41:51 [INFO] Loaded 9 client packet prototypes
+09:41:51 [INFO] Loaded 2 operations interaction with the game server
+09:41:51 [INFO] Loaded in 0 sec(0,000 min)
+09:41:51 [INFO] Used 8 mb, max 31 mb.
+09:41:51 [INFO] Used 28,51% percent memory.
+09:41:51 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:41:51 [INFO] Listening to the client connections [/127.0.0.1:39190]
+09:41:52 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+09:41:55 [INFO] Client [id:1, ip: 127.0.0.1] connected
+09:41:58 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+09:44:09 [INFO] Loaded properties from file 'system.properties'
+09:44:09 [INFO] Loaded properties from file 'jdbc.properties'
+09:44:09 [INFO] Database connected successfully!
+09:44:09 [INFO] Loaded 13  item(s) count.
+09:44:09 [INFO] Loaded 1 registered GameServers.
+09:44:09 [INFO] Loaded 0 blocked ip masks.
+09:44:09 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:44:09 [INFO] Loaded 11 starting items.
+09:44:09 [INFO] Loaded 9 client packet prototypes
+09:44:09 [INFO] Loaded 2 operations interaction with the game server
+09:44:09 [INFO] Loaded in 0 sec(0,000 min)
+09:44:09 [INFO] Used 8 mb, max 31 mb.
+09:44:09 [INFO] Used 28,20% percent memory.
+09:44:10 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:44:10 [INFO] Listening to the client connections [/127.0.0.1:39190]
+09:44:11 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+09:44:16 [INFO] Client [id:1, ip: 127.0.0.1] connected
+09:44:23 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+09:49:15 [INFO] Loaded properties from file 'system.properties'
+09:49:15 [INFO] Loaded properties from file 'jdbc.properties'
+09:49:15 [INFO] Database connected successfully!
+09:49:15 [INFO] Loaded 13  item(s) count.
+09:49:15 [INFO] Loaded 1 registered GameServers.
+09:49:15 [INFO] Loaded 0 blocked ip masks.
+09:49:15 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:49:15 [INFO] Loaded 11 starting items.
+09:49:15 [INFO] Loaded 9 client packet prototypes
+09:49:15 [INFO] Loaded 2 operations interaction with the game server
+09:49:15 [INFO] Loaded in 0 sec(0,000 min)
+09:49:15 [INFO] Used 8 mb, max 31 mb.
+09:49:15 [INFO] Used 28,23% percent memory.
+09:49:16 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:49:16 [INFO] Listening to the client connections [/127.0.0.1:39190]
+09:50:34 [INFO] Loaded properties from file 'system.properties'
+09:50:34 [INFO] Loaded properties from file 'jdbc.properties'
+09:50:34 [INFO] Database connected successfully!
+09:50:34 [INFO] Loaded 13  item(s) count.
+09:50:34 [INFO] Loaded 1 registered GameServers.
+09:50:34 [INFO] Loaded 0 blocked ip masks.
+09:50:34 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:50:34 [INFO] Loaded 11 starting items.
+09:50:34 [INFO] Loaded 9 client packet prototypes
+09:50:34 [INFO] Loaded 2 operations interaction with the game server
+09:50:34 [INFO] Loaded in 0 sec(0,000 min)
+09:50:34 [INFO] Used 8 mb, max 31 mb.
+09:50:34 [INFO] Used 28,26% percent memory.
+09:50:34 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:50:34 [INFO] Listening to the client connections [/127.0.0.1:39190]
+09:53:47 [INFO] Loaded properties from file 'system.properties'
+09:53:47 [INFO] Loaded properties from file 'jdbc.properties'
+09:53:47 [INFO] Database connected successfully!
+09:53:47 [INFO] Loaded 13  item(s) count.
+09:53:47 [INFO] Loaded 1 registered GameServers.
+09:53:47 [INFO] Loaded 0 blocked ip masks.
+09:53:47 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+09:53:47 [INFO] Loaded 11 starting items.
+09:53:47 [INFO] Loaded 9 client packet prototypes
+09:53:47 [INFO] Loaded 2 operations interaction with the game server
+09:53:47 [INFO] Loaded in 0 sec(0,000 min)
+09:53:47 [INFO] Used 8 mb, max 31 mb.
+09:53:47 [INFO] Used 28,30% percent memory.
+09:53:47 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+09:53:47 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:07:33 [INFO] Loaded properties from file 'system.properties'
+10:07:33 [INFO] Loaded properties from file 'jdbc.properties'
+10:07:33 [INFO] Database connected successfully!
+10:07:33 [INFO] Loaded 13  item(s) count.
+10:07:33 [INFO] Loaded 1 registered GameServers.
+10:07:33 [INFO] Loaded 0 blocked ip masks.
+10:07:33 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:07:33 [INFO] Loaded 11 starting items.
+10:07:33 [INFO] Loaded 9 client packet prototypes
+10:07:33 [INFO] Loaded 2 operations interaction with the game server
+10:07:33 [INFO] Loaded in 0 sec(0,000 min)
+10:07:33 [INFO] Used 8 mb, max 31 mb.
+10:07:33 [INFO] Used 28,14% percent memory.
+10:07:34 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:07:34 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:07:43 [INFO] Loaded properties from file 'system.properties'
+10:07:43 [INFO] Loaded properties from file 'jdbc.properties'
+10:07:43 [INFO] Database connected successfully!
+10:07:43 [INFO] Loaded 13  item(s) count.
+10:07:43 [INFO] Loaded 1 registered GameServers.
+10:07:43 [INFO] Loaded 0 blocked ip masks.
+10:07:43 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:07:43 [INFO] Loaded 11 starting items.
+10:07:43 [INFO] Loaded 9 client packet prototypes
+10:07:43 [INFO] Loaded 2 operations interaction with the game server
+10:07:43 [INFO] Loaded in 0 sec(0,000 min)
+10:07:43 [INFO] Used 8 mb, max 31 mb.
+10:07:43 [INFO] Used 28,31% percent memory.
+10:07:44 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:07:44 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:08:00 [INFO] Loaded properties from file 'system.properties'
+10:08:00 [INFO] Loaded properties from file 'jdbc.properties'
+10:08:00 [INFO] Database connected successfully!
+10:08:00 [INFO] Loaded 13  item(s) count.
+10:08:00 [INFO] Loaded 1 registered GameServers.
+10:08:00 [INFO] Loaded 0 blocked ip masks.
+10:08:00 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:08:00 [INFO] Loaded 11 starting items.
+10:08:00 [INFO] Loaded 9 client packet prototypes
+10:08:00 [INFO] Loaded 2 operations interaction with the game server
+10:08:00 [INFO] Loaded in 0 sec(0,000 min)
+10:08:00 [INFO] Used 8 mb, max 31 mb.
+10:08:00 [INFO] Used 28,46% percent memory.
+10:08:01 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:08:01 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:08:01 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:08:43 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:08:46 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:10:25 [INFO] Loaded properties from file 'system.properties'
+10:10:25 [INFO] Loaded properties from file 'jdbc.properties'
+10:10:25 [INFO] Database connected successfully!
+10:10:25 [INFO] Loaded 13  item(s) count.
+10:10:25 [INFO] Loaded 1 registered GameServers.
+10:10:25 [INFO] Loaded 0 blocked ip masks.
+10:10:25 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:10:25 [INFO] Loaded 11 starting items.
+10:10:25 [INFO] Loaded 9 client packet prototypes
+10:10:25 [INFO] Loaded 2 operations interaction with the game server
+10:10:25 [INFO] Loaded in 0 sec(0,000 min)
+10:10:25 [INFO] Used 8 mb, max 31 mb.
+10:10:25 [INFO] Used 28,40% percent memory.
+10:10:26 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:10:26 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:10:26 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:10:51 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:12:14 [INFO] Loaded properties from file 'system.properties'
+10:12:14 [INFO] Loaded properties from file 'jdbc.properties'
+10:12:14 [INFO] Database connected successfully!
+10:12:14 [INFO] Loaded 13  item(s) count.
+10:12:14 [INFO] Loaded 1 registered GameServers.
+10:12:14 [INFO] Loaded 0 blocked ip masks.
+10:12:14 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:12:14 [INFO] Loaded 11 starting items.
+10:12:14 [INFO] Loaded 9 client packet prototypes
+10:12:14 [INFO] Loaded 2 operations interaction with the game server
+10:12:14 [INFO] Loaded in 0 sec(0,000 min)
+10:12:14 [INFO] Used 8 mb, max 31 mb.
+10:12:14 [INFO] Used 28,05% percent memory.
+10:12:14 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:12:14 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:12:15 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:12:53 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:12:57 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:14:54 [INFO] Loaded properties from file 'system.properties'
+10:14:54 [INFO] Loaded properties from file 'jdbc.properties'
+10:14:54 [INFO] Database connected successfully!
+10:14:54 [INFO] Loaded 13  item(s) count.
+10:14:54 [INFO] Loaded 1 registered GameServers.
+10:14:54 [INFO] Loaded 0 blocked ip masks.
+10:14:54 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:14:54 [INFO] Loaded 11 starting items.
+10:14:54 [INFO] Loaded 9 client packet prototypes
+10:14:54 [INFO] Loaded 2 operations interaction with the game server
+10:14:54 [INFO] Loaded in 0 sec(0,000 min)
+10:14:54 [INFO] Used 8 mb, max 31 mb.
+10:14:54 [INFO] Used 28,30% percent memory.
+10:14:55 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:14:55 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:14:55 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:15:16 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:15:16 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:15:20 [INFO] Client [id:2, ip: 127.0.0.1] connected
+10:15:28 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+10:16:35 [INFO] Loaded properties from file 'system.properties'
+10:16:35 [INFO] Loaded properties from file 'jdbc.properties'
+10:16:35 [INFO] Database connected successfully!
+10:16:35 [INFO] Loaded 13  item(s) count.
+10:16:35 [INFO] Loaded 1 registered GameServers.
+10:16:36 [INFO] Loaded 0 blocked ip masks.
+10:16:36 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:16:36 [INFO] Loaded 11 starting items.
+10:16:36 [INFO] Loaded 9 client packet prototypes
+10:16:36 [INFO] Loaded 2 operations interaction with the game server
+10:16:36 [INFO] Loaded in 0 sec(0,000 min)
+10:16:36 [INFO] Used 8 mb, max 31 mb.
+10:16:36 [INFO] Used 28,21% percent memory.
+10:16:36 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:16:36 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:16:36 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:16:38 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:16:49 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:16:50 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+10:16:50 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+10:19:25 [INFO] Loaded properties from file 'system.properties'
+10:19:25 [INFO] Loaded properties from file 'jdbc.properties'
+10:19:25 [INFO] Database connected successfully!
+10:19:25 [INFO] Loaded 13  item(s) count.
+10:19:25 [INFO] Loaded 1 registered GameServers.
+10:19:25 [INFO] Loaded 0 blocked ip masks.
+10:19:25 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:19:25 [INFO] Loaded 11 starting items.
+10:19:25 [INFO] Loaded 9 client packet prototypes
+10:19:25 [INFO] Loaded 2 operations interaction with the game server
+10:19:25 [INFO] Loaded in 0 sec(0,000 min)
+10:19:25 [INFO] Used 8 mb, max 31 mb.
+10:19:25 [INFO] Used 27,30% percent memory.
+10:19:26 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:19:26 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:19:26 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:19:34 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:19:38 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:20:45 [INFO] Loaded properties from file 'system.properties'
+10:20:45 [INFO] Loaded properties from file 'jdbc.properties'
+10:20:45 [INFO] Database connected successfully!
+10:20:45 [INFO] Loaded 13  item(s) count.
+10:20:45 [INFO] Loaded 1 registered GameServers.
+10:20:45 [INFO] Loaded 0 blocked ip masks.
+10:20:45 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:20:45 [INFO] Loaded 11 starting items.
+10:20:45 [INFO] Loaded 9 client packet prototypes
+10:20:45 [INFO] Loaded 2 operations interaction with the game server
+10:20:45 [INFO] Loaded in 0 sec(0,000 min)
+10:20:45 [INFO] Used 8 mb, max 31 mb.
+10:20:45 [INFO] Used 27,66% percent memory.
+10:20:45 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:20:45 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:20:46 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:21:11 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:21:14 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:21:53 [INFO] Loaded properties from file 'system.properties'
+10:21:53 [INFO] Loaded properties from file 'jdbc.properties'
+10:21:53 [INFO] Database connected successfully!
+10:21:54 [INFO] Loaded 13  item(s) count.
+10:21:54 [INFO] Loaded 1 registered GameServers.
+10:21:54 [INFO] Loaded 0 blocked ip masks.
+10:21:54 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:21:54 [INFO] Loaded 11 starting items.
+10:21:54 [INFO] Loaded 9 client packet prototypes
+10:21:54 [INFO] Loaded 2 operations interaction with the game server
+10:21:54 [INFO] Loaded in 0 sec(0,000 min)
+10:21:54 [INFO] Used 8 mb, max 31 mb.
+10:21:54 [INFO] Used 27,48% percent memory.
+10:21:54 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:21:54 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:21:55 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:22:19 [INFO] Loaded properties from file 'system.properties'
+10:22:19 [INFO] Loaded properties from file 'jdbc.properties'
+10:22:19 [INFO] Database connected successfully!
+10:22:19 [INFO] Loaded 13  item(s) count.
+10:22:19 [INFO] Loaded 1 registered GameServers.
+10:22:19 [INFO] Loaded 0 blocked ip masks.
+10:22:19 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:22:19 [INFO] Loaded 11 starting items.
+10:22:19 [INFO] Loaded 9 client packet prototypes
+10:22:19 [INFO] Loaded 2 operations interaction with the game server
+10:22:19 [INFO] Loaded in 0 sec(0,000 min)
+10:22:19 [INFO] Used 8 mb, max 31 mb.
+10:22:19 [INFO] Used 27,20% percent memory.
+10:22:20 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:22:20 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:22:20 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:22:21 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:22:25 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:23:11 [INFO] Loaded properties from file 'system.properties'
+10:23:11 [INFO] Loaded properties from file 'jdbc.properties'
+10:23:11 [INFO] Database connected successfully!
+10:23:11 [INFO] Loaded 13  item(s) count.
+10:23:11 [INFO] Loaded 1 registered GameServers.
+10:23:11 [INFO] Loaded 0 blocked ip masks.
+10:23:11 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:23:11 [INFO] Loaded 11 starting items.
+10:23:11 [INFO] Loaded 9 client packet prototypes
+10:23:11 [INFO] Loaded 2 operations interaction with the game server
+10:23:11 [INFO] Loaded in 0 sec(0,000 min)
+10:23:11 [INFO] Used 8 mb, max 31 mb.
+10:23:11 [INFO] Used 27,58% percent memory.
+10:23:11 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:23:11 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:23:24 [INFO] Loaded properties from file 'system.properties'
+10:23:24 [INFO] Loaded properties from file 'jdbc.properties'
+10:23:24 [INFO] Database connected successfully!
+10:23:24 [INFO] Loaded 13  item(s) count.
+10:23:24 [INFO] Loaded 1 registered GameServers.
+10:23:24 [INFO] Loaded 0 blocked ip masks.
+10:23:24 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:23:24 [INFO] Loaded 11 starting items.
+10:23:24 [INFO] Loaded 9 client packet prototypes
+10:23:24 [INFO] Loaded 2 operations interaction with the game server
+10:23:24 [INFO] Loaded in 0 sec(0,000 min)
+10:23:24 [INFO] Used 8 mb, max 31 mb.
+10:23:24 [INFO] Used 27,23% percent memory.
+10:23:24 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:23:24 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:23:58 [INFO] Loaded properties from file 'system.properties'
+10:23:58 [INFO] Loaded properties from file 'jdbc.properties'
+10:23:58 [INFO] Database connected successfully!
+10:23:58 [INFO] Loaded 13  item(s) count.
+10:23:58 [INFO] Loaded 1 registered GameServers.
+10:23:58 [INFO] Loaded 0 blocked ip masks.
+10:23:58 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:23:58 [INFO] Loaded 11 starting items.
+10:23:58 [INFO] Loaded 9 client packet prototypes
+10:23:58 [INFO] Loaded 2 operations interaction with the game server
+10:23:58 [INFO] Loaded in 0 sec(0,000 min)
+10:23:58 [INFO] Used 8 mb, max 31 mb.
+10:23:58 [INFO] Used 27,73% percent memory.
+10:23:58 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:23:58 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:24:44 [INFO] Loaded properties from file 'system.properties'
+10:24:44 [INFO] Loaded properties from file 'jdbc.properties'
+10:24:44 [INFO] Database connected successfully!
+10:24:44 [INFO] Loaded 13  item(s) count.
+10:24:44 [INFO] Loaded 1 registered GameServers.
+10:24:44 [INFO] Loaded 0 blocked ip masks.
+10:24:44 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:24:44 [INFO] Loaded 11 starting items.
+10:24:44 [INFO] Loaded 9 client packet prototypes
+10:24:44 [INFO] Loaded 2 operations interaction with the game server
+10:24:44 [INFO] Loaded in 0 sec(0,000 min)
+10:24:44 [INFO] Used 8 mb, max 31 mb.
+10:24:44 [INFO] Used 27,70% percent memory.
+10:24:44 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:24:44 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:25:00 [INFO] Loaded properties from file 'system.properties'
+10:25:00 [INFO] Loaded properties from file 'jdbc.properties'
+10:25:00 [INFO] Database connected successfully!
+10:25:00 [INFO] Loaded 13  item(s) count.
+10:25:00 [INFO] Loaded 1 registered GameServers.
+10:25:00 [INFO] Loaded 0 blocked ip masks.
+10:25:00 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:25:00 [INFO] Loaded 11 starting items.
+10:25:00 [INFO] Loaded 9 client packet prototypes
+10:25:00 [INFO] Loaded 2 operations interaction with the game server
+10:25:00 [INFO] Loaded in 0 sec(0,000 min)
+10:25:00 [INFO] Used 8 mb, max 31 mb.
+10:25:00 [INFO] Used 27,70% percent memory.
+10:25:00 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:25:00 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:25:01 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:26:02 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:26:05 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:26:59 [INFO] Loaded properties from file 'system.properties'
+10:26:59 [INFO] Loaded properties from file 'jdbc.properties'
+10:26:59 [INFO] Database connected successfully!
+10:27:00 [INFO] Loaded 13  item(s) count.
+10:27:00 [INFO] Loaded 1 registered GameServers.
+10:27:00 [INFO] Loaded 0 blocked ip masks.
+10:27:00 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:27:00 [INFO] Loaded 11 starting items.
+10:27:00 [INFO] Loaded 9 client packet prototypes
+10:27:00 [INFO] Loaded 2 operations interaction with the game server
+10:27:00 [INFO] Loaded in 0 sec(0,000 min)
+10:27:00 [INFO] Used 8 mb, max 31 mb.
+10:27:00 [INFO] Used 27,37% percent memory.
+10:27:00 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:27:00 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:27:01 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:27:18 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:27:22 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:28:12 [INFO] Loaded properties from file 'system.properties'
+10:28:12 [INFO] Loaded properties from file 'jdbc.properties'
+10:28:12 [INFO] Database connected successfully!
+10:28:13 [INFO] Loaded map Porto Akaba with mode 1
+10:28:13 [INFO] Loaded map Burning Hall with mode 1
+10:28:13 [INFO] Loaded 13  item(s) count.
+10:28:13 [INFO] Loaded 1 registered GameServers.
+10:28:13 [INFO] Loaded 0 blocked ip masks.
+10:28:13 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:28:13 [INFO] Loaded 11 starting items.
+10:28:13 [INFO] Loaded 9 client packet prototypes
+10:28:13 [INFO] Loaded 2 operations interaction with the game server
+10:28:13 [INFO] Loaded in 0 sec(0,000 min)
+10:28:13 [INFO] Used 8 mb, max 31 mb.
+10:28:13 [INFO] Used 27,65% percent memory.
+10:28:13 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:28:13 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:28:14 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:28:30 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:28:33 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:29:13 [INFO] Loaded properties from file 'system.properties'
+10:29:13 [INFO] Loaded properties from file 'jdbc.properties'
+10:29:13 [INFO] Database connected successfully!
+10:29:13 [INFO] Loaded map Porto Akaba with mode 2
+10:29:13 [INFO] Loaded map Burning Hall with mode 2
+10:29:13 [INFO] Loaded 13  item(s) count.
+10:29:13 [INFO] Loaded 1 registered GameServers.
+10:29:13 [INFO] Loaded 0 blocked ip masks.
+10:29:13 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:29:13 [INFO] Loaded 11 starting items.
+10:29:13 [INFO] Loaded 9 client packet prototypes
+10:29:13 [INFO] Loaded 2 operations interaction with the game server
+10:29:13 [INFO] Loaded in 0 sec(0,000 min)
+10:29:13 [INFO] Used 8 mb, max 31 mb.
+10:29:13 [INFO] Used 27,30% percent memory.
+10:29:13 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:29:13 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:29:14 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:29:31 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:29:35 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:32:16 [INFO] Loaded properties from file 'system.properties'
+10:32:16 [INFO] Loaded properties from file 'jdbc.properties'
+10:32:16 [INFO] Database connected successfully!
+10:32:16 [INFO] Loaded map Porto Akaba with mode 1
+10:32:16 [INFO] Loaded map Red Rock with mode 2
+10:32:16 [INFO] Loaded map Old Library with mode 4
+10:32:16 [INFO] Loaded map Mstation with mode 8
+10:32:16 [INFO] Loaded map Midnight Zone with mode 16
+10:32:16 [INFO] Loaded map Uptown with mode 32
+10:32:16 [INFO] Loaded map Burning Hall with mode 64
+10:32:16 [INFO] Loaded map Crackdown with mode 128
+10:32:16 [INFO] Loaded map Saint Mansion with mode 256
+10:32:16 [INFO] Loaded map Eastern Road with mode 512
+10:32:16 [INFO] Loaded map Training Camp with mode 1024
+10:32:16 [INFO] Loaded map Sentry Base with mode 2048
+10:32:16 [INFO] Loaded map Desert Camp with mode 4096
+10:32:16 [INFO] Loaded 13  item(s) count.
+10:32:16 [INFO] Loaded 1 registered GameServers.
+10:32:16 [INFO] Loaded 0 blocked ip masks.
+10:32:16 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:32:16 [INFO] Loaded 11 starting items.
+10:32:16 [INFO] Loaded 9 client packet prototypes
+10:32:16 [INFO] Loaded 2 operations interaction with the game server
+10:32:16 [INFO] Loaded in 0 sec(0,000 min)
+10:32:16 [INFO] Used 8 mb, max 31 mb.
+10:32:16 [INFO] Used 27,63% percent memory.
+10:32:16 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:32:16 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:32:17 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:32:21 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:32:24 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:39:32 [INFO] Loaded properties from file 'system.properties'
+10:39:32 [INFO] Loaded properties from file 'jdbc.properties'
+10:39:32 [INFO] Database connected successfully!
+10:39:32 [INFO] Loaded map Downtown with mode 16
+10:39:32 [INFO] Loaded map Luxville with mode 16
+10:39:32 [INFO] Loaded 13  item(s) count.
+10:39:32 [INFO] Loaded 1 registered GameServers.
+10:39:32 [INFO] Loaded 0 blocked ip masks.
+10:39:32 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:39:32 [INFO] Loaded 11 starting items.
+10:39:33 [INFO] Loaded 9 client packet prototypes
+10:39:33 [INFO] Loaded 2 operations interaction with the game server
+10:39:33 [INFO] Loaded in 0 sec(0,000 min)
+10:39:33 [INFO] Used 8 mb, max 31 mb.
+10:39:33 [INFO] Used 27,57% percent memory.
+10:39:33 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:39:33 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:39:33 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:39:37 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:39:40 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:40:46 [INFO] Loaded properties from file 'system.properties'
+10:40:46 [INFO] Loaded properties from file 'jdbc.properties'
+10:40:46 [INFO] Database connected successfully!
+10:40:46 [INFO] Loaded map Breeding Nest with mode 64
+10:40:46 [INFO] Loaded map DinoLab with mode 512
+10:40:47 [INFO] Loaded 13  item(s) count.
+10:40:47 [INFO] Loaded 1 registered GameServers.
+10:40:47 [INFO] Loaded 0 blocked ip masks.
+10:40:47 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:40:47 [INFO] Loaded 11 starting items.
+10:40:47 [INFO] Loaded 9 client packet prototypes
+10:40:47 [INFO] Loaded 2 operations interaction with the game server
+10:40:47 [INFO] Loaded in 0 sec(0,000 min)
+10:40:47 [INFO] Used 8 mb, max 31 mb.
+10:40:47 [INFO] Used 27,65% percent memory.
+10:40:47 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:40:47 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:40:47 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:41:04 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:41:07 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:42:48 [INFO] Loaded properties from file 'system.properties'
+10:42:48 [INFO] Loaded properties from file 'jdbc.properties'
+10:42:48 [INFO] Database connected successfully!
+10:42:48 [INFO] Loaded map Burning Hall with mode 1
+10:42:48 [INFO] Loaded map Breeding Nest with mode 64
+10:42:48 [INFO] Loaded map DinoLab with mode 64
+10:42:48 [INFO] Loaded 13  item(s) count.
+10:42:48 [INFO] Loaded 1 registered GameServers.
+10:42:48 [INFO] Loaded 0 blocked ip masks.
+10:42:48 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:42:48 [INFO] Loaded 11 starting items.
+10:42:48 [INFO] Loaded 9 client packet prototypes
+10:42:48 [INFO] Loaded 2 operations interaction with the game server
+10:42:48 [INFO] Loaded in 0 sec(0,000 min)
+10:42:48 [INFO] Used 8 mb, max 31 mb.
+10:42:48 [INFO] Used 27,56% percent memory.
+10:42:48 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:42:48 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:42:49 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:43:45 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:43:49 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:47:32 [INFO] Loaded properties from file 'system.properties'
+10:47:32 [INFO] Loaded properties from file 'jdbc.properties'
+10:47:32 [INFO] Database connected successfully!
+10:47:33 [INFO] Loaded 13  item(s) count.
+10:47:33 [INFO] Loaded 1 registered GameServers.
+10:47:33 [INFO] Loaded 0 blocked ip masks.
+10:47:33 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:47:33 [INFO] Loaded 11 starting items.
+10:47:33 [INFO] Loaded 9 client packet prototypes
+10:47:33 [INFO] Loaded 2 operations interaction with the game server
+10:47:33 [INFO] Loaded in 0 sec(0,000 min)
+10:47:33 [INFO] Used 8 mb, max 31 mb.
+10:47:33 [INFO] Used 28,35% percent memory.
+10:47:33 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:47:33 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:47:34 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:47:56 [INFO] Loaded properties from file 'system.properties'
+10:47:56 [INFO] Loaded properties from file 'jdbc.properties'
+10:47:56 [INFO] Database connected successfully!
+10:48:41 [INFO] Loaded properties from file 'system.properties'
+10:48:41 [INFO] Loaded properties from file 'jdbc.properties'
+10:48:41 [INFO] Database connected successfully!
+10:48:41 [INFO] Loaded 13  item(s) count.
+10:48:41 [INFO] Loaded 1 registered GameServers.
+10:48:41 [INFO] Loaded 0 blocked ip masks.
+10:48:41 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:48:41 [INFO] Loaded 11 starting items.
+10:48:41 [INFO] Loaded 9 client packet prototypes
+10:48:41 [INFO] Loaded 2 operations interaction with the game server
+10:48:41 [INFO] Loaded in 0 sec(0,000 min)
+10:48:41 [INFO] Used 8 mb, max 31 mb.
+10:48:41 [INFO] Used 27,69% percent memory.
+10:48:42 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:48:42 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:49:27 [INFO] Loaded properties from file 'system.properties'
+10:49:27 [INFO] Loaded properties from file 'jdbc.properties'
+10:49:27 [INFO] Database connected successfully!
+10:49:27 [INFO] Loaded 13  item(s) count.
+10:49:27 [INFO] Loaded 1 registered GameServers.
+10:49:27 [INFO] Loaded 0 blocked ip masks.
+10:49:27 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:49:27 [INFO] Loaded 11 starting items.
+10:49:27 [INFO] Loaded 9 client packet prototypes
+10:49:27 [INFO] Loaded 2 operations interaction with the game server
+10:49:27 [INFO] Loaded in 0 sec(0,000 min)
+10:49:27 [INFO] Used 8 mb, max 31 mb.
+10:49:27 [INFO] Used 27,29% percent memory.
+10:49:27 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:49:27 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:50:03 [INFO] Loaded properties from file 'system.properties'
+10:50:03 [INFO] Loaded properties from file 'jdbc.properties'
+10:50:03 [INFO] Database connected successfully!
+10:50:03 [INFO] Loaded 13  item(s) count.
+10:50:03 [INFO] Loaded 1 registered GameServers.
+10:50:03 [INFO] Loaded 0 blocked ip masks.
+10:50:03 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:50:03 [INFO] Loaded 11 starting items.
+10:50:03 [INFO] Loaded 9 client packet prototypes
+10:50:03 [INFO] Loaded 2 operations interaction with the game server
+10:50:03 [INFO] Loaded in 0 sec(0,000 min)
+10:50:03 [INFO] Used 8 mb, max 31 mb.
+10:50:03 [INFO] Used 27,67% percent memory.
+10:50:04 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:50:04 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:50:04 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:50:59 [INFO] Loaded properties from file 'system.properties'
+10:50:59 [INFO] Loaded properties from file 'jdbc.properties'
+10:50:59 [INFO] Database connected successfully!
+10:50:59 [INFO] Loaded 13  item(s) count.
+10:50:59 [INFO] Loaded 1 registered GameServers.
+10:50:59 [INFO] Loaded 0 blocked ip masks.
+10:50:59 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:50:59 [INFO] Loaded 11 starting items.
+10:50:59 [INFO] Loaded 9 client packet prototypes
+10:50:59 [INFO] Loaded 2 operations interaction with the game server
+10:50:59 [INFO] Loaded in 0 sec(0,000 min)
+10:50:59 [INFO] Used 8 mb, max 31 mb.
+10:50:59 [INFO] Used 27,27% percent memory.
+10:50:59 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:50:59 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:51:25 [INFO] Loaded properties from file 'system.properties'
+10:51:25 [INFO] Loaded properties from file 'jdbc.properties'
+10:51:25 [INFO] Database connected successfully!
+10:51:25 [INFO] Loaded map Burning Hall with mode 1
+10:51:25 [INFO] Loaded 13  item(s) count.
+10:51:25 [INFO] Loaded 1 registered GameServers.
+10:51:25 [INFO] Loaded 0 blocked ip masks.
+10:51:25 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:51:25 [INFO] Loaded 11 starting items.
+10:51:25 [INFO] Loaded 9 client packet prototypes
+10:51:25 [INFO] Loaded 2 operations interaction with the game server
+10:51:25 [INFO] Loaded in 0 sec(0,000 min)
+10:51:25 [INFO] Used 8 mb, max 31 mb.
+10:51:25 [INFO] Used 27,68% percent memory.
+10:51:26 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:51:26 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:51:49 [INFO] Loaded properties from file 'system.properties'
+10:51:49 [INFO] Loaded properties from file 'jdbc.properties'
+10:51:49 [INFO] Database connected successfully!
+10:51:49 [INFO] Loaded map Porto Akaba with mode 1
+10:51:49 [INFO] Loaded map Old Library with mode 1
+10:51:49 [INFO] Loaded map Burning Hall with mode 3
+10:51:49 [INFO] Loaded 13  item(s) count.
+10:51:49 [INFO] Loaded 1 registered GameServers.
+10:51:49 [INFO] Loaded 0 blocked ip masks.
+10:51:49 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:51:49 [INFO] Loaded 11 starting items.
+10:51:49 [INFO] Loaded 9 client packet prototypes
+10:51:49 [INFO] Loaded 2 operations interaction with the game server
+10:51:49 [INFO] Loaded in 0 sec(0,000 min)
+10:51:49 [INFO] Used 8 mb, max 31 mb.
+10:51:49 [INFO] Used 27,22% percent memory.
+10:51:49 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:51:49 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:52:11 [INFO] Loaded properties from file 'system.properties'
+10:52:11 [INFO] Loaded properties from file 'jdbc.properties'
+10:52:11 [INFO] Database connected successfully!
+10:52:12 [INFO] Loaded map Porto Akaba with mode 1
+10:52:12 [INFO] Loaded map Old Library with mode 1
+10:52:12 [INFO] Loaded map Burning Hall with mode 3
+10:52:12 [INFO] Loaded 13  item(s) count.
+10:52:12 [INFO] Loaded 1 registered GameServers.
+10:52:12 [INFO] Loaded 0 blocked ip masks.
+10:52:12 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:52:12 [INFO] Loaded 11 starting items.
+10:52:12 [INFO] Loaded 9 client packet prototypes
+10:52:12 [INFO] Loaded 2 operations interaction with the game server
+10:52:12 [INFO] Loaded in 0 sec(0,000 min)
+10:52:12 [INFO] Used 8 mb, max 31 mb.
+10:52:12 [INFO] Used 27,21% percent memory.
+10:52:12 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:52:12 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:53:17 [INFO] Loaded properties from file 'system.properties'
+10:53:17 [INFO] Loaded properties from file 'jdbc.properties'
+10:53:17 [INFO] Database connected successfully!
+10:53:17 [INFO] Loaded map Porto Akaba with mode 1
+10:53:17 [INFO] Loaded map Red Rock with mode 2
+10:53:17 [INFO] Loaded map Old Library with mode 1
+10:53:17 [INFO] Loaded map Mstation with mode 1
+10:53:17 [INFO] Loaded map Midnight Zone with mode 2
+10:53:17 [INFO] Loaded map Uptown with mode 2
+10:53:17 [INFO] Loaded map Burning Hall with mode 1
+10:53:17 [INFO] Loaded map Dsquad with mode 2
+10:53:17 [INFO] Loaded map Crackdown with mode 1
+10:53:17 [INFO] Loaded map Saint Mansion with mode 1
+10:53:17 [INFO] Loaded map Eastern Road with mode 2
+10:53:17 [INFO] Loaded map Training Camp with mode 2
+10:53:17 [INFO] Loaded map Sentry Base with mode 2
+10:53:17 [INFO] Loaded map Desert Camp with mode 2
+10:53:17 [INFO] Loaded map Kick Point with mode 2
+10:53:17 [INFO] Loaded map Face Rock with mode 2
+10:53:17 [INFO] Loaded map Supply Base with mode 2
+10:53:17 [INFO] Loaded map SandStorm with mode 16
+10:53:17 [INFO] Loaded map Downtown with mode 16
+10:53:17 [INFO] Loaded map Luxville with mode 16
+10:53:17 [INFO] Loaded map Out Post with mode 16
+10:53:17 [INFO] Loaded map Blow City with mode 16
+10:53:17 [INFO] Loaded map Sentry Base with mode 16
+10:53:17 [INFO] Loaded map Hospital with mode 16
+10:53:17 [INFO] Loaded map Downtown with mode 16
+10:53:17 [INFO] Loaded map ShoppingCenter with mode 16
+10:53:17 [INFO] Loaded map SandStorm with mode 16
+10:53:17 [INFO] Loaded map Breakdown with mode 10
+10:53:17 [INFO] Loaded 13  item(s) count.
+10:53:17 [INFO] Loaded 1 registered GameServers.
+10:53:17 [INFO] Loaded 0 blocked ip masks.
+10:53:17 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:53:17 [INFO] Loaded 11 starting items.
+10:53:17 [INFO] Loaded 9 client packet prototypes
+10:53:17 [INFO] Loaded 2 operations interaction with the game server
+10:53:17 [INFO] Loaded in 0 sec(0,000 min)
+10:53:17 [INFO] Used 8 mb, max 31 mb.
+10:53:17 [INFO] Used 27,64% percent memory.
+10:53:18 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:53:18 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:53:18 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:53:22 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:53:36 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:55:26 [INFO] Loaded properties from file 'system.properties'
+10:55:26 [INFO] Loaded properties from file 'jdbc.properties'
+10:55:26 [INFO] Database connected successfully!
+10:55:26 [INFO] Loaded map Porto Akaba with mode 1
+10:55:26 [INFO] Loaded map Old Library with mode 1
+10:55:26 [INFO] Loaded map Mstation with mode 1
+10:55:26 [INFO] Loaded map Burning Hall with mode 1
+10:55:26 [INFO] Loaded map Crackdown with mode 1
+10:55:26 [INFO] Loaded map Saint Mansion with mode 1
+10:55:26 [INFO] Loaded map SandStorm with mode 16
+10:55:26 [INFO] Loaded map Downtown with mode 16
+10:55:26 [INFO] Loaded map Luxville with mode 16
+10:55:26 [INFO] Loaded map Out Post with mode 16
+10:55:26 [INFO] Loaded map Blow City with mode 16
+10:55:26 [INFO] Loaded map Sentry Base with mode 16
+10:55:26 [INFO] Loaded map Hospital with mode 16
+10:55:26 [INFO] Loaded map Downtown with mode 16
+10:55:26 [INFO] Loaded map ShoppingCenter with mode 16
+10:55:26 [INFO] Loaded map SandStorm with mode 16
+10:55:26 [INFO] Loaded map Breakdown with mode 8
+10:55:26 [INFO] Loaded 13  item(s) count.
+10:55:26 [INFO] Loaded 1 registered GameServers.
+10:55:26 [INFO] Loaded 0 blocked ip masks.
+10:55:26 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:55:26 [INFO] Loaded 11 starting items.
+10:55:26 [INFO] Loaded 9 client packet prototypes
+10:55:26 [INFO] Loaded 2 operations interaction with the game server
+10:55:26 [INFO] Loaded in 0 sec(0,000 min)
+10:55:26 [INFO] Used 8 mb, max 31 mb.
+10:55:26 [INFO] Used 27,37% percent memory.
+10:55:27 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:55:27 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:55:27 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:55:44 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:55:47 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:56:21 [INFO] Loaded properties from file 'system.properties'
+10:56:21 [INFO] Loaded properties from file 'jdbc.properties'
+10:56:21 [INFO] Database connected successfully!
+10:56:21 [INFO] Loaded map Porto Akaba with mode 2
+10:56:21 [INFO] Loaded map Old Library with mode 2
+10:56:21 [INFO] Loaded map Mstation with mode 2
+10:56:21 [INFO] Loaded map Burning Hall with mode 2
+10:56:21 [INFO] Loaded map Crackdown with mode 2
+10:56:21 [INFO] Loaded map Saint Mansion with mode 2
+10:56:21 [INFO] Loaded map SandStorm with mode 16
+10:56:21 [INFO] Loaded map Downtown with mode 16
+10:56:21 [INFO] Loaded map Luxville with mode 16
+10:56:21 [INFO] Loaded map Out Post with mode 16
+10:56:21 [INFO] Loaded map Blow City with mode 16
+10:56:21 [INFO] Loaded map Sentry Base with mode 16
+10:56:21 [INFO] Loaded map Hospital with mode 16
+10:56:21 [INFO] Loaded map Downtown with mode 16
+10:56:21 [INFO] Loaded map ShoppingCenter with mode 16
+10:56:21 [INFO] Loaded map SandStorm with mode 16
+10:56:21 [INFO] Loaded map Breakdown with mode 8
+10:56:21 [INFO] Loaded 13  item(s) count.
+10:56:21 [INFO] Loaded 1 registered GameServers.
+10:56:21 [INFO] Loaded 0 blocked ip masks.
+10:56:21 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:56:21 [INFO] Loaded 11 starting items.
+10:56:21 [INFO] Loaded 9 client packet prototypes
+10:56:21 [INFO] Loaded 2 operations interaction with the game server
+10:56:21 [INFO] Loaded in 0 sec(0,000 min)
+10:56:21 [INFO] Used 8 mb, max 31 mb.
+10:56:21 [INFO] Used 28,00% percent memory.
+10:56:22 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:56:22 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:56:22 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:56:44 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:56:48 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:57:26 [INFO] Loaded properties from file 'system.properties'
+10:57:26 [INFO] Loaded properties from file 'jdbc.properties'
+10:57:26 [INFO] Database connected successfully!
+10:57:26 [INFO] Loaded map SandStorm with mode 16
+10:57:26 [INFO] Loaded map Downtown with mode 16
+10:57:26 [INFO] Loaded map Luxville with mode 16
+10:57:26 [INFO] Loaded map Out Post with mode 16
+10:57:26 [INFO] Loaded map Blow City with mode 16
+10:57:26 [INFO] Loaded map Sentry Base with mode 16
+10:57:26 [INFO] Loaded map Hospital with mode 16
+10:57:26 [INFO] Loaded map Downtown with mode 16
+10:57:26 [INFO] Loaded map ShoppingCenter with mode 16
+10:57:26 [INFO] Loaded map SandStorm with mode 16
+10:57:26 [INFO] Loaded map Breakdown with mode 8
+10:57:26 [INFO] Loaded 13  item(s) count.
+10:57:26 [INFO] Loaded 1 registered GameServers.
+10:57:26 [INFO] Loaded 0 blocked ip masks.
+10:57:26 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:57:26 [INFO] Loaded 11 starting items.
+10:57:26 [INFO] Loaded 9 client packet prototypes
+10:57:26 [INFO] Loaded 2 operations interaction with the game server
+10:57:26 [INFO] Loaded in 0 sec(0,000 min)
+10:57:26 [INFO] Used 8 mb, max 31 mb.
+10:57:26 [INFO] Used 27,75% percent memory.
+10:57:27 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:57:27 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:57:27 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:57:48 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:57:52 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:58:39 [INFO] Loaded properties from file 'system.properties'
+10:58:39 [INFO] Loaded properties from file 'jdbc.properties'
+10:58:39 [INFO] Database connected successfully!
+10:58:39 [INFO] Loaded map SandStorm with mode 16
+10:58:39 [INFO] Loaded map Downtown with mode 16
+10:58:39 [INFO] Loaded map Luxville with mode 16
+10:58:39 [INFO] Loaded map Out Post with mode 16
+10:58:39 [INFO] Loaded map Blow City with mode 16
+10:58:39 [INFO] Loaded map Sentry Base with mode 16
+10:58:39 [INFO] Loaded map Hospital with mode 16
+10:58:39 [INFO] Loaded map Downtown with mode 16
+10:58:39 [INFO] Loaded map ShoppingCenter with mode 16
+10:58:39 [INFO] Loaded map SandStorm with mode 16
+10:58:39 [INFO] Loaded 13  item(s) count.
+10:58:39 [INFO] Loaded 1 registered GameServers.
+10:58:39 [INFO] Loaded 0 blocked ip masks.
+10:58:39 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:58:39 [INFO] Loaded 11 starting items.
+10:58:39 [INFO] Loaded 9 client packet prototypes
+10:58:39 [INFO] Loaded 2 operations interaction with the game server
+10:58:39 [INFO] Loaded in 0 sec(0,000 min)
+10:58:39 [INFO] Used 8 mb, max 31 mb.
+10:58:39 [INFO] Used 27,74% percent memory.
+10:58:40 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:58:40 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:58:40 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:59:13 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:59:16 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+11:00:08 [INFO] Loaded properties from file 'system.properties'
+11:00:08 [INFO] Loaded properties from file 'jdbc.properties'
+11:00:08 [INFO] Database connected successfully!
+11:00:08 [INFO] Loaded map Luxville with mode 16
+11:00:08 [INFO] Loaded 13  item(s) count.
+11:00:08 [INFO] Loaded 1 registered GameServers.
+11:00:08 [INFO] Loaded 0 blocked ip masks.
+11:00:08 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:00:08 [INFO] Loaded 11 starting items.
+11:00:08 [INFO] Loaded 9 client packet prototypes
+11:00:08 [INFO] Loaded 2 operations interaction with the game server
+11:00:08 [INFO] Loaded in 0 sec(0,000 min)
+11:00:08 [INFO] Used 8 mb, max 31 mb.
+11:00:08 [INFO] Used 27,39% percent memory.
+11:00:09 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:00:09 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:00:09 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:00:50 [INFO] Client [id:1, ip: 127.0.0.1] connected
+11:00:53 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+11:01:26 [INFO] Loaded properties from file 'system.properties'
+11:01:26 [INFO] Loaded properties from file 'jdbc.properties'
+11:01:26 [INFO] Database connected successfully!
+11:01:26 [INFO] Loaded map Lux? with mode 16
+11:01:26 [INFO] Loaded 13  item(s) count.
+11:01:26 [INFO] Loaded 1 registered GameServers.
+11:01:26 [INFO] Loaded 0 blocked ip masks.
+11:01:26 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:01:26 [INFO] Loaded 11 starting items.
+11:01:26 [INFO] Loaded 9 client packet prototypes
+11:01:26 [INFO] Loaded 2 operations interaction with the game server
+11:01:26 [INFO] Loaded in 0 sec(0,000 min)
+11:01:26 [INFO] Used 8 mb, max 31 mb.
+11:01:26 [INFO] Used 27,25% percent memory.
+11:01:27 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:01:27 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:01:27 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:01:48 [INFO] Client [id:1, ip: 127.0.0.1] connected
+11:01:58 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+11:02:06 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+11:02:06 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+11:02:44 [INFO] Loaded properties from file 'system.properties'
+11:02:44 [INFO] Loaded properties from file 'jdbc.properties'
+11:02:44 [INFO] Database connected successfully!
+11:02:44 [INFO] Loaded map Downtown with mode 16
+11:02:44 [INFO] Loaded 13  item(s) count.
+11:02:44 [INFO] Loaded 1 registered GameServers.
+11:02:44 [INFO] Loaded 0 blocked ip masks.
+11:02:44 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:02:44 [INFO] Loaded 11 starting items.
+11:02:44 [INFO] Loaded 9 client packet prototypes
+11:02:44 [INFO] Loaded 2 operations interaction with the game server
+11:02:44 [INFO] Loaded in 0 sec(0,000 min)
+11:02:44 [INFO] Used 8 mb, max 31 mb.
+11:02:44 [INFO] Used 27,15% percent memory.
+11:02:44 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:02:44 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:02:45 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:03:24 [INFO] Loaded properties from file 'system.properties'
+11:03:24 [INFO] Loaded properties from file 'jdbc.properties'
+11:03:24 [INFO] Database connected successfully!
+11:03:24 [INFO] Loaded map Downtown with mode 16
+11:03:24 [INFO] Loaded 13  item(s) count.
+11:03:24 [INFO] Loaded 1 registered GameServers.
+11:03:24 [INFO] Loaded 0 blocked ip masks.
+11:03:24 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:03:24 [INFO] Loaded 11 starting items.
+11:03:24 [INFO] Loaded 9 client packet prototypes
+11:03:24 [INFO] Loaded 2 operations interaction with the game server
+11:03:24 [INFO] Loaded in 0 sec(0,000 min)
+11:03:24 [INFO] Used 8 mb, max 31 mb.
+11:03:24 [INFO] Used 27,20% percent memory.
+11:03:24 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:03:24 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:03:25 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:03:27 [INFO] Client [id:1, ip: 127.0.0.1] connected
+11:03:31 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:11:16 [INFO] Loaded properties from file 'system.properties'
+13:11:16 [INFO] Loaded properties from file 'jdbc.properties'
+13:11:16 [INFO] Database connected successfully!
+13:11:17 [INFO] Loaded map Downtown with mode 16
+13:11:17 [INFO] Loaded 13  item(s) count.
+13:11:17 [INFO] Loaded 1 registered GameServers.
+13:11:17 [INFO] Loaded 0 blocked ip masks.
+13:11:17 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:11:17 [INFO] Loaded 11 starting items.
+13:11:17 [INFO] Loaded 9 client packet prototypes
+13:11:17 [INFO] Loaded 2 operations interaction with the game server
+13:11:17 [INFO] Loaded in 0 sec(0,000 min)
+13:11:17 [INFO] Used 8 mb, max 31 mb.
+13:11:17 [INFO] Used 27,70% percent memory.
+13:11:17 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:11:17 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:11:18 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:12:22 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:12:22 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:12:25 [INFO] Client [id:2, ip: 127.0.0.1] connected
+13:12:30 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+13:14:13 [INFO] Loaded properties from file 'system.properties'
+13:14:13 [INFO] Loaded properties from file 'jdbc.properties'
+13:14:13 [INFO] Database connected successfully!
+13:14:13 [INFO] Loaded map Downtown with mode 16 [VALUE: 1024]
+13:14:13 [INFO] Loaded 13  item(s) count.
+13:14:13 [INFO] Loaded 1 registered GameServers.
+13:14:13 [INFO] Loaded 0 blocked ip masks.
+13:14:13 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:14:13 [INFO] Loaded 11 starting items.
+13:14:13 [INFO] Loaded 9 client packet prototypes
+13:14:13 [INFO] Loaded 2 operations interaction with the game server
+13:14:13 [INFO] Loaded in 0 sec(0,000 min)
+13:14:13 [INFO] Used 8 mb, max 31 mb.
+13:14:13 [INFO] Used 27,67% percent memory.
+13:14:13 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:14:13 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:15:02 [INFO] Loaded properties from file 'system.properties'
+13:15:02 [INFO] Loaded properties from file 'jdbc.properties'
+13:15:02 [INFO] Database connected successfully!
+13:15:02 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:15:02 [INFO] Loaded 13  item(s) count.
+13:15:02 [INFO] Loaded 1 registered GameServers.
+13:15:02 [INFO] Loaded 0 blocked ip masks.
+13:15:02 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:15:02 [INFO] Loaded 11 starting items.
+13:15:02 [INFO] Loaded 9 client packet prototypes
+13:15:02 [INFO] Loaded 2 operations interaction with the game server
+13:15:02 [INFO] Loaded in 0 sec(0,000 min)
+13:15:02 [INFO] Used 8 mb, max 31 mb.
+13:15:02 [INFO] Used 27,62% percent memory.
+13:15:03 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:15:03 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:16:25 [INFO] Loaded properties from file 'system.properties'
+13:16:25 [INFO] Loaded properties from file 'jdbc.properties'
+13:16:25 [INFO] Database connected successfully!
+13:16:25 [INFO] Loaded map Downtown with mode 24 [VALUE: 512]
+13:16:25 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:16:25 [INFO] Loaded 13  item(s) count.
+13:16:25 [INFO] Loaded 1 registered GameServers.
+13:16:25 [INFO] Loaded 0 blocked ip masks.
+13:16:25 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:16:25 [INFO] Loaded 11 starting items.
+13:16:25 [INFO] Loaded 9 client packet prototypes
+13:16:25 [INFO] Loaded 2 operations interaction with the game server
+13:16:25 [INFO] Loaded in 0 sec(0,000 min)
+13:16:25 [INFO] Used 8 mb, max 31 mb.
+13:16:25 [INFO] Used 27,30% percent memory.
+13:16:26 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:16:26 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:16:26 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:16:43 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:16:47 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:17:24 [INFO] Loaded properties from file 'system.properties'
+13:17:24 [INFO] Loaded properties from file 'jdbc.properties'
+13:17:24 [INFO] Database connected successfully!
+13:17:24 [INFO] Loaded map Training Camp with mode 4 [VALUE: 4]
+13:17:24 [INFO] Loaded map Supply Base with mode 4 [VALUE: 128]
+13:17:24 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:17:24 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:17:24 [INFO] Loaded 13  item(s) count.
+13:17:24 [INFO] Loaded 1 registered GameServers.
+13:17:24 [INFO] Loaded 0 blocked ip masks.
+13:17:24 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:17:24 [INFO] Loaded 11 starting items.
+13:17:24 [INFO] Loaded 9 client packet prototypes
+13:17:24 [INFO] Loaded 2 operations interaction with the game server
+13:17:24 [INFO] Loaded in 0 sec(0,000 min)
+13:17:24 [INFO] Used 8 mb, max 31 mb.
+13:17:24 [INFO] Used 27,36% percent memory.
+13:17:24 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:17:24 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:17:25 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:17:48 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:17:53 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:19:19 [INFO] Loaded properties from file 'system.properties'
+13:19:19 [INFO] Loaded properties from file 'jdbc.properties'
+13:19:19 [INFO] Database connected successfully!
+13:19:19 [INFO] Loaded map Burning Hall with mode 4 [VALUE: 128]
+13:19:19 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:19:19 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:19:19 [INFO] Loaded 13  item(s) count.
+13:19:19 [INFO] Loaded 1 registered GameServers.
+13:19:19 [INFO] Loaded 0 blocked ip masks.
+13:19:19 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:19:19 [INFO] Loaded 11 starting items.
+13:19:19 [INFO] Loaded 9 client packet prototypes
+13:19:19 [INFO] Loaded 2 operations interaction with the game server
+13:19:19 [INFO] Loaded in 0 sec(0,000 min)
+13:19:19 [INFO] Used 8 mb, max 31 mb.
+13:19:19 [INFO] Used 27,67% percent memory.
+13:19:19 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:19:19 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:19:20 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:19:36 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:19:40 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:20:08 [INFO] Loaded properties from file 'system.properties'
+13:20:08 [INFO] Loaded properties from file 'jdbc.properties'
+13:20:08 [INFO] Database connected successfully!
+13:20:08 [INFO] Loaded map Burning Hall with mode 12 [VALUE: 128]
+13:20:08 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:20:08 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:20:08 [INFO] Loaded 13  item(s) count.
+13:20:08 [INFO] Loaded 1 registered GameServers.
+13:20:08 [INFO] Loaded 0 blocked ip masks.
+13:20:08 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:20:08 [INFO] Loaded 11 starting items.
+13:20:08 [INFO] Loaded 9 client packet prototypes
+13:20:08 [INFO] Loaded 2 operations interaction with the game server
+13:20:08 [INFO] Loaded in 0 sec(0,000 min)
+13:20:08 [INFO] Used 8 mb, max 31 mb.
+13:20:08 [INFO] Used 27,70% percent memory.
+13:20:08 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:20:08 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:20:09 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:20:25 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:20:30 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:20:46 [INFO] Loaded properties from file 'system.properties'
+13:20:46 [INFO] Loaded properties from file 'jdbc.properties'
+13:20:46 [INFO] Database connected successfully!
+13:20:46 [INFO] Loaded map Burning Hall with mode 12 [VALUE: 128]
+13:20:46 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:20:46 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:20:46 [INFO] Loaded 13  item(s) count.
+13:20:46 [INFO] Loaded 1 registered GameServers.
+13:20:46 [INFO] Loaded 0 blocked ip masks.
+13:20:46 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:20:46 [INFO] Loaded 11 starting items.
+13:20:46 [INFO] Loaded 9 client packet prototypes
+13:20:46 [INFO] Loaded 2 operations interaction with the game server
+13:20:46 [INFO] Loaded in 0 sec(0,000 min)
+13:20:46 [INFO] Used 8 mb, max 31 mb.
+13:20:46 [INFO] Used 27,62% percent memory.
+13:20:47 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:20:47 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:20:47 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:20:47 [INFO] GameServer [id:none, ip: 127.0.0.1] requested id [1] is already registered!
+13:20:47 [INFO] The server has been shutdown!
+13:20:47 [INFO] Networking is closed!
+13:20:47 [INFO] The server has been shutdown!
+13:20:47 [INFO] Networking is closed!
+13:20:47 [INFO] GameServer [id:none, ip: 127.0.0.1] disconnecting
+13:20:47 [INFO] GameServer [id:none, ip: 127.0.0.1] disconnected
+13:20:47 [ERROR] 
+java.lang.NullPointerException: null
+	at ru.pb.auth.network.gameserver.GameConnection.channelUnregistered(GameConnection.java:54) ~[pb-auth.jar:na]
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelUnregistered(DefaultChannelHandlerContext.java:188) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelUnregistered(DefaultChannelHandlerContext.java:174) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelUnregistered(ChannelInboundHandlerAdapter.java:53) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.handler.logging.LoggingHandler.channelUnregistered(LoggingHandler.java:209) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelUnregistered(DefaultChannelHandlerContext.java:188) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelUnregistered(DefaultChannelHandlerContext.java:174) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelUnregistered(ChannelInboundHandlerAdapter.java:53) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelUnregistered(DefaultChannelHandlerContext.java:188) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelUnregistered(DefaultChannelHandlerContext.java:174) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:736) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$6.run(AbstractChannel.java:596) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) [netty-all-4.0.14.Final.jar:4.0.14.Final]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
+13:20:47 [INFO] GameServer [id:none, ip: 127.0.0.1] disconnecting
+13:21:05 [INFO] Loaded properties from file 'system.properties'
+13:21:05 [INFO] Loaded properties from file 'jdbc.properties'
+13:21:05 [INFO] Database connected successfully!
+13:21:05 [INFO] Loaded map Burning Hall with mode 28 [VALUE: 128]
+13:21:05 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:21:05 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:21:05 [INFO] Loaded 13  item(s) count.
+13:21:05 [INFO] Loaded 1 registered GameServers.
+13:21:05 [INFO] Loaded 0 blocked ip masks.
+13:21:05 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:21:05 [INFO] Loaded 11 starting items.
+13:21:05 [INFO] Loaded 9 client packet prototypes
+13:21:05 [INFO] Loaded 2 operations interaction with the game server
+13:21:05 [INFO] Loaded in 0 sec(0,000 min)
+13:21:05 [INFO] Used 8 mb, max 31 mb.
+13:21:05 [INFO] Used 27,21% percent memory.
+13:21:06 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:21:06 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:21:06 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:21:16 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:21:37 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:22:19 [INFO] Loaded properties from file 'system.properties'
+13:22:19 [INFO] Loaded properties from file 'jdbc.properties'
+13:22:19 [INFO] Database connected successfully!
+13:22:19 [INFO] Loaded map Burning Hall with mode 2 [VALUE: 128]
+13:22:19 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:22:19 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:22:19 [INFO] Loaded 13  item(s) count.
+13:22:19 [INFO] Loaded 1 registered GameServers.
+13:22:19 [INFO] Loaded 0 blocked ip masks.
+13:22:19 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:22:19 [INFO] Loaded 11 starting items.
+13:22:19 [INFO] Loaded 9 client packet prototypes
+13:22:19 [INFO] Loaded 2 operations interaction with the game server
+13:22:19 [INFO] Loaded in 0 sec(0,000 min)
+13:22:19 [INFO] Used 8 mb, max 31 mb.
+13:22:19 [INFO] Used 27,60% percent memory.
+13:22:19 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:22:19 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:22:20 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:22:23 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:22:33 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:23:33 [INFO] Loaded properties from file 'system.properties'
+13:23:33 [INFO] Loaded properties from file 'jdbc.properties'
+13:23:33 [INFO] Database connected successfully!
+13:23:33 [INFO] Loaded map Porto Akaba with mode 1 [VALUE: 2]
+13:23:33 [INFO] Loaded map Burning Hall with mode 3 [VALUE: 128]
+13:23:33 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:23:33 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:23:34 [INFO] Loaded 13  item(s) count.
+13:23:34 [INFO] Loaded 1 registered GameServers.
+13:23:34 [INFO] Loaded 0 blocked ip masks.
+13:23:34 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:23:34 [INFO] Loaded 11 starting items.
+13:23:34 [INFO] Loaded 9 client packet prototypes
+13:23:34 [INFO] Loaded 2 operations interaction with the game server
+13:23:34 [INFO] Loaded in 0 sec(0,000 min)
+13:23:34 [INFO] Used 8 mb, max 31 mb.
+13:23:34 [INFO] Used 27,64% percent memory.
+13:23:34 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:23:34 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:23:34 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:23:36 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:23:40 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:24:23 [INFO] Loaded properties from file 'system.properties'
+13:24:23 [INFO] Loaded properties from file 'jdbc.properties'
+13:24:23 [INFO] Database connected successfully!
+13:24:23 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:24:23 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:24:23 [INFO] Loaded 13  item(s) count.
+13:24:23 [INFO] Loaded 1 registered GameServers.
+13:24:23 [INFO] Loaded 0 blocked ip masks.
+13:24:23 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:24:23 [INFO] Loaded 11 starting items.
+13:24:23 [INFO] Loaded 9 client packet prototypes
+13:24:23 [INFO] Loaded 2 operations interaction with the game server
+13:24:23 [INFO] Loaded in 0 sec(0,000 min)
+13:24:23 [INFO] Used 8 mb, max 31 mb.
+13:24:23 [INFO] Used 27,66% percent memory.
+13:24:23 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:24:23 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:24:24 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:24:40 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:24:44 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:25:27 [INFO] Loaded properties from file 'system.properties'
+13:25:27 [INFO] Loaded properties from file 'jdbc.properties'
+13:25:27 [INFO] Database connected successfully!
+13:25:28 [INFO] Loaded map Porto Akaba with mode 1 [VALUE: 2]
+13:25:28 [INFO] Loaded map Red Rock with mode 1 [VALUE: 4]
+13:25:28 [INFO] Loaded map Old Library with mode 1 [VALUE: 8]
+13:25:28 [INFO] Loaded map Mstation with mode 1 [VALUE: 16]
+13:25:28 [INFO] Loaded map Midnight Zone with mode 1 [VALUE: 32]
+13:25:28 [INFO] Loaded map Uptown with mode 1 [VALUE: 64]
+13:25:28 [INFO] Loaded map Burning Hall with mode 1 [VALUE: 128]
+13:25:28 [INFO] Loaded map Crackdown with mode 1 [VALUE: 512]
+13:25:28 [INFO] Loaded map Saint Mansion with mode 1 [VALUE: 1024]
+13:25:28 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:25:28 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:25:28 [INFO] Loaded 13  item(s) count.
+13:25:28 [INFO] Loaded 1 registered GameServers.
+13:25:28 [INFO] Loaded 0 blocked ip masks.
+13:25:28 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:25:28 [INFO] Loaded 11 starting items.
+13:25:28 [INFO] Loaded 9 client packet prototypes
+13:25:28 [INFO] Loaded 2 operations interaction with the game server
+13:25:28 [INFO] Loaded in 0 sec(0,000 min)
+13:25:28 [INFO] Used 8 mb, max 31 mb.
+13:25:28 [INFO] Used 27,34% percent memory.
+13:25:28 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:25:28 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:25:29 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:25:46 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:25:50 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:27:40 [INFO] Loaded properties from file 'system.properties'
+13:27:40 [INFO] Loaded properties from file 'jdbc.properties'
+13:27:40 [INFO] Database connected successfully!
+13:27:40 [INFO] Loaded map Porto Akaba with mode 1 [VALUE: 2]
+13:27:40 [INFO] Loaded map Old Library with mode 1 [VALUE: 8]
+13:27:40 [INFO] Loaded map Mstation with mode 1 [VALUE: 16]
+13:27:40 [INFO] Loaded map Burning Hall with mode 6185 [VALUE: 128]
+13:27:40 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:27:40 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:27:40 [INFO] Loaded 13  item(s) count.
+13:27:40 [INFO] Loaded 1 registered GameServers.
+13:27:40 [INFO] Loaded 0 blocked ip masks.
+13:27:40 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:27:40 [INFO] Loaded 11 starting items.
+13:27:40 [INFO] Loaded 9 client packet prototypes
+13:27:40 [INFO] Loaded 2 operations interaction with the game server
+13:27:40 [INFO] Loaded in 0 sec(0,000 min)
+13:27:40 [INFO] Used 8 mb, max 31 mb.
+13:27:40 [INFO] Used 27,24% percent memory.
+13:27:40 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:27:40 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:27:41 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:27:46 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:27:46 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:27:51 [INFO] Client [id:2, ip: 127.0.0.1] connected
+13:27:57 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+13:29:05 [INFO] Loaded properties from file 'system.properties'
+13:29:05 [INFO] Loaded properties from file 'jdbc.properties'
+13:29:05 [INFO] Database connected successfully!
+13:29:05 [INFO] Loaded map Porto Akaba with mode 1 [VALUE: 2]
+13:29:05 [INFO] Loaded map Burning Hall with mode 1 [VALUE: 128]
+13:29:05 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:29:05 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:29:05 [INFO] Loaded 13  item(s) count.
+13:29:05 [INFO] Loaded 1 registered GameServers.
+13:29:05 [INFO] Loaded 0 blocked ip masks.
+13:29:05 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:29:05 [INFO] Loaded 11 starting items.
+13:29:05 [INFO] Loaded 9 client packet prototypes
+13:29:05 [INFO] Loaded 2 operations interaction with the game server
+13:29:05 [INFO] Loaded in 0 sec(0,000 min)
+13:29:05 [INFO] Used 8 mb, max 31 mb.
+13:29:05 [INFO] Used 27,24% percent memory.
+13:29:05 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:29:05 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:29:06 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:29:32 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:29:36 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+13:34:09 [INFO] Loaded properties from file 'system.properties'
+13:34:09 [INFO] Loaded properties from file 'jdbc.properties'
+13:34:09 [INFO] Database connected successfully!
+13:34:09 [INFO] Loaded map Porto Akaba with mode 1 [VALUE: 2]
+13:34:09 [INFO] Loaded map Burning Hall with mode 1 [VALUE: 128]
+13:34:09 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+13:34:09 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+13:34:09 [INFO] Loaded 13  item(s) count.
+13:34:09 [INFO] Loaded 1 registered GameServers.
+13:34:09 [INFO] Loaded 0 blocked ip masks.
+13:34:09 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+13:34:09 [INFO] Loaded 11 starting items.
+13:34:09 [INFO] Loaded 9 client packet prototypes
+13:34:09 [INFO] Loaded 2 operations interaction with the game server
+13:34:09 [INFO] Loaded in 0 sec(0,000 min)
+13:34:09 [INFO] Used 8 mb, max 31 mb.
+13:34:09 [INFO] Used 27,70% percent memory.
+13:34:09 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+13:34:09 [INFO] Listening to the client connections [/127.0.0.1:39190]
+13:34:10 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+13:35:01 [INFO] Client [id:1, ip: 127.0.0.1] connected
+13:35:37 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+14:01:07 [INFO] Loaded properties from file 'system.properties'
+14:01:07 [INFO] Loaded properties from file 'jdbc.properties'
+14:01:07 [INFO] Database connected successfully!
+14:01:07 [INFO] Loaded map Porto Akaba with mode 1 [VALUE: 2]
+14:01:07 [INFO] Loaded map Burning Hall with mode 1 [VALUE: 128]
+14:01:07 [INFO] Loaded map Downtown with mode 16 [VALUE: 512]
+14:01:07 [INFO] Loaded map Luxville with mode 16 [VALUE: 1024]
+14:01:07 [INFO] Loaded 13  item(s) count.
+14:01:07 [INFO] Loaded 1 registered GameServers.
+14:01:07 [INFO] Loaded 0 blocked ip masks.
+14:01:07 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+14:01:07 [INFO] Loaded 11 starting items.
+14:01:07 [INFO] Loaded 9 client packet prototypes
+14:01:07 [INFO] Loaded 2 operations interaction with the game server
+14:01:07 [INFO] Loaded in 0 sec(0,000 min)
+14:01:07 [INFO] Used 8 mb, max 31 mb.
+14:01:07 [INFO] Used 27,70% percent memory.
+14:01:07 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+14:01:07 [INFO] Listening to the client connections [/127.0.0.1:39190]
+14:01:08 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+14:01:27 [INFO] Client [id:1, ip: 127.0.0.1] connected
+14:01:31 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+14:21:45 [INFO] Loaded properties from file 'system.properties'
+14:21:45 [INFO] Loaded properties from file 'jdbc.properties'
+14:21:45 [INFO] Database connected successfully!
+14:21:45 [INFO] Loaded 13  item(s) count.
+14:21:45 [INFO] Loaded 1 registered GameServers.
+14:21:45 [INFO] Loaded 0 blocked ip masks.
+14:21:45 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+14:21:45 [INFO] Loaded 11 starting items.
+14:21:45 [INFO] Loaded 9 client packet prototypes
+14:21:45 [INFO] Loaded 2 operations interaction with the game server
+14:21:45 [INFO] Loaded in 0 sec(0,000 min)
+14:21:45 [INFO] Used 8 mb, max 31 mb.
+14:21:45 [INFO] Used 27,22% percent memory.
+14:21:45 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+14:21:45 [INFO] Listening to the client connections [/127.0.0.1:39190]
+14:21:46 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+14:21:46 [INFO] Client [id:1, ip: 127.0.0.1] connected
+14:21:51 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+14:25:42 [INFO] Loaded properties from file 'system.properties'
+14:25:42 [INFO] Loaded properties from file 'jdbc.properties'
+14:25:42 [INFO] Database connected successfully!
+14:25:42 [INFO] Loaded 13  item(s) count.
+14:25:42 [INFO] Loaded 1 registered GameServers.
+14:25:42 [INFO] Loaded 0 blocked ip masks.
+14:25:42 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+14:25:42 [INFO] Loaded 11 starting items.
+14:25:42 [INFO] Loaded 9 client packet prototypes
+14:25:42 [INFO] Loaded 2 operations interaction with the game server
+14:25:42 [INFO] Loaded in 0 sec(0,000 min)
+14:25:42 [INFO] Used 8 mb, max 31 mb.
+14:25:42 [INFO] Used 27,20% percent memory.
+14:25:43 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+14:25:43 [INFO] Listening to the client connections [/127.0.0.1:39190]
+14:25:43 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+14:26:25 [INFO] Client [id:1, ip: 127.0.0.1] connected
+14:26:29 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+15:21:02 [INFO] Loaded properties from file 'system.properties'
+15:21:02 [INFO] Loaded properties from file 'jdbc.properties'
+15:21:02 [INFO] Database connected successfully!
+15:21:02 [INFO] Loaded 13  item(s) count.
+15:21:02 [INFO] Loaded 1 registered GameServers.
+15:21:02 [INFO] Loaded 0 blocked ip masks.
+15:21:02 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+15:21:02 [INFO] Loaded 11 starting items.
+15:21:02 [INFO] Loaded 9 client packet prototypes
+15:21:02 [INFO] Loaded 2 operations interaction with the game server
+15:21:02 [INFO] Loaded in 0 sec(0,000 min)
+15:21:02 [INFO] Used 8 mb, max 31 mb.
+15:21:02 [INFO] Used 27,22% percent memory.
+15:21:03 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+15:21:03 [INFO] Listening to the client connections [/127.0.0.1:39190]
+15:21:03 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+15:22:57 [INFO] Client [id:1, ip: 127.0.0.1] connected
+15:23:18 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+15:27:30 [INFO] Loaded properties from file 'system.properties'
+15:27:30 [INFO] Loaded properties from file 'jdbc.properties'
+15:27:30 [INFO] Database connected successfully!
+15:27:30 [INFO] Loaded 13  item(s) count.
+15:27:30 [INFO] Loaded 1 registered GameServers.
+15:27:30 [INFO] Loaded 0 blocked ip masks.
+15:27:30 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+15:27:30 [INFO] Loaded 11 starting items.
+15:27:30 [INFO] Loaded 9 client packet prototypes
+15:27:30 [INFO] Loaded 2 operations interaction with the game server
+15:27:30 [INFO] Loaded in 0 sec(0,000 min)
+15:27:30 [INFO] Used 8 mb, max 31 mb.
+15:27:30 [INFO] Used 27,86% percent memory.
+15:27:30 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+15:27:30 [INFO] Listening to the client connections [/127.0.0.1:39190]
+15:27:31 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+15:27:56 [INFO] Client [id:1, ip: 127.0.0.1] connected
+15:28:00 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+15:28:43 [INFO] Loaded properties from file 'system.properties'
+15:28:43 [INFO] Loaded properties from file 'jdbc.properties'
+15:28:43 [INFO] Database connected successfully!
+15:28:43 [INFO] Loaded 13  item(s) count.
+15:28:43 [INFO] Loaded 1 registered GameServers.
+15:28:43 [INFO] Loaded 0 blocked ip masks.
+15:28:43 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+15:28:43 [INFO] Loaded 11 starting items.
+15:28:43 [INFO] Loaded 9 client packet prototypes
+15:28:43 [INFO] Loaded 2 operations interaction with the game server
+15:28:43 [INFO] Loaded in 0 sec(0,000 min)
+15:28:43 [INFO] Used 8 mb, max 31 mb.
+15:28:43 [INFO] Used 27,20% percent memory.
+15:28:44 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+15:28:44 [INFO] Listening to the client connections [/127.0.0.1:39190]
+15:28:44 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+15:29:06 [INFO] Client [id:1, ip: 127.0.0.1] connected
+15:29:10 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+15:30:56 [INFO] Loaded properties from file 'system.properties'
+15:30:56 [INFO] Loaded properties from file 'jdbc.properties'
+15:30:56 [INFO] Database connected successfully!
+15:30:56 [INFO] Loaded 13  item(s) count.
+15:30:56 [INFO] Loaded 1 registered GameServers.
+15:30:56 [INFO] Loaded 0 blocked ip masks.
+15:30:56 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+15:30:56 [INFO] Loaded 11 starting items.
+15:30:56 [INFO] Loaded 9 client packet prototypes
+15:30:56 [INFO] Loaded 2 operations interaction with the game server
+15:30:56 [INFO] Loaded in 0 sec(0,000 min)
+15:30:56 [INFO] Used 8 mb, max 31 mb.
+15:30:56 [INFO] Used 27,72% percent memory.
+15:30:57 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+15:30:57 [INFO] Listening to the client connections [/127.0.0.1:39190]
+15:30:57 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+15:31:14 [INFO] Client [id:1, ip: 127.0.0.1] connected
+15:31:17 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+15:43:12 [INFO] Loaded properties from file 'system.properties'
+15:43:12 [INFO] Loaded properties from file 'jdbc.properties'
+15:43:12 [INFO] Database connected successfully!
+15:43:12 [INFO] Loaded 13  item(s) count.
+15:43:12 [INFO] Loaded 1 registered GameServers.
+15:43:12 [INFO] Loaded 0 blocked ip masks.
+15:43:12 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+15:43:12 [INFO] Loaded 11 starting items.
+15:43:12 [INFO] Loaded 9 client packet prototypes
+15:43:12 [INFO] Loaded 2 operations interaction with the game server
+15:43:12 [INFO] Loaded in 0 sec(0,000 min)
+15:43:12 [INFO] Used 8 mb, max 31 mb.
+15:43:12 [INFO] Used 27,27% percent memory.
+15:43:12 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+15:43:12 [INFO] Listening to the client connections [/127.0.0.1:39190]
+15:43:13 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+15:43:14 [INFO] Client [id:1, ip: 127.0.0.1] connected
+15:43:17 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+15:50:11 [INFO] Loaded properties from file 'system.properties'
+15:50:11 [INFO] Loaded properties from file 'jdbc.properties'
+15:50:11 [INFO] Database connected successfully!
+15:50:11 [INFO] Loaded 13  item(s) count.
+15:50:11 [INFO] Loaded 1 registered GameServers.
+15:50:11 [INFO] Loaded 0 blocked ip masks.
+15:50:11 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+15:50:11 [INFO] Loaded 11 starting items.
+15:50:11 [INFO] Loaded 9 client packet prototypes
+15:50:11 [INFO] Loaded 2 operations interaction with the game server
+15:50:11 [INFO] Loaded in 0 sec(0,000 min)
+15:50:11 [INFO] Used 8 mb, max 31 mb.
+15:50:11 [INFO] Used 27,29% percent memory.
+15:50:12 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+15:50:12 [INFO] Listening to the client connections [/127.0.0.1:39190]
+15:50:12 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+15:50:31 [INFO] Client [id:1, ip: 127.0.0.1] connected
+15:50:38 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+15:52:10 [INFO] Loaded properties from file 'system.properties'
+15:52:10 [INFO] Loaded properties from file 'jdbc.properties'
+15:52:10 [INFO] Database connected successfully!
+15:52:10 [INFO] Loaded 13  item(s) count.
+15:52:10 [INFO] Loaded 1 registered GameServers.
+15:52:10 [INFO] Loaded 0 blocked ip masks.
+15:52:10 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+15:52:10 [INFO] Loaded 11 starting items.
+15:52:10 [INFO] Loaded 9 client packet prototypes
+15:52:10 [INFO] Loaded 2 operations interaction with the game server
+15:52:10 [INFO] Loaded in 0 sec(0,000 min)
+15:52:10 [INFO] Used 8 mb, max 31 mb.
+15:52:10 [INFO] Used 27,88% percent memory.
+15:52:10 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+15:52:10 [INFO] Listening to the client connections [/127.0.0.1:39190]
+15:52:11 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+15:52:29 [INFO] Client [id:1, ip: 127.0.0.1] connected
+15:52:29 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+15:52:34 [INFO] Client [id:2, ip: 127.0.0.1] connected
+15:52:38 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+16:08:21 [INFO] Loaded properties from file 'system.properties'
+16:08:21 [INFO] Loaded properties from file 'jdbc.properties'
+16:08:21 [INFO] Database connected successfully!
+16:08:21 [INFO] Loaded 13  item(s) count.
+16:08:21 [INFO] Loaded 1 registered GameServers.
+16:08:21 [INFO] Loaded 0 blocked ip masks.
+16:08:21 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+16:08:21 [INFO] Loaded 11 starting items.
+16:08:21 [INFO] Loaded 9 client packet prototypes
+16:08:21 [INFO] Loaded 2 operations interaction with the game server
+16:08:21 [INFO] Loaded in 0 sec(0,000 min)
+16:08:21 [INFO] Used 8 mb, max 31 mb.
+16:08:21 [INFO] Used 27,24% percent memory.
+16:08:22 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+16:08:22 [INFO] Listening to the client connections [/127.0.0.1:39190]
+16:08:22 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+16:09:09 [INFO] Client [id:1, ip: 127.0.0.1] connected
+16:09:17 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+16:12:09 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+16:12:09 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+16:12:21 [INFO] Loaded properties from file 'system.properties'
+16:12:21 [INFO] Loaded properties from file 'jdbc.properties'
+16:12:21 [INFO] Database connected successfully!
+16:12:22 [INFO] Loaded 13  item(s) count.
+16:12:22 [INFO] Loaded 1 registered GameServers.
+16:12:22 [INFO] Loaded 0 blocked ip masks.
+16:12:22 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+16:12:22 [INFO] Loaded 11 starting items.
+16:12:22 [INFO] Loaded 9 client packet prototypes
+16:12:22 [INFO] Loaded 2 operations interaction with the game server
+16:12:22 [INFO] Loaded in 0 sec(0,000 min)
+16:12:22 [INFO] Used 8 mb, max 31 mb.
+16:12:22 [INFO] Used 27,72% percent memory.
+16:12:22 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+16:12:22 [INFO] Listening to the client connections [/127.0.0.1:39190]
+16:12:23 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+16:12:44 [INFO] Client [id:1, ip: 127.0.0.1] connected
+16:12:47 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+16:24:21 [INFO] Loaded properties from file 'system.properties'
+16:24:21 [INFO] Loaded properties from file 'jdbc.properties'
+16:24:21 [INFO] Database connected successfully!
+16:24:21 [INFO] Loaded 13  item(s) count.
+16:24:21 [INFO] Loaded 1 registered GameServers.
+16:24:21 [INFO] Loaded 0 blocked ip masks.
+16:24:21 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+16:24:21 [INFO] Loaded 11 starting items.
+16:24:21 [INFO] Loaded 9 client packet prototypes
+16:24:21 [INFO] Loaded 2 operations interaction with the game server
+16:24:21 [INFO] Loaded in 0 sec(0,000 min)
+16:24:21 [INFO] Used 8 mb, max 31 mb.
+16:24:21 [INFO] Used 27,46% percent memory.
+16:24:22 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+16:24:22 [INFO] Listening to the client connections [/127.0.0.1:39190]
+16:24:22 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+16:24:23 [INFO] Client [id:1, ip: 127.0.0.1] connected
+16:24:27 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+16:24:55 [INFO] Loaded properties from file 'system.properties'
+16:24:55 [INFO] Loaded properties from file 'jdbc.properties'
+16:24:55 [INFO] Database connected successfully!
+16:24:55 [INFO] Loaded 13  item(s) count.
+16:24:55 [INFO] Loaded 1 registered GameServers.
+16:24:55 [INFO] Loaded 0 blocked ip masks.
+16:24:55 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+16:24:55 [INFO] Loaded 11 starting items.
+16:24:55 [INFO] Loaded 9 client packet prototypes
+16:24:55 [INFO] Loaded 2 operations interaction with the game server
+16:24:55 [INFO] Loaded in 0 sec(0,000 min)
+16:24:55 [INFO] Used 8 mb, max 31 mb.
+16:24:55 [INFO] Used 27,74% percent memory.
+16:24:55 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+16:24:55 [INFO] Listening to the client connections [/127.0.0.1:39190]
+16:25:21 [INFO] Loaded properties from file 'system.properties'
+16:25:21 [INFO] Loaded properties from file 'jdbc.properties'
+16:25:21 [INFO] Database connected successfully!
+16:25:21 [INFO] Loaded 13  item(s) count.
+16:25:21 [INFO] Loaded 1 registered GameServers.
+16:25:21 [INFO] Loaded 0 blocked ip masks.
+16:25:21 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+16:25:21 [INFO] Loaded 11 starting items.
+16:25:21 [INFO] Loaded 9 client packet prototypes
+16:25:21 [INFO] Loaded 2 operations interaction with the game server
+16:25:21 [INFO] Loaded in 0 sec(0,000 min)
+16:25:21 [INFO] Used 8 mb, max 31 mb.
+16:25:21 [INFO] Used 27,62% percent memory.
+16:25:21 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+16:25:21 [INFO] Listening to the client connections [/127.0.0.1:39190]
+16:25:22 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+16:25:26 [INFO] Client [id:1, ip: 127.0.0.1] connected
+16:25:32 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+17:16:58 [INFO] Loaded properties from file 'system.properties'
+17:16:58 [INFO] Loaded properties from file 'jdbc.properties'
+17:16:58 [INFO] Database connected successfully!
+17:16:58 [INFO] Loaded 13  item(s) count.
+17:16:58 [INFO] Loaded 1 registered GameServers.
+17:16:58 [INFO] Loaded 0 blocked ip masks.
+17:16:58 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+17:16:58 [INFO] Loaded 11 starting items.
+17:16:58 [INFO] Loaded 9 client packet prototypes
+17:16:58 [INFO] Loaded 2 operations interaction with the game server
+17:16:58 [INFO] Loaded in 0 sec(0,000 min)
+17:16:58 [INFO] Used 8 mb, max 31 mb.
+17:16:58 [INFO] Used 27,26% percent memory.
+17:16:58 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+17:16:58 [INFO] Listening to the client connections [/127.0.0.1:39190]
+17:16:59 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+17:17:26 [INFO] Client [id:1, ip: 127.0.0.1] connected
+17:17:31 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+17:24:56 [INFO] Loaded properties from file 'system.properties'
+17:24:56 [INFO] Loaded properties from file 'jdbc.properties'
+17:24:56 [INFO] Database connected successfully!
+17:24:56 [INFO] Loaded 13  item(s) count.
+17:24:56 [INFO] Loaded 1 registered GameServers.
+17:24:56 [INFO] Loaded 0 blocked ip masks.
+17:24:56 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+17:24:56 [INFO] Loaded 11 starting items.
+17:24:56 [INFO] Loaded 9 client packet prototypes
+17:24:56 [INFO] Loaded 2 operations interaction with the game server
+17:24:56 [INFO] Loaded in 0 sec(0,000 min)
+17:24:56 [INFO] Used 8 mb, max 31 mb.
+17:24:56 [INFO] Used 27,24% percent memory.
+17:24:56 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+17:24:56 [INFO] Listening to the client connections [/127.0.0.1:39190]
+17:24:57 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+17:25:09 [INFO] Client [id:1, ip: 127.0.0.1] connected
+17:25:12 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+17:25:38 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+17:25:38 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+17:55:29 [INFO] Loaded properties from file 'system.properties'
+17:55:29 [INFO] Loaded properties from file 'jdbc.properties'
+17:55:29 [INFO] Database connected successfully!
+17:55:29 [INFO] Loaded 13  item(s) count.
+17:55:29 [INFO] Loaded 1 registered GameServers.
+17:55:29 [INFO] Loaded 0 blocked ip masks.
+17:55:29 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+17:55:29 [INFO] Loaded 11 starting items.
+17:55:29 [INFO] Loaded 9 client packet prototypes
+17:55:29 [INFO] Loaded 2 operations interaction with the game server
+17:55:29 [INFO] Loaded in 0 sec(0,000 min)
+17:55:29 [INFO] Used 8 mb, max 31 mb.
+17:55:29 [INFO] Used 27,66% percent memory.
+17:55:30 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+17:55:30 [INFO] Listening to the client connections [/127.0.0.1:39190]
+17:55:30 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+17:55:42 [INFO] Client [id:1, ip: 127.0.0.1] connected
+17:56:14 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:05:05 [INFO] Loaded properties from file 'system.properties'
+18:05:05 [INFO] Loaded properties from file 'jdbc.properties'
+18:05:05 [INFO] Database connected successfully!
+18:05:05 [INFO] Loaded 13  item(s) count.
+18:05:05 [INFO] Loaded 1 registered GameServers.
+18:05:05 [INFO] Loaded 0 blocked ip masks.
+18:05:05 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:05:05 [INFO] Loaded 11 starting items.
+18:05:05 [INFO] Loaded 9 client packet prototypes
+18:05:05 [INFO] Loaded 2 operations interaction with the game server
+18:05:05 [INFO] Loaded in 0 sec(0,000 min)
+18:05:05 [INFO] Used 8 mb, max 31 mb.
+18:05:05 [INFO] Used 27,64% percent memory.
+18:05:05 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:05:05 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:05:06 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:05:07 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:05:12 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:07:32 [INFO] Loaded properties from file 'system.properties'
+18:07:32 [INFO] Loaded properties from file 'jdbc.properties'
+18:07:32 [INFO] Database connected successfully!
+18:07:32 [INFO] Loaded 13  item(s) count.
+18:07:32 [INFO] Loaded 1 registered GameServers.
+18:07:32 [INFO] Loaded 0 blocked ip masks.
+18:07:32 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:07:32 [INFO] Loaded 11 starting items.
+18:07:32 [INFO] Loaded 9 client packet prototypes
+18:07:32 [INFO] Loaded 2 operations interaction with the game server
+18:07:32 [INFO] Loaded in 0 sec(0,000 min)
+18:07:32 [INFO] Used 8 mb, max 31 mb.
+18:07:32 [INFO] Used 27,42% percent memory.
+18:07:33 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:07:33 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:07:33 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:07:53 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:08:01 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:08:57 [INFO] Loaded properties from file 'system.properties'
+18:08:57 [INFO] Loaded properties from file 'jdbc.properties'
+18:08:57 [INFO] Database connected successfully!
+18:08:57 [INFO] Loaded 13  item(s) count.
+18:08:57 [INFO] Loaded 1 registered GameServers.
+18:08:57 [INFO] Loaded 0 blocked ip masks.
+18:08:57 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:08:57 [INFO] Loaded 11 starting items.
+18:08:57 [INFO] Loaded 9 client packet prototypes
+18:08:57 [INFO] Loaded 2 operations interaction with the game server
+18:08:57 [INFO] Loaded in 0 sec(0,000 min)
+18:08:57 [INFO] Used 8 mb, max 31 mb.
+18:08:57 [INFO] Used 27,10% percent memory.
+18:08:58 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:08:58 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:08:58 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:09:12 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:09:15 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:12:40 [INFO] Loaded properties from file 'system.properties'
+18:12:40 [INFO] Loaded properties from file 'jdbc.properties'
+18:12:40 [INFO] Database connected successfully!
+18:12:40 [INFO] Loaded 13  item(s) count.
+18:12:40 [INFO] Loaded 1 registered GameServers.
+18:12:40 [INFO] Loaded 0 blocked ip masks.
+18:12:40 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:12:40 [INFO] Loaded 11 starting items.
+18:12:40 [INFO] Loaded 9 client packet prototypes
+18:12:40 [INFO] Loaded 2 operations interaction with the game server
+18:12:40 [INFO] Loaded in 0 sec(0,000 min)
+18:12:40 [INFO] Used 8 mb, max 31 mb.
+18:12:40 [INFO] Used 27,26% percent memory.
+18:12:40 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:12:40 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:12:41 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:13:04 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:13:08 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+18:14:24 [INFO] Loaded properties from file 'system.properties'
+18:14:24 [INFO] Loaded properties from file 'jdbc.properties'
+18:14:24 [INFO] Database connected successfully!
+18:14:24 [INFO] Loaded 13  item(s) count.
+18:14:24 [INFO] Loaded 1 registered GameServers.
+18:14:24 [INFO] Loaded 0 blocked ip masks.
+18:14:24 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+18:14:24 [INFO] Loaded 11 starting items.
+18:14:24 [INFO] Loaded 9 client packet prototypes
+18:14:24 [INFO] Loaded 2 operations interaction with the game server
+18:14:24 [INFO] Loaded in 0 sec(0,000 min)
+18:14:24 [INFO] Used 8 mb, max 31 mb.
+18:14:24 [INFO] Used 27,25% percent memory.
+18:14:25 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+18:14:25 [INFO] Listening to the client connections [/127.0.0.1:39190]
+18:14:25 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+18:14:26 [INFO] Client [id:1, ip: 127.0.0.1] connected
+18:14:30 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:01:21 [INFO] Loaded properties from file 'system.properties'
+20:01:21 [INFO] Loaded properties from file 'jdbc.properties'
+20:01:21 [INFO] Database connected successfully!
+20:01:21 [INFO] Loaded 13  item(s) count.
+20:01:21 [INFO] Loaded 1 registered GameServers.
+20:01:21 [INFO] Loaded 0 blocked ip masks.
+20:01:21 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:01:21 [INFO] Loaded 11 starting items.
+20:01:21 [INFO] Loaded 9 client packet prototypes
+20:01:21 [INFO] Loaded 2 operations interaction with the game server
+20:01:21 [INFO] Loaded in 0 sec(0,000 min)
+20:01:21 [INFO] Used 8 mb, max 31 mb.
+20:01:21 [INFO] Used 27,58% percent memory.
+20:01:21 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:01:21 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:01:22 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:02:29 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:02:34 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:03:53 [INFO] Loaded properties from file 'system.properties'
+20:03:53 [INFO] Loaded properties from file 'jdbc.properties'
+20:03:53 [INFO] Database connected successfully!
+20:03:53 [INFO] Loaded 13  item(s) count.
+20:03:53 [INFO] Loaded 1 registered GameServers.
+20:03:53 [INFO] Loaded 0 blocked ip masks.
+20:03:53 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:03:53 [INFO] Loaded 11 starting items.
+20:03:53 [INFO] Loaded 9 client packet prototypes
+20:03:53 [INFO] Loaded 2 operations interaction with the game server
+20:03:53 [INFO] Loaded in 0 sec(0,000 min)
+20:03:53 [INFO] Used 8 mb, max 31 mb.
+20:03:53 [INFO] Used 27,55% percent memory.
+20:03:53 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:03:53 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:03:54 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:03:58 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:04:15 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:05:55 [INFO] Loaded properties from file 'system.properties'
+20:05:55 [INFO] Loaded properties from file 'jdbc.properties'
+20:05:55 [INFO] Database connected successfully!
+20:05:55 [INFO] Loaded 13  item(s) count.
+20:05:55 [INFO] Loaded 1 registered GameServers.
+20:05:55 [INFO] Loaded 0 blocked ip masks.
+20:05:55 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:05:55 [INFO] Loaded 11 starting items.
+20:05:55 [INFO] Loaded 9 client packet prototypes
+20:05:55 [INFO] Loaded 2 operations interaction with the game server
+20:05:55 [INFO] Loaded in 0 sec(0,000 min)
+20:05:55 [INFO] Used 8 mb, max 31 mb.
+20:05:55 [INFO] Used 27,21% percent memory.
+20:05:56 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:05:56 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:05:56 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:06:12 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:06:16 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+20:06:39 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+20:06:39 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+20:07:37 [INFO] Loaded properties from file 'system.properties'
+20:07:37 [INFO] Loaded properties from file 'jdbc.properties'
+20:07:37 [INFO] Database connected successfully!
+20:07:37 [INFO] Loaded 13  item(s) count.
+20:07:37 [INFO] Loaded 1 registered GameServers.
+20:07:37 [INFO] Loaded 0 blocked ip masks.
+20:07:37 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+20:07:37 [INFO] Loaded 11 starting items.
+20:07:37 [INFO] Loaded 9 client packet prototypes
+20:07:37 [INFO] Loaded 2 operations interaction with the game server
+20:07:37 [INFO] Loaded in 0 sec(0,000 min)
+20:07:37 [INFO] Used 8 mb, max 31 mb.
+20:07:37 [INFO] Used 27,20% percent memory.
+20:07:37 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+20:07:37 [INFO] Listening to the client connections [/127.0.0.1:39190]
+20:07:38 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+20:09:16 [INFO] Client [id:1, ip: 127.0.0.1] connected
+20:09:25 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+21:34:37 [INFO] Loaded properties from file 'system.properties'
+21:34:37 [INFO] Loaded properties from file 'jdbc.properties'
+21:34:37 [INFO] Database connected successfully!
+21:34:37 [INFO] Loaded 13  item(s) count.
+21:34:37 [INFO] Loaded 1 registered GameServers.
+21:34:37 [INFO] Loaded 0 blocked ip masks.
+21:34:37 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:34:37 [INFO] Loaded 11 starting items.
+21:34:37 [INFO] Loaded 9 client packet prototypes
+21:34:37 [INFO] Loaded 2 operations interaction with the game server
+21:34:37 [INFO] Loaded in 0 sec(0,000 min)
+21:34:37 [INFO] Used 8 mb, max 31 mb.
+21:34:37 [INFO] Used 27,11% percent memory.
+21:34:38 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:34:38 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:34:38 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+21:34:57 [INFO] Client [id:1, ip: 127.0.0.1] connected
+21:35:08 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+21:35:35 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+21:35:35 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+21:35:56 [INFO] Loaded properties from file 'system.properties'
+21:35:56 [INFO] Loaded properties from file 'jdbc.properties'
+21:35:56 [INFO] Database connected successfully!
+21:35:56 [INFO] Loaded 13  item(s) count.
+21:35:56 [INFO] Loaded 1 registered GameServers.
+21:35:56 [INFO] Loaded 0 blocked ip masks.
+21:35:56 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:35:56 [INFO] Loaded 11 starting items.
+21:35:56 [INFO] Loaded 9 client packet prototypes
+21:35:56 [INFO] Loaded 2 operations interaction with the game server
+21:35:56 [INFO] Loaded in 0 sec(0,000 min)
+21:35:56 [INFO] Used 8 mb, max 31 mb.
+21:35:56 [INFO] Used 27,64% percent memory.
+21:35:57 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:35:57 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:35:57 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+21:36:16 [INFO] Client [id:1, ip: 127.0.0.1] connected
+21:36:21 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+21:38:07 [INFO] Loaded properties from file 'system.properties'
+21:38:07 [INFO] Loaded properties from file 'jdbc.properties'
+21:38:07 [INFO] Database connected successfully!
+21:38:07 [INFO] Loaded 13  item(s) count.
+21:38:07 [INFO] Loaded 1 registered GameServers.
+21:38:07 [INFO] Loaded 0 blocked ip masks.
+21:38:07 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:38:07 [INFO] Loaded 11 starting items.
+21:38:07 [INFO] Loaded 9 client packet prototypes
+21:38:07 [INFO] Loaded 2 operations interaction with the game server
+21:38:07 [INFO] Loaded in 0 sec(0,000 min)
+21:38:07 [INFO] Used 8 mb, max 31 mb.
+21:38:07 [INFO] Used 27,17% percent memory.
+21:38:08 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:38:08 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:38:09 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+21:38:30 [INFO] Client [id:1, ip: 127.0.0.1] connected
+21:38:33 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+21:40:49 [INFO] Loaded properties from file 'system.properties'
+21:40:49 [INFO] Loaded properties from file 'jdbc.properties'
+21:40:49 [INFO] Database connected successfully!
+21:40:49 [INFO] Loaded 13  item(s) count.
+21:40:49 [INFO] Loaded 1 registered GameServers.
+21:40:49 [INFO] Loaded 0 blocked ip masks.
+21:40:49 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:40:49 [INFO] Loaded 11 starting items.
+21:40:49 [INFO] Loaded 9 client packet prototypes
+21:40:49 [INFO] Loaded 2 operations interaction with the game server
+21:40:49 [INFO] Loaded in 0 sec(0,000 min)
+21:40:49 [INFO] Used 8 mb, max 31 mb.
+21:40:49 [INFO] Used 27,70% percent memory.
+21:40:50 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:40:50 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:40:50 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+21:41:21 [INFO] Client [id:1, ip: 127.0.0.1] connected
+21:41:25 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+21:42:13 [INFO] Loaded properties from file 'system.properties'
+21:42:13 [INFO] Loaded properties from file 'jdbc.properties'
+21:42:13 [INFO] Database connected successfully!
+21:42:14 [INFO] Loaded 13  item(s) count.
+21:42:14 [INFO] Loaded 1 registered GameServers.
+21:42:14 [INFO] Loaded 0 blocked ip masks.
+21:42:14 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:42:14 [INFO] Loaded 11 starting items.
+21:42:14 [INFO] Loaded 9 client packet prototypes
+21:42:14 [INFO] Loaded 2 operations interaction with the game server
+21:42:14 [INFO] Loaded in 0 sec(0,000 min)
+21:42:14 [INFO] Used 8 mb, max 31 mb.
+21:42:14 [INFO] Used 27,25% percent memory.
+21:42:14 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:42:14 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:42:15 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+21:42:45 [INFO] Client [id:1, ip: 127.0.0.1] connected
+21:42:48 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+21:44:00 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+21:44:00 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+21:52:21 [INFO] Loaded properties from file 'system.properties'
+21:52:21 [INFO] Loaded properties from file 'jdbc.properties'
+21:52:21 [INFO] Database connected successfully!
+21:52:22 [INFO] Loaded 13  item(s) count.
+21:52:22 [INFO] Loaded 1 registered GameServers.
+21:52:22 [INFO] Loaded 0 blocked ip masks.
+21:52:22 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+21:52:22 [INFO] Loaded 11 starting items.
+21:52:22 [INFO] Loaded 9 client packet prototypes
+21:52:22 [INFO] Loaded 2 operations interaction with the game server
+21:52:22 [INFO] Loaded in 0 sec(0,000 min)
+21:52:22 [INFO] Used 8 mb, max 31 mb.
+21:52:22 [INFO] Used 27,28% percent memory.
+21:52:22 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+21:52:22 [INFO] Listening to the client connections [/127.0.0.1:39190]
+21:52:23 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+21:52:42 [INFO] Client [id:1, ip: 127.0.0.1] connected
+21:52:50 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:42:40 [INFO] Loaded properties from file 'system.properties'
+10:42:40 [INFO] Loaded properties from file 'jdbc.properties'
+10:42:40 [INFO] Database connected successfully!
+10:42:41 [INFO] Loaded 13  item(s) count.
+10:42:41 [INFO] Loaded 1 registered GameServers.
+10:42:41 [INFO] Loaded 0 blocked ip masks.
+10:42:41 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:42:41 [INFO] Loaded 11 starting items.
+10:42:41 [INFO] Loaded 9 client packet prototypes
+10:42:41 [INFO] Loaded 2 operations interaction with the game server
+10:42:41 [INFO] Loaded in 0 sec(0,000 min)
+10:42:41 [INFO] Used 8 mb, max 31 mb.
+10:42:41 [INFO] Used 27,31% percent memory.
+10:42:42 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:42:42 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:42:42 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:43:53 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:43:59 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:50:42 [INFO] Loaded properties from file 'system.properties'
+10:50:42 [INFO] Loaded properties from file 'jdbc.properties'
+10:50:42 [INFO] Database connected successfully!
+10:50:42 [INFO] Loaded 13  item(s) count.
+10:50:42 [INFO] Loaded 1 registered GameServers.
+10:50:42 [INFO] Loaded 0 blocked ip masks.
+10:50:42 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:50:42 [INFO] Loaded 11 starting items.
+10:50:42 [INFO] Loaded 9 client packet prototypes
+10:50:42 [INFO] Loaded 2 operations interaction with the game server
+10:50:42 [INFO] Loaded in 0 sec(0,000 min)
+10:50:42 [INFO] Used 8 mb, max 31 mb.
+10:50:42 [INFO] Used 27,26% percent memory.
+10:50:42 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:50:42 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:50:43 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:51:13 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:51:19 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:52:25 [INFO] Loaded properties from file 'system.properties'
+10:52:25 [INFO] Loaded properties from file 'jdbc.properties'
+10:52:25 [INFO] Database connected successfully!
+10:52:25 [INFO] Loaded 13  item(s) count.
+10:52:25 [INFO] Loaded 1 registered GameServers.
+10:52:25 [INFO] Loaded 0 blocked ip masks.
+10:52:25 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:52:25 [INFO] Loaded 11 starting items.
+10:52:25 [INFO] Loaded 9 client packet prototypes
+10:52:25 [INFO] Loaded 2 operations interaction with the game server
+10:52:25 [INFO] Loaded in 0 sec(0,000 min)
+10:52:25 [INFO] Used 8 mb, max 31 mb.
+10:52:25 [INFO] Used 27,19% percent memory.
+10:52:26 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:52:26 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:52:26 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:52:44 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:52:50 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:55:02 [INFO] Loaded properties from file 'system.properties'
+10:55:02 [INFO] Loaded properties from file 'jdbc.properties'
+10:55:02 [INFO] Database connected successfully!
+10:55:02 [INFO] Loaded 13  item(s) count.
+10:55:02 [INFO] Loaded 1 registered GameServers.
+10:55:02 [INFO] Loaded 0 blocked ip masks.
+10:55:02 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:55:02 [INFO] Loaded 11 starting items.
+10:55:02 [INFO] Loaded 9 client packet prototypes
+10:55:02 [INFO] Loaded 2 operations interaction with the game server
+10:55:02 [INFO] Loaded in 0 sec(0,000 min)
+10:55:02 [INFO] Used 8 mb, max 31 mb.
+10:55:02 [INFO] Used 27,73% percent memory.
+10:55:02 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:55:02 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:55:03 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:55:19 [INFO] Loaded properties from file 'system.properties'
+10:55:19 [INFO] Loaded properties from file 'jdbc.properties'
+10:55:19 [INFO] Database connected successfully!
+10:55:20 [INFO] Loaded 13  item(s) count.
+10:55:20 [INFO] Loaded 1 registered GameServers.
+10:55:20 [INFO] Loaded 0 blocked ip masks.
+10:55:20 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:55:20 [INFO] Loaded 11 starting items.
+10:55:20 [INFO] Loaded 9 client packet prototypes
+10:55:20 [INFO] Loaded 2 operations interaction with the game server
+10:55:20 [INFO] Loaded in 0 sec(0,000 min)
+10:55:20 [INFO] Used 8 mb, max 31 mb.
+10:55:20 [INFO] Used 27,40% percent memory.
+10:55:20 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:55:20 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:55:21 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:55:21 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:55:24 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:56:12 [INFO] Loaded properties from file 'system.properties'
+10:56:12 [INFO] Loaded properties from file 'jdbc.properties'
+10:56:12 [INFO] Database connected successfully!
+10:56:12 [INFO] Loaded 13  item(s) count.
+10:56:12 [INFO] Loaded 1 registered GameServers.
+10:56:12 [INFO] Loaded 0 blocked ip masks.
+10:56:12 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+10:56:12 [INFO] Loaded 11 starting items.
+10:56:12 [INFO] Loaded 9 client packet prototypes
+10:56:12 [INFO] Loaded 2 operations interaction with the game server
+10:56:12 [INFO] Loaded in 0 sec(0,000 min)
+10:56:12 [INFO] Used 8 mb, max 31 mb.
+10:56:12 [INFO] Used 27,21% percent memory.
+10:56:13 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+10:56:13 [INFO] Listening to the client connections [/127.0.0.1:39190]
+10:56:13 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+10:57:11 [INFO] Client [id:1, ip: 127.0.0.1] connected
+10:57:15 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+10:58:11 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnecting
+10:58:11 [INFO] GameServer [id:1, ip: 127.0.0.1] disconnected
+11:19:59 [INFO] Loaded properties from file 'system.properties'
+11:19:59 [INFO] Loaded properties from file 'jdbc.properties'
+11:19:59 [INFO] Database connected successfully!
+11:19:59 [INFO] Loaded 13  item(s) count.
+11:19:59 [INFO] Loaded 1 registered GameServers.
+11:19:59 [INFO] Loaded 0 blocked ip masks.
+11:19:59 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:19:59 [INFO] Loaded 11 starting items.
+11:19:59 [INFO] Loaded 9 client packet prototypes
+11:19:59 [INFO] Loaded 2 operations interaction with the game server
+11:19:59 [INFO] Loaded in 0 sec(0,000 min)
+11:19:59 [INFO] Used 8 mb, max 31 mb.
+11:19:59 [INFO] Used 27,93% percent memory.
+11:19:59 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:19:59 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:20:00 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:21:01 [INFO] Client [id:1, ip: 127.0.0.1] connected
+11:21:01 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+11:21:09 [INFO] Client [id:2, ip: 127.0.0.1] connected
+11:21:13 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+11:53:51 [INFO] Loaded properties from file 'system.properties'
+11:53:51 [INFO] Loaded properties from file 'jdbc.properties'
+11:53:51 [INFO] Database connected successfully!
+11:53:51 [INFO] Loaded 13  item(s) count.
+11:53:51 [INFO] Loaded 1 registered GameServers.
+11:53:51 [INFO] Loaded 0 blocked ip masks.
+11:53:51 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:53:51 [INFO] Loaded 11 starting items.
+11:53:51 [INFO] Loaded 9 client packet prototypes
+11:53:51 [INFO] Loaded 2 operations interaction with the game server
+11:53:51 [INFO] Loaded in 0 sec(0,000 min)
+11:53:51 [INFO] Used 8 mb, max 31 mb.
+11:53:51 [INFO] Used 27,67% percent memory.
+11:53:52 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:53:52 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:53:52 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:54:00 [INFO] Loaded properties from file 'system.properties'
+11:54:00 [INFO] Loaded properties from file 'jdbc.properties'
+11:54:00 [INFO] Database connected successfully!
+11:54:00 [INFO] Loaded 13  item(s) count.
+11:54:00 [INFO] Loaded 1 registered GameServers.
+11:54:00 [INFO] Loaded 0 blocked ip masks.
+11:54:00 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:54:00 [INFO] Loaded 11 starting items.
+11:54:00 [INFO] Loaded 9 client packet prototypes
+11:54:00 [INFO] Loaded 2 operations interaction with the game server
+11:54:00 [INFO] Loaded in 0 sec(0,000 min)
+11:54:00 [INFO] Used 8 mb, max 31 mb.
+11:54:00 [INFO] Used 27,72% percent memory.
+11:54:01 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:54:01 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:54:01 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:54:04 [INFO] Client [id:1, ip: 127.0.0.1] connected
+11:54:08 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+11:55:30 [INFO] Loaded properties from file 'system.properties'
+11:55:30 [INFO] Loaded properties from file 'jdbc.properties'
+11:55:30 [INFO] Database connected successfully!
+11:55:30 [INFO] Loaded 13  item(s) count.
+11:55:30 [INFO] Loaded 1 registered GameServers.
+11:55:30 [INFO] Loaded 0 blocked ip masks.
+11:55:30 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:55:30 [INFO] Loaded 11 starting items.
+11:55:30 [INFO] Loaded 9 client packet prototypes
+11:55:30 [INFO] Loaded 2 operations interaction with the game server
+11:55:30 [INFO] Loaded in 0 sec(0,000 min)
+11:55:30 [INFO] Used 8 mb, max 31 mb.
+11:55:30 [INFO] Used 27,96% percent memory.
+11:55:30 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:55:30 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:55:31 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:56:00 [INFO] Loaded properties from file 'system.properties'
+11:56:00 [INFO] Loaded properties from file 'jdbc.properties'
+11:56:00 [INFO] Database connected successfully!
+11:56:00 [INFO] Loaded 13  item(s) count.
+11:56:00 [INFO] Loaded 1 registered GameServers.
+11:56:00 [INFO] Loaded 0 blocked ip masks.
+11:56:00 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:56:00 [INFO] Loaded 11 starting items.
+11:56:00 [INFO] Loaded 9 client packet prototypes
+11:56:00 [INFO] Loaded 2 operations interaction with the game server
+11:56:00 [INFO] Loaded in 0 sec(0,000 min)
+11:56:00 [INFO] Used 8 mb, max 31 mb.
+11:56:00 [INFO] Used 27,81% percent memory.
+11:56:00 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:56:00 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:56:01 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:56:02 [INFO] Client [id:1, ip: 127.0.0.1] connected
+11:56:05 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+11:56:40 [INFO] Loaded properties from file 'system.properties'
+11:56:40 [INFO] Loaded properties from file 'jdbc.properties'
+11:56:40 [INFO] Database connected successfully!
+11:56:40 [INFO] Loaded 13  item(s) count.
+11:56:40 [INFO] Loaded 1 registered GameServers.
+11:56:40 [INFO] Loaded 0 blocked ip masks.
+11:56:40 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:56:40 [INFO] Loaded 11 starting items.
+11:56:40 [INFO] Loaded 9 client packet prototypes
+11:56:40 [INFO] Loaded 2 operations interaction with the game server
+11:56:40 [INFO] Loaded in 0 sec(0,000 min)
+11:56:40 [INFO] Used 8 mb, max 31 mb.
+11:56:40 [INFO] Used 27,18% percent memory.
+11:56:41 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:56:41 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:56:41 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:57:03 [INFO] Client [id:1, ip: 127.0.0.1] connected
+11:57:04 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+11:57:12 [INFO] Client [id:2, ip: 127.0.0.1] connected
+11:57:15 [INFO] Client [id:2, ip: 127.0.0.1] disconnected
+11:59:23 [INFO] Loaded properties from file 'system.properties'
+11:59:23 [INFO] Loaded properties from file 'jdbc.properties'
+11:59:23 [INFO] Database connected successfully!
+11:59:23 [INFO] Loaded 13  item(s) count.
+11:59:23 [INFO] Loaded 1 registered GameServers.
+11:59:23 [INFO] Loaded 0 blocked ip masks.
+11:59:23 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+11:59:23 [INFO] Loaded 11 starting items.
+11:59:23 [INFO] Loaded 9 client packet prototypes
+11:59:23 [INFO] Loaded 2 operations interaction with the game server
+11:59:23 [INFO] Loaded in 0 sec(0,000 min)
+11:59:23 [INFO] Used 8 mb, max 31 mb.
+11:59:23 [INFO] Used 27,47% percent memory.
+11:59:24 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+11:59:24 [INFO] Listening to the client connections [/127.0.0.1:39190]
+11:59:24 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+11:59:35 [INFO] Client [id:1, ip: 127.0.0.1] connected
+11:59:40 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+12:05:37 [INFO] Loaded properties from file 'system.properties'
+12:05:37 [INFO] Loaded properties from file 'jdbc.properties'
+12:05:37 [INFO] Database connected successfully!
+12:05:37 [INFO] Loaded 13  item(s) count.
+12:05:37 [INFO] Loaded 1 registered GameServers.
+12:05:37 [INFO] Loaded 0 blocked ip masks.
+12:05:37 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+12:05:37 [INFO] Loaded 11 starting items.
+12:05:37 [INFO] Loaded 9 client packet prototypes
+12:05:37 [INFO] Loaded 2 operations interaction with the game server
+12:05:37 [INFO] Loaded in 0 sec(0,000 min)
+12:05:37 [INFO] Used 8 mb, max 31 mb.
+12:05:37 [INFO] Used 27,26% percent memory.
+12:05:37 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+12:05:37 [INFO] Listening to the client connections [/127.0.0.1:39190]
+12:05:38 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+12:05:38 [INFO] Client [id:1, ip: 127.0.0.1] connected
+12:05:43 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+12:07:39 [INFO] Loaded properties from file 'system.properties'
+12:07:39 [INFO] Loaded properties from file 'jdbc.properties'
+12:07:39 [INFO] Database connected successfully!
+12:07:39 [INFO] Loaded 13  item(s) count.
+12:07:39 [INFO] Loaded 1 registered GameServers.
+12:07:39 [INFO] Loaded 0 blocked ip masks.
+12:07:39 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+12:07:39 [INFO] Loaded 11 starting items.
+12:07:39 [INFO] Loaded 9 client packet prototypes
+12:07:39 [INFO] Loaded 2 operations interaction with the game server
+12:07:39 [INFO] Loaded in 0 sec(0,000 min)
+12:07:39 [INFO] Used 8 mb, max 31 mb.
+12:07:39 [INFO] Used 27,74% percent memory.
+12:07:39 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+12:07:39 [INFO] Listening to the client connections [/127.0.0.1:39190]
+12:07:40 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+12:08:37 [INFO] Loaded properties from file 'system.properties'
+12:08:37 [INFO] Loaded properties from file 'jdbc.properties'
+12:08:37 [INFO] Database connected successfully!
+12:08:37 [INFO] Loaded 13  item(s) count.
+12:08:37 [INFO] Loaded 1 registered GameServers.
+12:08:37 [INFO] Loaded 0 blocked ip masks.
+12:08:37 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+12:08:37 [INFO] Loaded 11 starting items.
+12:08:37 [INFO] Loaded 9 client packet prototypes
+12:08:37 [INFO] Loaded 2 operations interaction with the game server
+12:08:37 [INFO] Loaded in 0 sec(0,000 min)
+12:08:37 [INFO] Used 8 mb, max 31 mb.
+12:08:37 [INFO] Used 27,55% percent memory.
+12:08:37 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+12:08:37 [INFO] Listening to the client connections [/127.0.0.1:39190]
+12:08:38 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+12:08:40 [INFO] Client [id:1, ip: 127.0.0.1] connected
+12:08:43 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+12:15:45 [INFO] Loaded properties from file 'system.properties'
+12:15:45 [INFO] Loaded properties from file 'jdbc.properties'
+12:15:45 [INFO] Database connected successfully!
+12:15:45 [INFO] Loaded 13  item(s) count.
+12:15:45 [INFO] Loaded 1 registered GameServers.
+12:15:45 [INFO] Loaded 0 blocked ip masks.
+12:15:45 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+12:15:45 [INFO] Loaded 11 starting items.
+12:15:45 [INFO] Loaded 9 client packet prototypes
+12:15:45 [INFO] Loaded 2 operations interaction with the game server
+12:15:45 [INFO] Loaded in 0 sec(0,000 min)
+12:15:45 [INFO] Used 8 mb, max 31 mb.
+12:15:45 [INFO] Used 27,73% percent memory.
+12:15:46 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+12:15:46 [INFO] Listening to the client connections [/127.0.0.1:39190]
+12:15:46 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+12:23:17 [INFO] Client [id:1, ip: 127.0.0.1] connected
+12:23:25 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+12:25:27 [INFO] Loaded properties from file 'system.properties'
+12:25:27 [INFO] Loaded properties from file 'jdbc.properties'
+12:25:27 [INFO] Database connected successfully!
+12:25:27 [INFO] Loaded 13  item(s) count.
+12:25:27 [INFO] Loaded 1 registered GameServers.
+12:25:27 [INFO] Loaded 0 blocked ip masks.
+12:25:27 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+12:25:27 [INFO] Loaded 11 starting items.
+12:25:27 [INFO] Loaded 9 client packet prototypes
+12:25:27 [INFO] Loaded 2 operations interaction with the game server
+12:25:27 [INFO] Loaded in 0 sec(0,000 min)
+12:25:27 [INFO] Used 8 mb, max 31 mb.
+12:25:27 [INFO] Used 27,27% percent memory.
+12:25:27 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+12:25:27 [INFO] Listening to the client connections [/127.0.0.1:39190]
+12:25:28 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+12:25:28 [INFO] Client [id:1, ip: 127.0.0.1] connected
+12:25:58 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+12:27:39 [INFO] Loaded properties from file 'system.properties'
+12:27:39 [INFO] Loaded properties from file 'jdbc.properties'
+12:27:39 [INFO] Database connected successfully!
+12:27:40 [INFO] Loaded 13  item(s) count.
+12:27:40 [INFO] Loaded 1 registered GameServers.
+12:27:40 [INFO] Loaded 0 blocked ip masks.
+12:27:40 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+12:27:40 [INFO] Loaded 11 starting items.
+12:27:40 [INFO] Loaded 9 client packet prototypes
+12:27:40 [INFO] Loaded 2 operations interaction with the game server
+12:27:40 [INFO] Loaded in 0 sec(0,000 min)
+12:27:40 [INFO] Used 8 mb, max 31 mb.
+12:27:40 [INFO] Used 27,18% percent memory.
+12:27:40 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+12:27:40 [INFO] Listening to the client connections [/127.0.0.1:39190]
+12:27:41 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+12:27:43 [INFO] Client [id:1, ip: 127.0.0.1] connected
+12:27:47 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+12:33:05 [INFO] Loaded properties from file 'system.properties'
+12:33:05 [INFO] Loaded properties from file 'jdbc.properties'
+12:33:05 [INFO] Database connected successfully!
+12:33:05 [INFO] Loaded 13  item(s) count.
+12:33:05 [INFO] Loaded 1 registered GameServers.
+12:33:05 [INFO] Loaded 0 blocked ip masks.
+12:33:05 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+12:33:05 [INFO] Loaded 11 starting items.
+12:33:05 [INFO] Loaded 9 client packet prototypes
+12:33:05 [INFO] Loaded 2 operations interaction with the game server
+12:33:05 [INFO] Loaded in 0 sec(0,000 min)
+12:33:05 [INFO] Used 8 mb, max 31 mb.
+12:33:05 [INFO] Used 27,86% percent memory.
+12:33:06 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+12:33:06 [INFO] Listening to the client connections [/127.0.0.1:39190]
+12:33:06 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+12:34:22 [INFO] Client [id:1, ip: 127.0.0.1] connected
+12:34:25 [INFO] Client [id:1, ip: 127.0.0.1] disconnected
+12:36:28 [INFO] Loaded properties from file 'system.properties'
+12:36:28 [INFO] Loaded properties from file 'jdbc.properties'
+12:36:28 [INFO] Database connected successfully!
+12:36:28 [INFO] Loaded 13  item(s) count.
+12:36:28 [INFO] Loaded 1 registered GameServers.
+12:36:28 [INFO] Loaded 0 blocked ip masks.
+12:36:28 [INFO] Loaded start player template. [Gp: 35000; Money: 15000
+12:36:28 [INFO] Loaded 11 starting items.
+12:36:28 [INFO] Loaded 9 client packet prototypes
+12:36:28 [INFO] Loaded 2 operations interaction with the game server
+12:36:28 [INFO] Loaded in 0 sec(0,000 min)
+12:36:28 [INFO] Used 8 mb, max 31 mb.
+12:36:28 [INFO] Used 27,58% percent memory.
+12:36:29 [INFO] Listening to the game server connections [/127.0.0.1:9889]
+12:36:29 [INFO] Listening to the client connections [/127.0.0.1:39190]
+12:36:29 [INFO] GameServer [id:none, ip: 127.0.0.1] connected
+12:36:48 [INFO] Client [id:1, ip: 127.0.0.1] connected
+12:36:52 [INFO] Client [id:1, ip: 127.0.0.1] disconnected

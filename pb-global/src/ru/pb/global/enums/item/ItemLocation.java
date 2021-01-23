@@ -20,11 +20,6 @@
 
 package ru.pb.global.enums.item;
 
-/**
- * Расположения итемов.
- *
- * @author Felixx
- */
 public enum ItemLocation {
 	INVENTORY,
 	EQUIPPED;

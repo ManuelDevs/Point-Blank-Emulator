@@ -21,7 +21,7 @@
 package ru.pb.game.network.client.packets.client;
 
 import ru.pb.game.network.client.packets.ClientPacket;
-import ru.pb.game.network.client.packets.server.SM_ROOM_INFO;
+import ru.pb.game.network.client.packets.server.PROTOCOL_ROOM_SLOT_INFO_ACK;
 import ru.pb.game.network.client.packets.server.PROTOCOL_SHOP_ENTER_ACK;
 import ru.pb.global.enums.SlotState;
 import ru.pb.global.models.Player;
@@ -48,7 +48,7 @@ public class PROTOCOL_SHOP_ENTER_REQ extends ClientPacket {
 				@Override
 				public void run() {
 					for (Player member : getConnection().getRoom().getPlayers().values()) {
-						member.getConnection().sendPacket(new SM_ROOM_INFO(room));
+						member.getConnection().sendPacket(new PROTOCOL_ROOM_SLOT_INFO_ACK(room));
 					}
 				}
 			});

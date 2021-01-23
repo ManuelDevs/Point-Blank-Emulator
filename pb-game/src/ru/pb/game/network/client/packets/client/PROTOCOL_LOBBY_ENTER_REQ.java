@@ -21,7 +21,7 @@ import ru.pb.game.network.battle.packets.sendable.SM_REQUEST_REMOVE_PLAYER;
 import ru.pb.game.network.battle.packets.sendable.SM_REQUEST_UNREGISTER_ROOM;
 import ru.pb.game.network.client.packets.ClientPacket;
 import ru.pb.game.network.client.packets.server.PROTOCOL_LOBBY_ENTER_ACK;
-import ru.pb.game.network.client.packets.server.SM_ROOM_INFO;
+import ru.pb.game.network.client.packets.server.PROTOCOL_ROOM_SLOT_INFO_ACK;
 import ru.pb.global.models.BattleServerInfo;
 import ru.pb.global.models.Channel;
 import ru.pb.global.models.Player;
@@ -54,7 +54,7 @@ public class PROTOCOL_LOBBY_ENTER_REQ extends ClientPacket {
 				}
 
 				for(Player p : room.getPlayers().values()) {
-					p.getConnection().sendPacket(new SM_ROOM_INFO(room));
+					p.getConnection().sendPacket(new PROTOCOL_ROOM_SLOT_INFO_ACK(room));
 				}
 
 				if(bsi != null) {

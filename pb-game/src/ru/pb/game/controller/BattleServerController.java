@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Контроллер боевых серверов подключенных к игровому серверу
+ * ÐšÐ¾Ð½Ñ‚Ñ€Ð¾Ð»Ð»ÐµÑ€ Ð±Ð¾ÐµÐ²Ñ‹Ñ… Ñ�ÐµÑ€Ð²ÐµÑ€Ð¾Ð² Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð½Ñ‹Ñ… Ðº Ð¸Ð³Ñ€Ð¾Ð²Ð¾Ð¼Ñƒ Ñ�ÐµÑ€Ð²ÐµÑ€Ñƒ
  *
  * @author Felixx
  */
@@ -52,7 +52,6 @@ public class BattleServerController extends BaseController {
 		bsi.setPort(port);
 		bsi.setIp(connection.getIp());
 		bsi.setConnection(connection);
-		//bsi.setAvailable(true);
 		connection.setBattleServerInfo(bsi);
 		log.info(connection + " requested id [" + id + "] successfully registred.");
 		return BattleServerAuthResponse.AUTHED;

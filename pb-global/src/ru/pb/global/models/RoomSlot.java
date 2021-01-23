@@ -35,10 +35,11 @@ public class RoomSlot {
 	private int allDeath;
 	private int botScore;
 	private Player player;
-
+	private int playing;
 	private int allExp;
 	private int allGP;
-
+	private int spawnCount;
+	
 	public int lastKillState;
 	public boolean repeatLastState;
 
@@ -47,7 +48,15 @@ public class RoomSlot {
 	public int getId() {
 		return id;
 	}
-
+	
+	public void setPlaying(int playing) {
+		this.playing = playing;
+	}
+	
+	public int getPlaying() {
+		return playing;
+	}
+	
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -132,6 +141,22 @@ public class RoomSlot {
 		allGP = allGP1;
 	}
 
+	public void resetSlot() {
+		this.playing = 0;
+		this.spawnCount = 0;
+		this.setAllDeahts(0);
+		this.setAllDeahts(0);
+		this.setBotScore(0);
+		this.setLastKillMessage(0);
+		this.setAllExp(0);
+		this.setAllGP(0);
+		this.state = SlotState.SLOT_STATE_NORMAL;
+	}
+	
+	public int increaseSpawn() {
+		return ++this.spawnCount;
+	}
+	
 	@Override
 	public String toString() {
 		return "RoomSlot{" +

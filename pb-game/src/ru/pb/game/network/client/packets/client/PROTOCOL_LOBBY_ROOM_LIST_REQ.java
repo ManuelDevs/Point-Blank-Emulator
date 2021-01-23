@@ -21,7 +21,7 @@
 package ru.pb.game.network.client.packets.client;
 
 import ru.pb.game.network.client.packets.ClientPacket;
-import ru.pb.game.network.client.packets.server.SM_LOBBY_ROOM_LIST;
+import ru.pb.game.network.client.packets.server.PROTOCOL_LOBBY_ROOM_LIST_ACK;
 import ru.pb.global.models.Channel;
 import ru.pb.global.models.Room;
 
@@ -43,6 +43,6 @@ public class PROTOCOL_LOBBY_ROOM_LIST_REQ extends ClientPacket {
 			if (room.getPlayers().isEmpty())
 				channel.removeRoom(room);
 
-		sendPacket(new SM_LOBBY_ROOM_LIST(getConnection().getServerChannel()));
+		sendPacket(new PROTOCOL_LOBBY_ROOM_LIST_ACK(getConnection().getServerChannel()));
 	}
 }

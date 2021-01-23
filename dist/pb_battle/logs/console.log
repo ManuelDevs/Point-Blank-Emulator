@@ -479,3 +479,666 @@
 18:41:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
 18:41:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
 18:41:29 [INFO] BattleServer successfully registred, response: AUTHED
+18:49:03 [INFO] Loaded properties from file 'system.properties'
+18:49:03 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:49:03 [INFO] Loaded 7 battle packet prototypes
+18:49:03 [INFO] Loaded in 0 sec(0,000 min)
+18:49:03 [INFO] Used 11 mb, max 61 mb.
+18:49:03 [INFO] Used 18,39% percent memory.
+18:49:03 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+18:49:03 [INFO] Connecting to /127.0.0.1:29890...
+18:49:04 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+18:49:04 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+18:49:04 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+18:49:04 [INFO] BattleServer successfully registred, response: AUTHED
+19:51:41 [INFO] Loaded properties from file 'system.properties'
+19:51:41 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+19:51:41 [INFO] Loaded 7 battle packet prototypes
+19:51:41 [INFO] Loaded in 0 sec(0,000 min)
+19:51:41 [INFO] Used 10 mb, max 61 mb.
+19:51:41 [INFO] Used 17,34% percent memory.
+19:51:42 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+19:51:42 [INFO] Connecting to /127.0.0.1:29890...
+19:51:42 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+19:51:42 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+19:51:42 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+19:51:42 [INFO] BattleServer successfully registred, response: AUTHED
+18:05:05 [INFO] Loaded properties from file 'system.properties'
+18:05:05 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:05:05 [INFO] Loaded 7 battle packet prototypes
+18:05:05 [INFO] Loaded in 0 sec(0,000 min)
+18:05:05 [INFO] Used 10 mb, max 61 mb.
+18:05:05 [INFO] Used 17,35% percent memory.
+18:05:05 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+18:05:05 [INFO] Connecting to /127.0.0.1:29890...
+18:05:06 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+18:05:06 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+18:05:06 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+18:05:06 [INFO] BattleServer successfully registred, response: AUTHED
+18:05:39 [INFO] Try connect player /127.0.0.1:29890
+18:05:39 [INFO] Try connect player /127.0.0.1:29890
+18:05:40 [INFO] Try connect player /127.0.0.1:29890
+18:05:40 [INFO] Try connect player /127.0.0.1:29890
+18:05:41 [INFO] Try connect player /127.0.0.1:29890
+18:05:41 [INFO] Try connect player /127.0.0.1:29890
+18:05:42 [INFO] Try connect player /127.0.0.1:29890
+18:05:42 [INFO] Try connect player /127.0.0.1:29890
+18:05:43 [INFO] Try connect player /127.0.0.1:29890
+18:05:43 [INFO] Try connect player /127.0.0.1:29890
+18:05:44 [INFO] Try connect player /127.0.0.1:29890
+18:05:44 [INFO] Try connect player /127.0.0.1:29890
+18:05:45 [INFO] Try connect player /127.0.0.1:29890
+18:05:45 [INFO] Try connect player /127.0.0.1:29890
+18:05:46 [INFO] Try connect player /127.0.0.1:29890
+18:05:46 [INFO] Try connect player /127.0.0.1:29890
+18:05:47 [INFO] Try connect player /127.0.0.1:29890
+18:05:47 [INFO] Try connect player /127.0.0.1:29890
+18:05:48 [INFO] Try connect player /127.0.0.1:29890
+18:05:48 [INFO] Try connect player /127.0.0.1:29890
+18:05:49 [INFO] Try connect player /127.0.0.1:29890
+18:05:49 [INFO] Try connect player /127.0.0.1:29890
+18:05:50 [INFO] Try connect player /127.0.0.1:29890
+18:05:50 [INFO] Try connect player /127.0.0.1:29890
+18:05:51 [INFO] Try connect player /127.0.0.1:29890
+18:05:51 [INFO] Try connect player /127.0.0.1:29890
+18:05:52 [INFO] Try connect player /127.0.0.1:29890
+18:05:52 [INFO] Try connect player /127.0.0.1:29890
+18:05:53 [INFO] Try connect player /127.0.0.1:29890
+18:05:53 [INFO] Try connect player /127.0.0.1:29890
+18:05:54 [INFO] Try connect player /127.0.0.1:29890
+18:05:54 [INFO] Try connect player /127.0.0.1:29890
+18:05:55 [INFO] Try connect player /127.0.0.1:29890
+18:05:55 [INFO] Try connect player /127.0.0.1:29890
+18:05:56 [INFO] Try connect player /127.0.0.1:29890
+18:07:32 [INFO] Loaded properties from file 'system.properties'
+18:07:32 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:07:32 [INFO] Loaded 7 battle packet prototypes
+18:07:32 [INFO] Loaded in 0 sec(0,000 min)
+18:07:32 [INFO] Used 10 mb, max 61 mb.
+18:07:32 [INFO] Used 17,32% percent memory.
+18:07:33 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+18:07:33 [INFO] Connecting to /127.0.0.1:29890...
+18:07:33 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+18:07:33 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+18:07:33 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+18:07:33 [INFO] BattleServer successfully registred, response: AUTHED
+18:08:21 [INFO] Try connect player /127.0.0.1:29890
+18:08:22 [INFO] Try connect player /127.0.0.1:29890
+18:08:22 [INFO] Try connect player /127.0.0.1:29890
+18:08:23 [INFO] Try connect player /127.0.0.1:29890
+18:08:23 [INFO] Try connect player /127.0.0.1:29890
+18:08:24 [INFO] Try connect player /127.0.0.1:29890
+18:08:24 [INFO] Try connect player /127.0.0.1:29890
+18:08:25 [INFO] Try connect player /127.0.0.1:29890
+18:08:25 [INFO] Try connect player /127.0.0.1:29890
+18:08:26 [INFO] Try connect player /127.0.0.1:29890
+18:08:26 [INFO] Try connect player /127.0.0.1:29890
+18:08:27 [INFO] Try connect player /127.0.0.1:29890
+18:08:27 [INFO] Try connect player /127.0.0.1:29890
+18:08:28 [INFO] Try connect player /127.0.0.1:29890
+18:08:28 [INFO] Try connect player /127.0.0.1:29890
+18:08:57 [INFO] Loaded properties from file 'system.properties'
+18:08:57 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:08:57 [INFO] Loaded 7 battle packet prototypes
+18:08:57 [INFO] Loaded in 0 sec(0,000 min)
+18:08:57 [INFO] Used 10 mb, max 61 mb.
+18:08:57 [INFO] Used 16,83% percent memory.
+18:08:58 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+18:08:58 [INFO] Connecting to /127.0.0.1:29890...
+18:08:58 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+18:08:58 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+18:08:58 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+18:08:58 [INFO] BattleServer successfully registred, response: AUTHED
+18:09:32 [INFO] Try connect player /127.0.0.1:29890
+18:09:33 [INFO] Try connect player /127.0.0.1:29890
+18:09:33 [INFO] Try connect player /127.0.0.1:29890
+18:09:34 [INFO] Try connect player /127.0.0.1:29890
+18:09:34 [INFO] Try connect player /127.0.0.1:29890
+18:09:35 [INFO] Try connect player /127.0.0.1:29890
+18:09:35 [INFO] Try connect player /127.0.0.1:29890
+18:09:36 [INFO] Try connect player /127.0.0.1:29890
+18:09:36 [INFO] Try connect player /127.0.0.1:29890
+18:09:37 [INFO] Try connect player /127.0.0.1:29890
+18:09:37 [INFO] Try connect player /127.0.0.1:29890
+18:09:38 [INFO] Try connect player /127.0.0.1:29890
+18:09:38 [INFO] Try connect player /127.0.0.1:29890
+18:09:39 [INFO] Try connect player /127.0.0.1:29890
+18:09:39 [INFO] Try connect player /127.0.0.1:29890
+18:09:40 [INFO] Try connect player /127.0.0.1:29890
+18:09:40 [INFO] Try connect player /127.0.0.1:29890
+18:09:41 [INFO] Try connect player /127.0.0.1:29890
+18:09:41 [INFO] Try connect player /127.0.0.1:29890
+18:09:42 [INFO] Try connect player /127.0.0.1:29890
+18:09:42 [INFO] Try connect player /127.0.0.1:29890
+18:09:43 [INFO] Try connect player /127.0.0.1:29890
+18:09:43 [INFO] Try connect player /127.0.0.1:29890
+18:09:44 [INFO] Try connect player /127.0.0.1:29890
+18:09:45 [INFO] Try connect player /127.0.0.1:29890
+18:09:45 [INFO] Try connect player /127.0.0.1:29890
+18:12:40 [INFO] Loaded properties from file 'system.properties'
+18:12:40 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:12:40 [INFO] Loaded 7 battle packet prototypes
+18:12:40 [INFO] Loaded in 0 sec(0,000 min)
+18:12:40 [INFO] Used 10 mb, max 61 mb.
+18:12:40 [INFO] Used 17,87% percent memory.
+18:12:40 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+18:12:40 [INFO] Connecting to /127.0.0.1:29890...
+18:12:41 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+18:12:41 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+18:12:41 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+18:12:41 [INFO] BattleServer successfully registred, response: AUTHED
+18:13:25 [INFO] Try connect player /127.0.0.1:29890
+18:13:25 [INFO] Room is null
+18:13:25 [INFO] Try connect player /127.0.0.1:29890
+18:13:25 [INFO] Room is null
+18:13:26 [INFO] Try connect player /127.0.0.1:29890
+18:13:26 [INFO] Room is null
+18:13:26 [INFO] Try connect player /127.0.0.1:29890
+18:13:26 [INFO] Room is null
+18:13:27 [INFO] Try connect player /127.0.0.1:29890
+18:13:27 [INFO] Room is null
+18:13:27 [INFO] Try connect player /127.0.0.1:29890
+18:13:27 [INFO] Room is null
+18:14:24 [INFO] Loaded properties from file 'system.properties'
+18:14:24 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+18:14:24 [INFO] Loaded 7 battle packet prototypes
+18:14:24 [INFO] Loaded in 0 sec(0,000 min)
+18:14:24 [INFO] Used 10 mb, max 61 mb.
+18:14:24 [INFO] Used 17,35% percent memory.
+18:14:25 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+18:14:25 [INFO] Connecting to /127.0.0.1:29890...
+18:14:25 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+18:14:25 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+18:14:25 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+18:14:25 [INFO] BattleServer successfully registred, response: AUTHED
+18:15:02 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+18:15:15 [INFO] Try connect player /127.0.0.1:29890
+18:15:15 [INFO] Send accept data! /127.0.0.1:29890
+20:02:28 [INFO] Loaded properties from file 'system.properties'
+20:02:28 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+20:02:28 [INFO] Loaded 7 battle packet prototypes
+20:02:28 [INFO] Loaded in 0 sec(0,000 min)
+20:02:28 [INFO] Used 10 mb, max 61 mb.
+20:02:28 [INFO] Used 17,33% percent memory.
+20:02:28 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+20:02:28 [INFO] Connecting to /127.0.0.1:29890...
+20:02:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+20:02:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+20:02:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+20:02:29 [INFO] BattleServer successfully registred, response: AUTHED
+20:02:45 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+20:02:55 [INFO] Try connect player /127.0.0.1:29890
+20:02:55 [INFO] Send accept data! /127.0.0.1:29890
+20:03:53 [INFO] Loaded properties from file 'system.properties'
+20:03:53 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+20:03:53 [INFO] Loaded 7 battle packet prototypes
+20:03:53 [INFO] Loaded in 0 sec(0,000 min)
+20:03:53 [INFO] Used 10 mb, max 61 mb.
+20:03:53 [INFO] Used 17,35% percent memory.
+20:03:53 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+20:03:53 [INFO] Connecting to /127.0.0.1:29890...
+20:03:54 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+20:03:54 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+20:03:54 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+20:03:54 [INFO] BattleServer successfully registred, response: AUTHED
+20:04:24 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+20:04:35 [INFO] Try connect player /127.0.0.1:29890
+20:04:35 [INFO] Send accept data! /127.0.0.1:29890
+20:05:55 [INFO] Loaded properties from file 'system.properties'
+20:05:55 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+20:05:55 [INFO] Loaded 7 battle packet prototypes
+20:05:55 [INFO] Loaded in 0 sec(0,000 min)
+20:05:55 [INFO] Used 10 mb, max 61 mb.
+20:05:55 [INFO] Used 17,35% percent memory.
+20:05:56 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+20:05:56 [INFO] Connecting to /127.0.0.1:29890...
+20:05:56 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+20:05:56 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+20:05:56 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+20:05:56 [INFO] BattleServer successfully registred, response: AUTHED
+20:06:23 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+20:06:33 [INFO] Try connect player /127.0.0.1:29890
+20:06:33 [INFO] Send accept data! /127.0.0.1:29890
+20:06:39 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnecting
+20:06:39 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnected
+20:07:37 [INFO] Loaded properties from file 'system.properties'
+20:07:37 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+20:07:37 [INFO] Loaded 7 battle packet prototypes
+20:07:37 [INFO] Loaded in 0 sec(0,000 min)
+20:07:37 [INFO] Used 10 mb, max 61 mb.
+20:07:37 [INFO] Used 17,35% percent memory.
+20:07:37 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+20:07:37 [INFO] Connecting to /127.0.0.1:29890...
+20:07:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+20:07:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+20:07:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+20:07:38 [INFO] BattleServer successfully registred, response: AUTHED
+20:09:34 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+20:09:44 [INFO] Try connect player /127.0.0.1:29890
+20:09:44 [INFO] Send accept data! /127.0.0.1:29890
+21:34:37 [INFO] Loaded properties from file 'system.properties'
+21:34:37 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+21:34:37 [INFO] Loaded 7 battle packet prototypes
+21:34:37 [INFO] Loaded in 0 sec(0,000 min)
+21:34:37 [INFO] Used 10 mb, max 61 mb.
+21:34:37 [INFO] Used 16,81% percent memory.
+21:34:37 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+21:34:37 [INFO] Connecting to /127.0.0.1:29890...
+21:34:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+21:34:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+21:34:39 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+21:34:39 [INFO] BattleServer successfully registred, response: AUTHED
+21:35:26 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+21:35:35 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnecting
+21:35:35 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnected
+21:35:56 [INFO] Loaded properties from file 'system.properties'
+21:35:56 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+21:35:56 [INFO] Loaded 7 battle packet prototypes
+21:35:56 [INFO] Loaded in 0 sec(0,000 min)
+21:35:56 [INFO] Used 10 mb, max 61 mb.
+21:35:56 [INFO] Used 16,83% percent memory.
+21:35:57 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+21:35:57 [INFO] Connecting to /127.0.0.1:29890...
+21:35:57 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+21:35:57 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+21:35:57 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+21:35:57 [INFO] BattleServer successfully registred, response: AUTHED
+21:36:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+21:36:43 [INFO] Try connect player /127.0.0.1:29890
+21:36:43 [INFO] Send accept data! /127.0.0.1:29890
+21:38:07 [INFO] Loaded properties from file 'system.properties'
+21:38:07 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+21:38:07 [INFO] Loaded 7 battle packet prototypes
+21:38:07 [INFO] Loaded in 0 sec(0,000 min)
+21:38:07 [INFO] Used 10 mb, max 61 mb.
+21:38:07 [INFO] Used 16,83% percent memory.
+21:38:08 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+21:38:08 [INFO] Connecting to /127.0.0.1:29890...
+21:38:08 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+21:38:08 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+21:38:08 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+21:38:08 [INFO] BattleServer successfully registred, response: AUTHED
+21:38:41 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+21:38:53 [INFO] Try connect player /127.0.0.1:29890
+21:38:53 [INFO] Send accept data! /127.0.0.1:29890
+21:40:49 [INFO] Loaded properties from file 'system.properties'
+21:40:49 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+21:40:49 [INFO] Loaded 7 battle packet prototypes
+21:40:49 [INFO] Loaded in 0 sec(0,000 min)
+21:40:49 [INFO] Used 10 mb, max 61 mb.
+21:40:49 [INFO] Used 16,81% percent memory.
+21:40:50 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+21:40:50 [INFO] Connecting to /127.0.0.1:29890...
+21:40:50 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+21:40:50 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+21:40:50 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+21:40:50 [INFO] BattleServer successfully registred, response: AUTHED
+21:41:34 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+21:41:49 [INFO] Try connect player /127.0.0.1:29890
+21:41:49 [INFO] Send accept data! /127.0.0.1:29890
+21:42:13 [INFO] Loaded properties from file 'system.properties'
+21:42:13 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+21:42:13 [INFO] Loaded 7 battle packet prototypes
+21:42:13 [INFO] Loaded in 0 sec(0,000 min)
+21:42:13 [INFO] Used 10 mb, max 61 mb.
+21:42:13 [INFO] Used 16,80% percent memory.
+21:42:14 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+21:42:14 [INFO] Connecting to /127.0.0.1:29890...
+21:42:15 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+21:42:15 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+21:42:15 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+21:42:15 [INFO] BattleServer successfully registred, response: AUTHED
+21:42:56 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+21:43:08 [INFO] Try connect player /127.0.0.1:29890
+21:43:08 [INFO] Send accept data! /127.0.0.1:29890
+21:44:00 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnecting
+21:44:00 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnected
+21:44:10 [INFO] Connecting to /127.0.0.1:29890...
+21:44:12 [INFO] Server [/127.0.0.1:29890] not available...
+21:44:12 [INFO] BattleServer [id:2, ip: null] disconnected
+21:44:22 [INFO] Connecting to /127.0.0.1:29890...
+21:44:24 [INFO] Server [/127.0.0.1:29890] not available...
+21:44:24 [INFO] BattleServer [id:3, ip: null] disconnected
+21:44:34 [INFO] Connecting to /127.0.0.1:29890...
+21:44:36 [INFO] Server [/127.0.0.1:29890] not available...
+21:44:36 [INFO] BattleServer [id:4, ip: null] disconnected
+21:44:46 [INFO] Connecting to /127.0.0.1:29890...
+21:44:48 [INFO] Server [/127.0.0.1:29890] not available...
+21:44:48 [INFO] BattleServer [id:5, ip: null] disconnected
+21:44:58 [INFO] Connecting to /127.0.0.1:29890...
+21:45:00 [INFO] Server [/127.0.0.1:29890] not available...
+21:45:00 [INFO] BattleServer [id:6, ip: null] disconnected
+21:52:21 [INFO] Loaded properties from file 'system.properties'
+21:52:21 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+21:52:21 [INFO] Loaded 7 battle packet prototypes
+21:52:21 [INFO] Loaded in 0 sec(0,000 min)
+21:52:21 [INFO] Used 10 mb, max 61 mb.
+21:52:21 [INFO] Used 17,33% percent memory.
+21:52:22 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+21:52:22 [INFO] Connecting to /127.0.0.1:29890...
+21:52:22 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+21:52:22 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+21:52:23 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+21:52:23 [INFO] BattleServer successfully registred, response: AUTHED
+21:52:59 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+21:53:11 [INFO] Try connect player /127.0.0.1:29890
+21:53:11 [INFO] Send accept data! /127.0.0.1:29890
+10:43:57 [INFO] Loaded properties from file 'system.properties'
+10:43:57 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+10:43:57 [INFO] Loaded 7 battle packet prototypes
+10:43:57 [INFO] Loaded in 0 sec(0,000 min)
+10:43:57 [INFO] Used 10 mb, max 61 mb.
+10:43:57 [INFO] Used 16,83% percent memory.
+10:43:58 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+10:43:58 [INFO] Connecting to /127.0.0.1:29890...
+10:43:58 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+10:43:58 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+10:43:58 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+10:43:58 [INFO] BattleServer successfully registred, response: AUTHED
+10:44:09 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+10:44:20 [INFO] Try connect player /127.0.0.1:29890
+10:44:20 [INFO] Send accept data! /127.0.0.1:29890
+10:50:42 [INFO] Loaded properties from file 'system.properties'
+10:50:42 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+10:50:42 [INFO] Loaded 7 battle packet prototypes
+10:50:42 [INFO] Loaded in 0 sec(0,000 min)
+10:50:42 [INFO] Used 10 mb, max 61 mb.
+10:50:42 [INFO] Used 17,34% percent memory.
+10:50:42 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+10:50:42 [INFO] Connecting to /127.0.0.1:29890...
+10:50:43 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+10:50:43 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+10:50:43 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+10:50:43 [INFO] BattleServer successfully registred, response: AUTHED
+10:51:36 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+10:51:49 [INFO] Try connect player /127.0.0.1:29890
+10:51:49 [INFO] Send accept data! /127.0.0.1:29890
+10:52:25 [INFO] Loaded properties from file 'system.properties'
+10:52:25 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+10:52:25 [INFO] Loaded 7 battle packet prototypes
+10:52:25 [INFO] Loaded in 0 sec(0,000 min)
+10:52:25 [INFO] Used 10 mb, max 61 mb.
+10:52:25 [INFO] Used 17,32% percent memory.
+10:52:26 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+10:52:26 [INFO] Connecting to /127.0.0.1:29890...
+10:52:26 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+10:52:26 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+10:52:26 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+10:52:26 [INFO] BattleServer successfully registred, response: AUTHED
+10:52:58 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+10:53:08 [INFO] Try connect player /127.0.0.1:29890
+10:53:08 [INFO] Send accept data! /127.0.0.1:29890
+10:55:02 [INFO] Loaded properties from file 'system.properties'
+10:55:02 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+10:55:02 [INFO] Loaded 7 battle packet prototypes
+10:55:02 [INFO] Loaded in 0 sec(0,000 min)
+10:55:02 [INFO] Used 10 mb, max 61 mb.
+10:55:02 [INFO] Used 16,83% percent memory.
+10:55:02 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+10:55:02 [INFO] Connecting to /127.0.0.1:29890...
+10:55:03 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+10:55:03 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+10:55:03 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+10:55:03 [INFO] BattleServer successfully registred, response: AUTHED
+10:55:19 [INFO] Loaded properties from file 'system.properties'
+10:55:19 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+10:55:19 [INFO] Loaded 7 battle packet prototypes
+10:55:19 [INFO] Loaded in 0 sec(0,000 min)
+10:55:19 [INFO] Used 10 mb, max 61 mb.
+10:55:19 [INFO] Used 16,83% percent memory.
+10:55:20 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+10:55:20 [INFO] Connecting to /127.0.0.1:29890...
+10:55:20 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+10:55:20 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+10:55:20 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+10:55:20 [INFO] BattleServer successfully registred, response: AUTHED
+10:55:32 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+10:55:42 [INFO] Try connect player /127.0.0.1:29890
+10:55:42 [INFO] Send accept data! /127.0.0.1:29890
+10:56:12 [INFO] Loaded properties from file 'system.properties'
+10:56:12 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+10:56:12 [INFO] Loaded 7 battle packet prototypes
+10:56:12 [INFO] Loaded in 0 sec(0,000 min)
+10:56:12 [INFO] Used 10 mb, max 61 mb.
+10:56:12 [INFO] Used 17,32% percent memory.
+10:56:13 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+10:56:13 [INFO] Connecting to /127.0.0.1:29890...
+10:56:13 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+10:56:13 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+10:56:13 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+10:56:13 [INFO] BattleServer successfully registred, response: AUTHED
+10:57:25 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+10:57:34 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+10:57:44 [INFO] Try connect player /127.0.0.1:29890
+10:57:44 [INFO] Send accept data! /127.0.0.1:29890
+10:58:11 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnecting
+10:58:11 [INFO] BattleServer [id:1, ip: 127.0.0.1] disconnected
+11:19:59 [INFO] Loaded properties from file 'system.properties'
+11:19:59 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+11:19:59 [INFO] Loaded 7 battle packet prototypes
+11:19:59 [INFO] Loaded in 0 sec(0,000 min)
+11:19:59 [INFO] Used 10 mb, max 61 mb.
+11:19:59 [INFO] Used 17,33% percent memory.
+11:19:59 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+11:19:59 [INFO] Connecting to /127.0.0.1:29890...
+11:20:00 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+11:20:00 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+11:20:00 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+11:20:00 [INFO] BattleServer successfully registred, response: AUTHED
+11:21:21 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+11:21:33 [INFO] Try connect player /127.0.0.1:29890
+11:21:33 [INFO] Send accept data! /127.0.0.1:29890
+11:22:35 [INFO] Try connect player /127.0.0.1:29890
+11:22:35 [INFO] Send accept data! /127.0.0.1:29890
+11:22:55 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+11:23:12 [INFO] Try connect player /127.0.0.1:29890
+11:23:12 [INFO] Send accept data! /127.0.0.1:29890
+11:30:34 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+11:30:39 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x13 CM_REQUEST_REMOVE_PLAYER
+11:30:39 [INFO] Remove player battleId: 0 Channel: 0 Room: 0
+11:30:39 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x14 CM_REQUEST_CHANGE_HOST
+11:53:56 [INFO] Loaded properties from file 'system.properties'
+11:53:56 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+11:53:56 [INFO] Loaded 7 battle packet prototypes
+11:53:56 [INFO] Loaded in 0 sec(0,000 min)
+11:53:56 [INFO] Used 10 mb, max 61 mb.
+11:53:56 [INFO] Used 16,83% percent memory.
+11:53:56 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+11:53:56 [INFO] Connecting to /127.0.0.1:29890...
+11:54:00 [INFO] Loaded properties from file 'system.properties'
+11:54:00 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+11:54:00 [INFO] Loaded 7 battle packet prototypes
+11:54:00 [INFO] Loaded in 0 sec(0,000 min)
+11:54:00 [INFO] Used 10 mb, max 61 mb.
+11:54:00 [INFO] Used 17,34% percent memory.
+11:54:01 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+11:54:01 [INFO] Connecting to /127.0.0.1:29890...
+11:54:01 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+11:54:01 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+11:54:01 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+11:54:01 [INFO] BattleServer successfully registred, response: AUTHED
+11:54:15 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+11:54:43 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+11:55:07 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+11:55:30 [INFO] Loaded properties from file 'system.properties'
+11:55:30 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+11:55:30 [INFO] Loaded 7 battle packet prototypes
+11:55:30 [INFO] Loaded in 0 sec(0,000 min)
+11:55:30 [INFO] Used 10 mb, max 61 mb.
+11:55:30 [INFO] Used 17,35% percent memory.
+11:55:30 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+11:55:30 [INFO] Connecting to /127.0.0.1:29890...
+11:55:31 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+11:55:31 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+11:55:31 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+11:55:31 [INFO] BattleServer successfully registred, response: AUTHED
+11:56:00 [INFO] Loaded properties from file 'system.properties'
+11:56:00 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+11:56:00 [INFO] Loaded 7 battle packet prototypes
+11:56:00 [INFO] Loaded in 0 sec(0,000 min)
+11:56:00 [INFO] Used 10 mb, max 61 mb.
+11:56:00 [INFO] Used 17,35% percent memory.
+11:56:00 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+11:56:00 [INFO] Connecting to /127.0.0.1:29890...
+11:56:01 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+11:56:01 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+11:56:01 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+11:56:01 [INFO] BattleServer successfully registred, response: AUTHED
+11:56:12 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+11:56:40 [INFO] Loaded properties from file 'system.properties'
+11:56:40 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+11:56:40 [INFO] Loaded 7 battle packet prototypes
+11:56:40 [INFO] Loaded in 0 sec(0,000 min)
+11:56:40 [INFO] Used 10 mb, max 61 mb.
+11:56:40 [INFO] Used 16,83% percent memory.
+11:56:41 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+11:56:41 [INFO] Connecting to /127.0.0.1:29890...
+11:56:41 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+11:56:41 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+11:56:41 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+11:56:41 [INFO] BattleServer successfully registred, response: AUTHED
+11:57:27 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+11:59:23 [INFO] Loaded properties from file 'system.properties'
+11:59:23 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+11:59:23 [INFO] Loaded 7 battle packet prototypes
+11:59:23 [INFO] Loaded in 0 sec(0,000 min)
+11:59:23 [INFO] Used 10 mb, max 61 mb.
+11:59:23 [INFO] Used 16,83% percent memory.
+11:59:24 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+11:59:24 [INFO] Connecting to /127.0.0.1:29890...
+11:59:24 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+11:59:24 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+11:59:24 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+11:59:24 [INFO] BattleServer successfully registred, response: AUTHED
+11:59:47 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+12:00:00 [INFO] Try connect player /127.0.0.1:29890
+12:00:00 [INFO] Send accept data! /127.0.0.1:29890
+12:01:00 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+12:01:12 [INFO] Try connect player /127.0.0.1:29890
+12:01:12 [INFO] Send accept data! /127.0.0.1:29890
+12:05:37 [INFO] Loaded properties from file 'system.properties'
+12:05:37 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+12:05:37 [INFO] Loaded 7 battle packet prototypes
+12:05:37 [INFO] Loaded in 0 sec(0,000 min)
+12:05:37 [INFO] Used 10 mb, max 61 mb.
+12:05:37 [INFO] Used 17,35% percent memory.
+12:05:37 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+12:05:37 [INFO] Connecting to /127.0.0.1:29890...
+12:05:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+12:05:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+12:05:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+12:05:38 [INFO] BattleServer successfully registred, response: AUTHED
+12:05:55 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+12:06:09 [INFO] Try connect player /127.0.0.1:29890
+12:06:09 [INFO] Send accept data! /127.0.0.1:29890
+12:07:39 [INFO] Loaded properties from file 'system.properties'
+12:07:39 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+12:07:39 [INFO] Loaded 7 battle packet prototypes
+12:07:39 [INFO] Loaded in 0 sec(0,000 min)
+12:07:39 [INFO] Used 10 mb, max 61 mb.
+12:07:39 [INFO] Used 17,33% percent memory.
+12:07:39 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+12:07:39 [INFO] Connecting to /127.0.0.1:29890...
+12:07:40 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+12:07:40 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+12:07:40 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+12:07:40 [INFO] BattleServer successfully registred, response: AUTHED
+12:08:37 [INFO] Loaded properties from file 'system.properties'
+12:08:37 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+12:08:37 [INFO] Loaded 7 battle packet prototypes
+12:08:37 [INFO] Loaded in 0 sec(0,000 min)
+12:08:37 [INFO] Used 10 mb, max 61 mb.
+12:08:37 [INFO] Used 17,33% percent memory.
+12:08:37 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+12:08:37 [INFO] Connecting to /127.0.0.1:29890...
+12:08:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+12:08:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+12:08:38 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+12:08:38 [INFO] BattleServer successfully registred, response: AUTHED
+12:08:51 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+12:09:02 [INFO] Try connect player /127.0.0.1:29890
+12:09:02 [INFO] Send accept data! /127.0.0.1:29890
+12:15:45 [INFO] Loaded properties from file 'system.properties'
+12:15:45 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+12:15:45 [INFO] Loaded 7 battle packet prototypes
+12:15:45 [INFO] Loaded in 0 sec(0,000 min)
+12:15:45 [INFO] Used 10 mb, max 61 mb.
+12:15:45 [INFO] Used 17,33% percent memory.
+12:15:45 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+12:15:45 [INFO] Connecting to /127.0.0.1:29890...
+12:15:46 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+12:15:46 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+12:15:46 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+12:15:46 [INFO] BattleServer successfully registred, response: AUTHED
+12:23:47 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+12:24:24 [INFO] Try connect player /127.0.0.1:29890
+12:24:24 [INFO] Send accept data! /127.0.0.1:29890
+12:25:27 [INFO] Loaded properties from file 'system.properties'
+12:25:27 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+12:25:27 [INFO] Loaded 7 battle packet prototypes
+12:25:27 [INFO] Loaded in 0 sec(0,000 min)
+12:25:27 [INFO] Used 10 mb, max 61 mb.
+12:25:27 [INFO] Used 17,35% percent memory.
+12:25:27 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+12:25:27 [INFO] Connecting to /127.0.0.1:29890...
+12:25:28 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+12:25:28 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+12:25:28 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+12:25:28 [INFO] BattleServer successfully registred, response: AUTHED
+12:26:12 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+12:26:23 [INFO] Try connect player /127.0.0.1:29890
+12:26:23 [INFO] Send accept data! /127.0.0.1:29890
+12:27:39 [INFO] Loaded properties from file 'system.properties'
+12:27:39 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+12:27:39 [INFO] Loaded 7 battle packet prototypes
+12:27:39 [INFO] Loaded in 0 sec(0,000 min)
+12:27:39 [INFO] Used 10 mb, max 61 mb.
+12:27:39 [INFO] Used 16,80% percent memory.
+12:27:40 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+12:27:40 [INFO] Connecting to /127.0.0.1:29890...
+12:27:40 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+12:27:40 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+12:27:40 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+12:27:40 [INFO] BattleServer successfully registred, response: AUTHED
+12:27:59 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+12:28:15 [INFO] Try connect player /127.0.0.1:29890
+12:28:15 [INFO] Send accept data! /127.0.0.1:29890
+12:33:05 [INFO] Loaded properties from file 'system.properties'
+12:33:05 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+12:33:05 [INFO] Loaded 7 battle packet prototypes
+12:33:05 [INFO] Loaded in 0 sec(0,000 min)
+12:33:05 [INFO] Used 10 mb, max 61 mb.
+12:33:05 [INFO] Used 17,32% percent memory.
+12:33:06 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+12:33:06 [INFO] Connecting to /127.0.0.1:29890...
+12:33:06 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+12:33:06 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+12:33:06 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+12:33:06 [INFO] BattleServer successfully registred, response: AUTHED
+12:34:34 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+12:34:45 [INFO] Try connect player /127.0.0.1:29890
+12:34:45 [INFO] Send accept data! /127.0.0.1:29890
+12:36:28 [INFO] Loaded properties from file 'system.properties'
+12:36:28 [INFO] ThreadPoolManager: Initialized with 5 scheduler, 5 instant running thread(s).
+12:36:28 [INFO] Loaded 7 battle packet prototypes
+12:36:28 [INFO] Loaded in 0 sec(0,000 min)
+12:36:28 [INFO] Used 10 mb, max 61 mb.
+12:36:28 [INFO] Used 16,81% percent memory.
+12:36:29 [INFO] Listening to the UDP connections [/127.0.0.1:40009]
+12:36:29 [INFO] Connecting to /127.0.0.1:29890...
+12:36:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] connected
+12:36:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] sending packet: [S] 0x00 SM_REQUEST_AUTH_IN_GAMESERVER
+12:36:29 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x01 CM_REQUEST_AUTH_IN_GAMESERVER
+12:36:29 [INFO] BattleServer successfully registred, response: AUTHED
+12:37:00 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+12:37:13 [INFO] Try connect player /127.0.0.1:29890
+12:37:13 [INFO] Send accept data! /127.0.0.1:29890
+13:30:40 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+13:30:49 [INFO] Try connect player /127.0.0.1:29890
+13:30:49 [INFO] Send accept data! /127.0.0.1:29890
+13:31:15 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+13:31:33 [INFO] BattleServer [id:1, ip: 127.0.0.1] reading packet: [C] 0x10 CM_REQUEST_REGISTER_ROOM
+13:31:42 [INFO] Try connect player /127.0.0.1:29890
+13:31:42 [INFO] Send accept data! /127.0.0.1:29890
+13:32:34 [INFO] Try connect player /127.0.0.1:29890
+13:32:34 [INFO] Send accept data! /127.0.0.1:29890

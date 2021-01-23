@@ -18,7 +18,6 @@ package ru.pb.game.network.client.packets.client;
 
 import ru.pb.game.network.client.packets.ClientPacket;
 import ru.pb.game.network.client.packets.server.PROTOCOL_LOBBY_CREATE_PLAYER_ACK;
-import ru.pb.game.network.client.packets.server.SM_UNK_2596;
 import ru.pb.global.models.Player;
 import ru.pb.global.service.PlayerDaoService;
 
@@ -49,7 +48,7 @@ public class PROTOCOL_LOBBY_CREATE_PLAYER_REQ extends ClientPacket {
 				getConnection().setPlayer(player);
 				getConnection().getServerChannel().addPlayer(player);
 				sendPacket(new PROTOCOL_LOBBY_CREATE_PLAYER_ACK(0));
-				sendPacket(new SM_UNK_2596());
+				// TODO: Send mission info (BASE_QUEST_GET_INFO_PAK)
 			}
 		}
 	}

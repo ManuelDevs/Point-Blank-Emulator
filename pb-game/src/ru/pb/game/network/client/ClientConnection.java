@@ -11,7 +11,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * Authors: DarkSkeleton, sjke, Felixx
- * Copyright (C) 2013 PBDev™
+ * Copyright (C) 2013 PBDevâ„¢
  */
 
 package ru.pb.game.network.client;
@@ -28,10 +28,8 @@ import ru.pb.game.network.battle.packets.sendable.SM_REQUEST_REMOVE_PLAYER;
 import ru.pb.game.network.client.packets.ClientPacket;
 import ru.pb.game.network.client.packets.GamePacketHandler;
 import ru.pb.game.network.client.packets.ServerPacket;
-import ru.pb.game.network.client.packets.server.SM_BATTLE_CHANGE_NETWORK_INFO;
-import ru.pb.game.network.client.packets.server.SM_BATTLE_LEAVE;
-import ru.pb.game.network.client.packets.server.SM_ROOM_INFO;
-import ru.pb.game.network.client.packets.server.SM_SCHANNEL_LIST;
+import ru.pb.game.network.client.packets.server.PROTOCOL_SCHANNEL_LIST_ACK;
+import ru.pb.game.network.client.packets.server.PROTOCOL_ROOM_SLOT_INFO_ACK;
 import ru.pb.game.properties.GameServerProperty;
 import ru.pb.global.models.Account;
 import ru.pb.global.models.BattleServerInfo;
@@ -46,7 +44,7 @@ import ru.pb.global.service.PlayerDaoService;
 import ru.pb.global.utils.NetworkUtil;
 
 /**
- * Обработчик сообщений между игровым сервером и сервером авторизации
+ * ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚Ñ‡Ð¸Ðº Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ð¹ Ð¼ÐµÐ¶Ð´Ñƒ Ð¸Ð³Ñ€Ð¾Ð²Ñ‹Ð¼ Ñ�ÐµÑ€Ð²ÐµÑ€Ð¾Ð¼ Ð¸ Ñ�ÐµÑ€Ð²ÐµÑ€Ð¾Ð¼ Ð°Ð²Ñ‚Ð¾Ñ€Ð¸Ð·Ð°Ñ†Ð¸Ð¸
  * 
  * @author sjke
  */
@@ -67,7 +65,7 @@ public class ClientConnection extends Connection {
 	public void channelActive(ChannelHandlerContext ctx) throws Exception {
 		super.channelActive(ctx);
 		log.info(this + " connected" + "; address: " + getChannel().remoteAddress());
-		sendPacket(new SM_SCHANNEL_LIST());
+		sendPacket(new PROTOCOL_SCHANNEL_LIST_ACK());
 	}
 
 	@Override
@@ -120,48 +118,12 @@ public class ClientConnection extends Connection {
 			Channel ch = getServerChannel();
 
 			if(room != null && player != null && ch != null) {
-				RoomSlot sl = room.getRoomSlotByPlayer(player);
-				if(sl == null) {
-					log.info("SLOT is NULL for player: " + player.getName());
-					return;
-				}
-				int slot = sl.getId();
-				// если игрок-лидер вылетает из комнаты, то меняем лидера
-				if(player.equals(room.getLeader()))
-					room.setNewLeader();
-
-				BattleServerInfo bsi = BattleServerController.getInstance().getBattleServerInfo(40000);
-				if(bsi != null) {
-					if(bsi.getConnection() != null) {
-						// удаляем из боевого сервера отключающегося игрока
-						bsi.getConnection().sendPacket(new SM_REQUEST_REMOVE_PLAYER(room, player.getConnection().getIPBytes(), ch.getId()));
-						// обновляем инфу о лидере комнаты
-						bsi.getConnection().sendPacket(new SM_REQUEST_CHANGE_HOST(room, ch.getId()));
-					}
-				}
-
-				room.removePlayer(player);
-
-				// фикс удаления игрока из комнаты -- TODO Test
-				for(Player member : room.getPlayers().values()) {
-					if(member.getConnection() != null)
-						member.getConnection().sendPacket(new SM_ROOM_INFO(room));
-
-					if(room.getRoomSlotByPlayer(member).getState().ordinal() > 8)
-						if(member.getConnection() != null)
-							member.getConnection().sendPacket(new SM_BATTLE_LEAVE(slot));
-
-					if(player.equals(room.getLeader())) {
-						member.getConnection().sendPacket(new SM_BATTLE_CHANGE_NETWORK_INFO(room));
-					}
-				}
-				ch.removeRoom(room);
+				// TODO: remove from room
 			}
 
 			if(ch != null && ch.getPlayers().containsKey(player.getId()))
 				ch.removePlayer(player);
 		}
-		log.info(this + " disconnected: " + getAccount().getLogin() + "; address: " + getChannel().remoteAddress());
 		super.channelUnregistered(ctx);
 	}
 
@@ -175,7 +137,6 @@ public class ClientConnection extends Connection {
 		ClientPacket packet = GamePacketHandler.getInstance().handle(buffer, this);
 		showPackageHex(buffer);
 		if((packet != null) && packet.read()) {
-			log.debug(this + " reading packet: " + packet);
 			packet.setBuf(null);
 			processor.executePacket(packet);
 		}
@@ -190,8 +151,8 @@ public class ClientConnection extends Connection {
 	@Override
 	public void sendPacket(BaseServerPacket packet) {
 		if(packet != null && (packet instanceof ServerPacket)) {
-			log.debug(this + " sending packet: " + packet + "; capacity: " + packet.getBuf().capacity() + "; writable: " + packet.getBuf().writableBytes());
 			((ServerPacket) packet).writeImpl(this);
+			log.info("Sending packet " + packet);
 		}
 	}
 

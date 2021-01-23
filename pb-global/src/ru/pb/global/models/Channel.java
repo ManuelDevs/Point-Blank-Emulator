@@ -23,11 +23,6 @@ import org.slf4j.LoggerFactory;
 
 import ru.pb.global.enums.ChannelType;
 
-/**
- * Модель канала
- * 
- * @author sjke
- */
 public class Channel {
 	protected final Logger log = LoggerFactory.getLogger(Channel.class);
 	private int id;
@@ -70,17 +65,12 @@ public class Channel {
 		if(players.size() < MAX_PLAYERS_COUNT) {
 			if( !players.containsKey(player.getId())) {
 				players.put(player.getId(), player);
-			} else {
-				log.info("Player " + player.getName() + " already is exists in server channel. ");
 			}
-		} else {
-			log.info("The limit on the number of players is exceeded.");
 		}
 	}
 
 	public void removePlayer(Player player) {
 		players.remove(player.getId());
-		log.info("Player " + player.getName() + " removed from channel " + id);
 	}
 
 	public ConcurrentHashMap<Integer, Room> getRooms() {
@@ -88,10 +78,7 @@ public class Channel {
 	}
 
 	public void removeRoom(Room room) {
-		log.debug("try remove room id: " + room.getId() + " in channel: " + id);
 		if(room.getPlayers().isEmpty()) {
-			log.debug("Remove room id:" + room.getId() + " in channel: " + id);
-			room.stopTask(); // Остановка таймера и удаление привязки к комнате
 			rooms.remove(room.getId());
 		}
 	}
@@ -104,11 +91,7 @@ public class Channel {
 		if(rooms.size() < MAX_ROOMS_COUNT) {
 			if( !rooms.containsValue(room)) {
 				rooms.put(room.getId(), room);
-			} else {
-				log.info("Room " + room.getId() + " already is exists in server channel. ");
 			}
-		} else {
-			log.info("The limit on the number of rooms is exceeded.");
 		}
 	}
 }

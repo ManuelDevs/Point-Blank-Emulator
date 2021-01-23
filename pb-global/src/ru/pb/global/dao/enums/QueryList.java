@@ -91,6 +91,8 @@ public enum QueryList {
 	GET_LEVEL_LUP_INFOS("SELECT * FROM levelup"),
 	GET_ALL_ITEMS("SELECT * FROM items"),
 
+	GET_ALL_MAPS("SELECT * FROM maps ORDER BY id"),
+	
 	/**
 	 * IPSystem querys
 	 */

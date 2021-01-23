@@ -41,7 +41,8 @@ public class DaoManager {
 	private static EquipmentDao equipmentDao;
 	private static ItemsDao itemsDao;
 	private static AdminProfileDao adminDao;
-
+	private static MapsDao mapsDao;
+	
 	private DaoManager() {
 		gameServerDao = new GameServerDaoImpl();
 		accountDao = new AccountDaoImpl();
@@ -55,12 +56,17 @@ public class DaoManager {
 		equipmentDao = new EquipmentDaoImpl();
 		itemsDao = new ItemsDaoImpl();
 		adminDao = new AdminProfileDaoImpl();
+		mapsDao = new MapsDaoImpl();
 	}
-
+	
 	public static DaoManager getInstance() {
 		return INSTANCE;
 	}
 
+	public MapsDao getMapsDao() {
+		return mapsDao;
+	}
+	
 	public FriendDao getFriendDao() {
 		return friendDao;
 	}

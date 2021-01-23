@@ -57,7 +57,6 @@ public class Application {
 		} catch(SQLException e) {
 			e.printStackTrace();
 		}
-
 		DaoManager.getInstance();
 		DatabaseLoader.loadTables();
 		LoaderController.loadControllers();

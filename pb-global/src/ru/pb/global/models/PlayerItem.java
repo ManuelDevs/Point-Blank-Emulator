@@ -23,6 +23,7 @@ package ru.pb.global.models;
 import org.slf4j.LoggerFactory;
 
 import ru.pb.global.enums.ItemState;
+import ru.pb.global.enums.item.ItemConsumeType;
 import ru.pb.global.enums.item.ItemLocation;
 import ru.pb.global.utils.DateTimeUtil;
 
@@ -32,7 +33,7 @@ import ru.pb.global.utils.DateTimeUtil;
  * @author sjke, Felixx
  */
 public class PlayerItem {
-	private final long id;
+	private long id;
 	private ItemLocation loc;
 	private final Item item;
 	private int count;
@@ -43,8 +44,9 @@ public class PlayerItem {
 		this(0, loc, item, count, isNew);
 	}
 
-	public PlayerItem(long id, ItemLocation loc, Item item, int count) {
+	public PlayerItem(long id, ItemLocation loc, Item item, int count, int consumeLost) {
 		this(id, loc, item, count, false);
+		this.consumeLost = consumeLost;
 	}
 
 	public PlayerItem(long id, ItemLocation loc, Item item, int count, boolean isNew) {
@@ -61,11 +63,11 @@ public class PlayerItem {
 	public void initConsumeLost() {
 		switch (item.getConsumeType()) {
 			case TEMPORARY: {
-				consumeLost = item.getConsumeValue();
+				consumeLost = 1;
 				break;
 			}
 			case DURABLE: {
-				consumeLost = item.getConsumeValue();
+				consumeLost = 1;
 				break;
 			}
 			case PERMANENT: {
@@ -77,6 +79,10 @@ public class PlayerItem {
 
 	public long getId() {
 		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
 	}
 
 	public ItemLocation getItemLocation() {
@@ -102,11 +108,20 @@ public class PlayerItem {
 	public int getCount() {
 		return count;
 	}
-
+	
 	public void addCount(int count) {
 		this.count += count;
 	}
+	
+	public void setCount(int count) {
+		this.count = count;
+	}
 
+	public void setConsumeLost(int consume) {
+		this.consumeLost = consume;
+	}
+
+	
 	public int getConsumeLost() {
 		return consumeLost;
 	}

@@ -33,7 +33,7 @@ public class GamePacketHandler extends PacketHandler {
 		addPacketPrototype(new PROTOCOL_BASE_LEAVE_REQ(0xA11));
 
 		addPacketPrototype(new PROTOCOL_CHANNEL_LIST_REQ(0xA0B));
-		addPacketPrototype(new CM_SCHANNEL_LIST(0xA0F));
+		addPacketPrototype(new PROTOCOL_SCHANNEL_LIST_REQ(0xA0F));
 		addPacketPrototype(new PROTOCOL_CHANNEL_ANNOUNCE_REQ(0xA0D));
 		
 		addPacketPrototype(new PROTOCOL_LOBBY_ENTER_REQ(0xC07));
@@ -50,6 +50,26 @@ public class GamePacketHandler extends PacketHandler {
 
 		addPacketPrototype(new PROTOCOL_INVENTORY_ENTER_REQ(0xE01));
 		addPacketPrototype(new PROTOCOL_INVENTORY_LEAVE_REQ(0xE05));
+		addPacketPrototype(new PROTOCOL_INVENTORY_ITEM_EQUIP_REQ(534));
+		
+		// Room
+		addPacketPrototype(new PROTOCOL_ROOM_CREATE_REQ(0xC11));
+		addPacketPrototype(new PROTOCOL_BATTLE_ROOM_INFO_REQ(0xF07));
+		addPacketPrototype(new PROTOCOL_ROOM_CHANGE_PASSWORD_REQ(0xF42));
+		addPacketPrototype(new PROTOCOL_ROOM_CHANGE_SETTINGS_REQ(0xF12));
+		addPacketPrototype(new PROTOCOL_ROOM_CHANGE_INFO_REQ(0xF2E));
+		
+		addPacketPrototype(new PROTOCOL_BATTLE_READYBATTLE_REQ(3331));
+		addPacketPrototype(new PROTOCOL_BATTLE_LOADING_REQ(0xF40));
+		addPacketPrototype(new PROTOCOL_BATTLE_PRESTARTBATTLE_REQ(0xD14));
+		addPacketPrototype(new PROTOCOL_BATTLE_PING_REQ(0xD10));
+		addPacketPrototype(new PROTOCOL_BATTLE_STARTBATTLE_REQ(3333));
+		addPacketPrototype(new PROTOCOL_BATTLE_BOT_RESPAWN_REQ(0xD32));
+		addPacketPrototype(new PROTOCOL_BATTLE_USER_RESPAWN_REQ(0xD09));
+
+		addPacketPrototype(new PROTOCOL_BATTLE_TIMER_SYNC_REQ(0xD2C));
+
+		addPacketPrototype(new PROTOCOL_BATTLE_FRAG_INFO_REQ(0xD1A));
 		
 		/*
 		addPacketPrototype(new CM_CHAT_MESSAGE(0xA43));

@@ -24,7 +24,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.pb.game.chat.commands.*;
 import ru.pb.game.network.client.ClientConnection;
-import ru.pb.game.network.client.packets.server.SM_CHAT_LOBBY_MESSAGE;
 import ru.pb.global.models.AdminProfile;
 import ru.pb.global.service.AdminProfileDaoService;
 
@@ -63,19 +62,7 @@ public class AdminCommandHandler {
 	}
 
 	public void handler(ClientConnection connection, String message) {
-
-		String messageResponce = "This command not found. [" + message + "]";
-		for (BaseCommand command : commands) {
-			if (message.startsWith(command.getPrefix())) {
-				try {
-					messageResponce = command.call(connection, message.substring(command.getPrefix().length() + 1));
-					break;
-				} catch (Exception ex) {
-					connection.sendPacket(new SM_CHAT_LOBBY_MESSAGE(connection.getPlayer(), "Wrong command usage! See admin guide!"));
-				}
-			}
-		}
-		connection.sendPacket(new SM_CHAT_LOBBY_MESSAGE(connection.getPlayer(), messageResponce));
+		
 	}
 
 }

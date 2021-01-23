@@ -22,17 +22,18 @@ package ru.pb.game.network.client.packets.client;
 
 import ru.pb.game.controller.GoodsController;
 import ru.pb.game.network.client.packets.ClientPacket;
-import ru.pb.game.network.client.packets.server.SM_SHOP_BUY_ITEM;
+import ru.pb.game.network.client.packets.server.PROTOCOL_BUY_ITEM_ACK;
 import ru.pb.global.data.holder.ItemHolder;
 import ru.pb.global.enums.ItemState;
 import ru.pb.global.enums.item.ItemLocation;
 import ru.pb.global.models.Good;
 import ru.pb.global.models.PlayerItem;
+import ru.pb.global.service.EquipmentDaoService;
 import ru.pb.global.utils.NetworkUtil;
 
 public class PROTOCOL_SHOP_BUY_ITEM_REQ extends ClientPacket {
 
-	private int id;
+	private int id, buyType;
 	
 	public PROTOCOL_SHOP_BUY_ITEM_REQ(int opcode) {
 		super(opcode);
@@ -40,21 +41,37 @@ public class PROTOCOL_SHOP_BUY_ITEM_REQ extends ClientPacket {
 
 	@Override
 	public void readImpl() {
+		int count = readC();
 		
+		id = readD();
+		buyType = readC();
 	}
 
 	@Override
 	public void runImpl() {
 		Good item = GoodsController.getInstance().getGoodItemById(id);
 		if (item == null || getConnection().getPlayer().getGp() < item.getPricePoints() || getConnection().getAccount().getMoney() < item.getPriceCredits()) {
-			sendPacket(new SM_SHOP_BUY_ITEM(0x80001019, null, null));
+			sendPacket(new PROTOCOL_BUY_ITEM_ACK(0x80001019, null, null));
 		} else {
-			PlayerItem playerItem = ItemHolder.getInstance().createItem(ItemLocation.INVENTORY, item.getItem().getId(), 1);
-			playerItem.setFlag(ItemState.INSERT);
-			getConnection().getPlayer().getEqipment().addItem(playerItem);
-			getConnection().getPlayer().setGp(getConnection().getPlayer().getGp() - item.getPricePoints());
-			getConnection().getAccount().setMoney(getConnection().getAccount().getMoney() - item.getPriceCredits());
-			sendPacket(new SM_SHOP_BUY_ITEM(0, playerItem, getConnection().getPlayer()));
+			PlayerItem playerItem = getConnection().getPlayer().getEqipment().getItemByItemId(item.getItem().getId());
+			
+			if(playerItem == null)
+			{
+				playerItem = ItemHolder.getInstance().createItem(ItemLocation.INVENTORY, item.getItem().getId(), item.getQuantity());
+				EquipmentDaoService.getInstance().registerItem(getConnection().getPlayer(), playerItem);
+				
+				getConnection().getPlayer().getEqipment().addItem(playerItem);
+				getConnection().getPlayer().setGp(getConnection().getPlayer().getGp() - item.getPricePoints());
+				getConnection().getAccount().setMoney(getConnection().getAccount().getMoney() - item.getPriceCredits());
+			}
+			else
+			{
+				playerItem.setFlag(ItemState.UPDATE);
+				playerItem.addCount(item.getQuantity());
+				getConnection().getPlayer().setGp(getConnection().getPlayer().getGp() - item.getPricePoints());
+				getConnection().getAccount().setMoney(getConnection().getAccount().getMoney() - item.getPriceCredits());
+			}
+			sendPacket(new PROTOCOL_BUY_ITEM_ACK(0, playerItem, getConnection().getPlayer()));
 		}
 	}
 }

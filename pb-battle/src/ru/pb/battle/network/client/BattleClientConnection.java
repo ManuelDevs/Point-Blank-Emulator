@@ -30,13 +30,6 @@ private static final Logger log = LoggerFactory.getLogger(BattleClientConnection
 		{
 			case 65:
 			{
-				//ByteBuffer _buffer2 = new ByteBuffer();
-				//_buffer2.writeC((byte)66);
-				//_buffer2.writeC((byte) 0);
-				//_buffer2.writeB(new byte[5]);
-				//_buffer2.writeC((byte) 0x0b);
-				//_buffer2.writeB(new byte[3]);
-				//ctx.writeAndFlush(new DatagramPacket(Unpooled.copiedBuffer(_buffer2.getData(), 0, _buffer2.getData().length), msg.sender()));
 				log.info("Try connect player " + msg.sender().getAddress() + ":" + msg.sender().getPort());
 				Room room = RoomController.getInstance().getRoom(msg.sender().getAddress());
 				if(room != null)
@@ -70,12 +63,9 @@ private static final Logger log = LoggerFactory.getLogger(BattleClientConnection
 							log.info("Send accept data! " + msg.sender().getAddress().toString() + ":" + msg.sender().getPort());
 							ctx.writeAndFlush(new DatagramPacket(Unpooled.copiedBuffer(_buffer.getData(), 0, _buffer.getData().length), msg.sender()));
 						}
-						//else
-						//{
-						//	log.info("Player == null");
-						//}
 					}
 				}
+				else log.info("Room is null");
 			break;
 			}
 			case (byte)131:
@@ -97,7 +87,7 @@ private static final Logger log = LoggerFactory.getLogger(BattleClientConnection
 				//		"00 2c 00 00 02 20 04 f0 " +
 				//		"00 00 00 00 8a 00 0f 01 fc 00 " +
 				//		"" +
-				//		" f2 e5"  + //координаты спавна что ли
+				//		" f2 e5"  + //ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ñ‹ Ñ�Ð¿Ð°Ð²Ð½Ð° Ñ‡Ñ‚Ð¾ Ð»Ð¸
 				//		" 01 00" + //z
 				//		" 00 00 00 00 00 00 00 00 00 00 00 00 00 00"));
 				//_buffer.writeC((byte)4);
@@ -107,8 +97,8 @@ private static final Logger log = LoggerFactory.getLogger(BattleClientConnection
 				//_buffer.writeC((byte) 0x1c);
 				//_buffer.writeC((byte) 0x41);
 				//_buffer.writeC((byte) 0x00);
-				//_buffer.writeC((byte) 17);  //длина пакета
-				//_buffer.writeC((byte) 0x00);  //длина пакета
+				//_buffer.writeC((byte) 17);  //Ð´Ð»Ð¸Ð½Ð° Ð¿Ð°ÐºÐµÑ‚Ð°
+				//_buffer.writeC((byte) 0x00);  //Ð´Ð»Ð¸Ð½Ð° Ð¿Ð°ÐºÐµÑ‚Ð°
 				//_buffer.writeC((byte) 0x00);
 				//_buffer.writeC((byte) 0x00);
 				//_buffer.writeC((byte) 0x00);

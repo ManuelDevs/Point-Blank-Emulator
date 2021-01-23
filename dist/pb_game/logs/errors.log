@@ -21,3 +21,21 @@ java.lang.NullPointerException: null
 	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
 	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
 	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
+11:54:16 [ERROR] Error handling (127.0.0.1), message [C] 0xE01 PROTOCOL_INVENTORY_ENTER_REQ
+java.lang.NullPointerException: null
+	at ru.pb.game.network.client.packets.client.PROTOCOL_INVENTORY_ENTER_REQ.runImpl(PROTOCOL_INVENTORY_ENTER_REQ.java:45) ~[pb-game.jar:na]
+	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
+	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
+11:54:44 [ERROR] Error handling (127.0.0.1), message [C] 0xE01 PROTOCOL_INVENTORY_ENTER_REQ
+java.lang.NullPointerException: null
+	at ru.pb.game.network.client.packets.client.PROTOCOL_INVENTORY_ENTER_REQ.runImpl(PROTOCOL_INVENTORY_ENTER_REQ.java:45) ~[pb-game.jar:na]
+	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
+	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]
+11:57:31 [ERROR] Error handling (127.0.0.1), message [C] 0xE05 PROTOCOL_INVENTORY_LEAVE_REQ
+java.lang.NullPointerException: null
+	at ru.pb.game.network.client.packets.client.PROTOCOL_INVENTORY_LEAVE_REQ.runImpl(PROTOCOL_INVENTORY_LEAVE_REQ.java:223) ~[pb-game.jar:na]
+	at ru.pb.game.network.client.packets.ClientPacket.run(ClientPacket.java:44) ~[pb-game.jar:na]
+	at ru.pb.global.network.packets.PacketProcessor$PacketProcessorTask.run(PacketProcessor.java:134) [pb-global.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_231]

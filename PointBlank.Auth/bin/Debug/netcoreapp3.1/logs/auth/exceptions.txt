@@ -1,0 +1,3 @@
+[20/01/2021 13:42:07] => System.Exception: Specified file dont exist. [data\configuration.ini]
+   at PointBlank.Data.Config..ctor(String Path) in C:\Users\Manuel\Desktop\Point Blank\PointBlank\PointBlank.Data\Config.cs:line 18
+   at PointBlank.Auth.AuthEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\PointBlank\PointBlank.Auth\AuthEnvironment.cs:line 18

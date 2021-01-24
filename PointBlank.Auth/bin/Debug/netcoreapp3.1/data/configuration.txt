@@ -1,0 +1,13 @@
+# Mysql Configuration
+mysql.host     = 127.0.0.1
+mysql.database = fakeus
+mysql.password = 
+mysql.user     = root
+mysql.port     = 3306
+mysql.pool.min = 10
+mysql.pool.max = 250
+
+# Auth Configuration
+auth.ip     = 127.0.0.1
+auth.port   = 39190
+auth.debug  = true

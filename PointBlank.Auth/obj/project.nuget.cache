@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ohqE97z9y0eyQpOcs8TMY2v8P71yXc/ttGQWH83VX1Zphs+7sRXRr6+jR7JlAwCA2GZig1Weq2UFJtsLcq3R9w==",
+  "dgSpecHash": "pZs/fssU47IbjYjv0hiFPRNg1nf6rU2BxJ0vtvS9uJgkqR7lXX8yH925dPB3Q/Stq258e+zBwrxhW4SivEHang==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Auth\\PointBlank.Auth.csproj",
+  "projectFilePath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Auth\\PointBlank.Auth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Manuel\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Manuel\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

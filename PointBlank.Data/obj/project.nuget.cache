@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LR41XApOzJ9XDznWEsP+UyjOra7146IZwWBHkc9d/6AwXigIZHV3EnBMVOlodt9I9ZJ5WGfG2Bp3VJH5KebrIg==",
+  "dgSpecHash": "bRv/dOEz0Do3fhN1yMw2Y7ftzTp+2IOUj7818pkarXi9es0lAcedyzXSJKC2rI+fyxz6d9baZOnU/sCgW8c3Bg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\PointBlank.Data.csproj",
+  "projectFilePath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\PointBlank.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Manuel\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Manuel\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

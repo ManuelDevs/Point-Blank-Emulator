@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading;
 
 namespace PointBlank.Auth.Communication
@@ -12,6 +10,11 @@ namespace PointBlank.Auth.Communication
     {
         private Socket socket;
         private Dictionary<int, Client> clients;
+
+        private void UpdateTitle()
+        {
+            Console.Title = "Auth Server - Connected clients: " + clients.Count;
+        }
 
         public ClientListener()
         {
@@ -24,6 +27,8 @@ namespace PointBlank.Auth.Communication
                 socket.Listen(10);
                 socket.BeginAccept(new AsyncCallback(AcceptSocket), socket);
                 AuthEnvironment.GetLogger().Info("Socket listening to connection. [" + AuthEnvironment.GetConfig().GetString("auth.ip") + ":" + AuthEnvironment.GetConfig().GetString("auth.port") + "]");
+
+                UpdateTitle();
             }
             catch(Exception e)
             {
@@ -40,14 +45,14 @@ namespace PointBlank.Auth.Communication
                 if (handler != null)
                 {
                     Client client = new Client(handler);
-                    if (client != null && clients.ContainsKey(client.sessionId))
+                    if (client != null && clients.ContainsKey(client.SessionId))
                     {
                         AuthEnvironment.GetLogger().Warn("Accepted socket have an existing sessionId.");
                         client.Close(0, true);
                     }
                     else if (client != null)
                     {
-                        clients.Add(client.sessionId, client);
+                        clients.Add(client.SessionId, client);
                     }
                     else AuthEnvironment.GetLogger().Warn("Accepted socket was null on adding.");
                     
@@ -60,6 +65,7 @@ namespace PointBlank.Auth.Communication
             }
 
             socket.BeginAccept(new AsyncCallback(AcceptSocket), socket);
+            UpdateTitle();
         }
 
         public void RemoveClient(Client client)
@@ -67,8 +73,10 @@ namespace PointBlank.Auth.Communication
             if (client == null)
                 return;
 
-            if (clients.ContainsKey(client.sessionId))
-                clients.Remove(client.sessionId);
+            if (clients.ContainsKey(client.SessionId))
+                clients.Remove(client.SessionId);
+
+            UpdateTitle();
         }
     }
 }

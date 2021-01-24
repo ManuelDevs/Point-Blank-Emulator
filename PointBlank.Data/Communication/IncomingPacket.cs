@@ -7,16 +7,16 @@ namespace PointBlank.Data.Communication
     {
         private byte[] _Buffer;
         private int _Pointer;
-        private IConnection _Connection;
+        private Connection _Connection;
 
-        public void SetData(byte[] Buffer, IConnection Connection)
+        public void SetData(byte[] Buffer, Connection Connection)
         {
             _Pointer = 4;
             _Buffer = Buffer;
             _Connection = Connection;
         }
 
-        public IConnection GetConnection() => _Connection;
+        public Connection GetConnection() => _Connection;
         public abstract void Execute();
 
         protected internal int GetInt()

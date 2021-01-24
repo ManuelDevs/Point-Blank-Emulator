@@ -7,6 +7,7 @@ namespace PointBlank.Data
     {
         private string ExceptionLogs;
         private string MysqlExceptionLogs;
+        public bool ShowDebug = false;
 
         public Log(string Name)
         {
@@ -53,6 +54,9 @@ namespace PointBlank.Data
 
         private void LogData(string Text, string Type, ConsoleColor Color = ConsoleColor.Gray)
         {
+            if (Type.ToUpper() == "DEBUG" && !ShowDebug)
+                return;
+
             Console.ForegroundColor = Color;
             Console.WriteLine($" {DateTime.Now.ToString("HH:mm:ss")} [{Type.ToUpper()}] {Text.Trim()}");
         }

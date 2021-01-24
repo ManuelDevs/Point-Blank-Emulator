@@ -9,7 +9,7 @@ namespace PointBlank.Data.Communication
     public abstract class OutgoingPacket : IDisposable
     {
         private MemoryStream stream = new MemoryStream();
-        
+
         public OutgoingPacket(short Opcode)
         {
             WriteShort(Opcode);
@@ -84,7 +84,7 @@ namespace PointBlank.Data.Communication
         {
             WriteBytes(new byte[] { Convert.ToByte(value), 0, 0, 0 });
         }
-        protected internal void WriteUInt(uint valor)
+        protected internal void WriteInt(uint valor)
         {
             WriteBytes(BitConverter.GetBytes(valor));
         }

@@ -896,11 +896,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\PointBlank.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\PointBlank.Data.csproj",
       "projectName": "PointBlank.Data",
-      "projectPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\PointBlank.Data.csproj",
+      "projectPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\PointBlank.Data.csproj",
       "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\obj\\",
+      "outputPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

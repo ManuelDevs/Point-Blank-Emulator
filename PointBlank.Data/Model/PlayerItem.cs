@@ -1,4 +1,5 @@
-﻿using PointBlank.Data.Model.Enum.Items;
+﻿using PointBlank.Data.Model.Enum;
+using PointBlank.Data.Model.Enum.Items;
 
 namespace PointBlank.Data.Model
 {
@@ -8,5 +9,6 @@ namespace PointBlank.Data.Model
         public int Count;
         public ItemState State;
         public Item BaseItem;
+        public PlayerItemLocation Location;
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Auth\\PointBlank.Auth.csproj": {}
+    "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Auth\\PointBlank.Auth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Auth\\PointBlank.Auth.csproj": {
+    "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Auth\\PointBlank.Auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Auth\\PointBlank.Auth.csproj",
+        "projectUniqueName": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Auth\\PointBlank.Auth.csproj",
         "projectName": "PointBlank.Auth",
-        "projectPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Auth\\PointBlank.Auth.csproj",
+        "projectPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Auth\\PointBlank.Auth.csproj",
         "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Auth\\obj\\",
+        "outputPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Auth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\PointBlank.Data.csproj": {
-                "projectPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\PointBlank.Data.csproj"
+              "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\PointBlank.Data.csproj": {
+                "projectPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\PointBlank.Data.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\PointBlank.Data.csproj": {
+    "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\PointBlank.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\PointBlank.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\PointBlank.Data.csproj",
         "projectName": "PointBlank.Data",
-        "projectPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\PointBlank.Data.csproj",
+        "projectPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\PointBlank.Data.csproj",
         "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Emulator NetCore\\PointBlank.Data\\obj\\",
+        "outputPath": "C:\\Users\\Manuel\\Desktop\\Point Blank\\Point-Blank-Emulator\\PointBlank.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

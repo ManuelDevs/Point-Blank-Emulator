@@ -7,5 +7,6 @@ namespace PointBlank.Data.Model
         public int Id;
         public ItemConsumeType ConsumeType;
         public ItemType Type;
+        public ItemTypeSpecific SpecificType;
     }
 }

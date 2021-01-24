@@ -1,5 +1,7 @@
 ﻿using PointBlank.Auth.Communication;
 using PointBlank.Data;
+using PointBlank.Data.Database;
+using PointBlank.Data.Service;
 using System;
 using System.Threading;
 
@@ -12,13 +14,36 @@ namespace PointBlank.Auth
         private static ClientListener listener;
         private static ClientPacketHandler packetHandler;
 
+        public static ServicesHandler Services;
+
         public static void Load()
         {
             log = new Log("Auth");
-
+            DataEnvironment.Log = log;
             try
             {
+                Console.WriteLine();
+
                 config = new Config("data\\configuration.txt");
+                log.ShowDebug = config.GetBool("console.debug");
+
+                DataEnvironment.Database = new DatabaseManager(DatabaseManager.GenerateConnectionString(
+                    config.GetString("mysql.host"),
+                    config.GetString("mysql.user"),
+                    config.GetString("mysql.password"),
+                    config.GetString("mysql.database"),
+                    config.GetInt("mysql.port"),
+                    config.GetInt("mysql.pool.min"),
+                    config.GetInt("mysql.pool.max")));
+
+                if (DataEnvironment.Database.IsConnected())
+                    log.Info("Database connected correctly.");
+                else
+                    throw new Exception("Check you database connection. Impossible to connect.");
+
+                Services = new ServicesHandler(log);
+                DataEnvironment.Services = Services;
+
                 packetHandler = new ClientPacketHandler();
                 listener = new ClientListener();
             }
@@ -26,7 +51,7 @@ namespace PointBlank.Auth
             {
                 log.SaveException(e);
                 log.Error("Impossible to start auth server. Check 'logs\\auth\\exceptions.txt'");
-                Thread.Sleep(2000);
+                Thread.Sleep(6000);
                 Environment.Exit(0);
             }
         }

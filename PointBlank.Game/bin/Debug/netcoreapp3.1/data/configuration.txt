@@ -1,0 +1,19 @@
+# Mysql Configuration
+mysql.host     = 127.0.0.1
+mysql.database = pb
+mysql.password = 
+mysql.user     = root
+mysql.port     = 3306
+mysql.pool.min = 10
+mysql.pool.max = 250
+
+# Server Configuration
+console.debug = true
+
+# Game Server Configuration
+game.ip     		 = 192.168.178.113
+game.port   		 = 39191
+game.id     		 = 1
+game.channels.maxplayers = 100
+game.nick.min = 3
+game.nick.max = 16

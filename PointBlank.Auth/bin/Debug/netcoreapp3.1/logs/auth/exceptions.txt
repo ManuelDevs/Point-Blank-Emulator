@@ -1,3 +1,21 @@
 [20/01/2021 13:42:07] => System.Exception: Specified file dont exist. [data\configuration.ini]
    at PointBlank.Data.Config..ctor(String Path) in C:\Users\Manuel\Desktop\Point Blank\PointBlank\PointBlank.Data\Config.cs:line 18
    at PointBlank.Auth.AuthEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\PointBlank\PointBlank.Auth\AuthEnvironment.cs:line 18
+[24/01/2021 13:52:36] => System.Exception: Check you database connection. Impossible to connect.
+   at PointBlank.Auth.AuthEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Auth\AuthEnvironment.cs:line 38
+[24/01/2021 13:52:46] => System.Exception: Check you database connection. Impossible to connect.
+   at PointBlank.Auth.AuthEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Auth\AuthEnvironment.cs:line 38
+[24/01/2021 13:53:04] => System.Exception: Check you database connection. Impossible to connect.
+   at PointBlank.Auth.AuthEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Auth\AuthEnvironment.cs:line 42
+[24/01/2021 13:54:14] => System.Exception: Check you database connection. Impossible to connect.
+   at PointBlank.Auth.AuthEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Auth\AuthEnvironment.cs:line 43
+[24/01/2021 14:14:27] => System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at PointBlank.Data.Service.Services.GameServerService..ctor(Log log) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\Services\GameServerService.cs:line 27
+   at PointBlank.Data.Service.ServicesHandler..ctor(Log log) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\ServicesHandler.cs:line 13
+   at PointBlank.Auth.AuthEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Auth\AuthEnvironment.cs:line 43
+[24/01/2021 16:45:51] => System.Net.Sockets.SocketException (10048): Di norma è consentito un solo utilizzo di ogni indirizzo di socket (protocollo/indirizzo di rete/porta).
+   at PointBlank.Auth.Communication.ClientListener..ctor() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Auth\Communication\ClientListener.cs:line 35
+   at PointBlank.Auth.AuthEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Auth\AuthEnvironment.cs:line 47

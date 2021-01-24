@@ -1,12 +1,17 @@
-﻿using System.Net;
+﻿using PointBlank.Data.Model;
+using System.Net;
 
 namespace PointBlank.Data.Communication
 {
-    public interface IConnection
+    public abstract class Connection
     {
-        public void SendPacket(OutgoingPacket packet);
-        public void Close(int time, bool destroyConnection);
-        public IPAddress GetAddress();
-        public string GetIPAddress();
+        public abstract void SendPacket(OutgoingPacket packet);
+        public abstract void Close(int time, bool destroyConnection);
+        public abstract IPAddress GetAddress();
+        public abstract string GetIPAddress();
+
+        public int SessionId;
+        public Player Player;
+        public byte[] LocalIP;
     }
 }

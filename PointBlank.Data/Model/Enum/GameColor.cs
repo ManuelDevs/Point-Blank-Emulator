@@ -1,6 +1,6 @@
 ﻿namespace PointBlank.Data.Model.Enum
 {
-    public enum PlayerColor
+    public enum GameColor
     {
         NONE = 0,
         DARK_RED = 1,

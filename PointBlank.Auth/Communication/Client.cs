@@ -7,21 +7,22 @@ using System.Threading;
 
 namespace PointBlank.Auth.Communication
 {
-    public class Client : IConnection
+    public class Client : Connection
     {
+        public int SessionId { get; }
+
         private Socket _socket;
         private bool _closed = false;
         private int _shift;
-        public int sessionId { get; }
 
-        public string GetIPAddress()
+        public override string GetIPAddress()
         {
             if (_socket != null && _socket.RemoteEndPoint != null)
                 return ((IPEndPoint)_socket.RemoteEndPoint).Address.ToString();
             return "";
         }
 
-        public IPAddress GetAddress()
+        public override IPAddress GetAddress()
         {
             if (_socket != null && _socket.RemoteEndPoint != null)
                 return ((IPEndPoint)_socket.RemoteEndPoint).Address;
@@ -32,10 +33,10 @@ namespace PointBlank.Auth.Communication
         {
             _socket = socket;
             _socket.NoDelay = true;
-            sessionId = AuthEnvironment.NextSessionId();
-            _shift = (int) (sessionId % 7 + 1);
+            SessionId = AuthEnvironment.NextSessionId();
+            _shift = (int) (SessionId % 7 + 1);
 
-            AuthEnvironment.GetLogger().Debug("Client connected. [Session: " + sessionId + "; Shift: " + _shift + "]");
+            AuthEnvironment.GetLogger().Debug("Client connected. [Session: " + SessionId + "; Shift: " + _shift + "]");
             new Thread(Init).Start();
             new Thread(Read).Start();
         }
@@ -132,7 +133,7 @@ namespace PointBlank.Auth.Communication
             }
         }
 
-        public void SendPacket(OutgoingPacket packet)
+        public override void SendPacket(OutgoingPacket packet)
         {
             try
             {
@@ -175,12 +176,6 @@ namespace PointBlank.Auth.Communication
             if (_closed)
                 return;
 
-            if(opcode == 2654)
-            {
-                this.Close(0, true);
-                return;
-            }
-
             IncomingPacket packet = AuthEnvironment.GetPacketHandler().GetPacket(opcode);
             if (packet != null)
             {
@@ -190,26 +185,23 @@ namespace PointBlank.Auth.Communication
             else AuthEnvironment.GetLogger().Debug("Received unhandled packet. [Opcode: " + opcode + "; Size: " + simple.Length + "]");
         }
 
-        public void Close(int time, bool destroyConnection)
+        public override void Close(int time, bool destroyConnection)
         {
             if (_closed)
                 return;
 
-            AuthEnvironment.GetLogger().Debug("Client closed. [Session: " + sessionId + "; Shift: " + _shift + "]");
+            AuthEnvironment.GetLogger().Debug("Client closed. [Session: " + SessionId + "; Shift: " + _shift + "]");
+            AuthEnvironment.GetCommunication().RemoveClient(this);
 
             try
             {
-                Thread.Sleep(time);
-
                 _closed = true;
-
                 if(destroyConnection)
                 {
+                    Thread.Sleep(time);
                     _socket.Close();
                     _socket.Dispose();
                 }
-
-                AuthEnvironment.GetCommunication().RemoveClient(this);
             }
             catch (Exception e)
             {

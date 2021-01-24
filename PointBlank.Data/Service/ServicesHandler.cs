@@ -9,12 +9,14 @@ namespace PointBlank.Data.Service
         public GameServerService GameServers;
         public ChannelService Channels;
         public ItemService Items;
+        public GoodService Goods;
 
         public ServicesHandler(Log log, int gameServer = -1)
         {
             Players = new PlayerService(log);
             GameServers = new GameServerService(log);
             Items = new ItemService(log);
+            Goods = new GoodService(log, Items);
 
             if(gameServer > -1)
             {

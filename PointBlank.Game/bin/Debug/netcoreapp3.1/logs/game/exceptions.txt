@@ -1,0 +1,50 @@
+[24/01/2021 20:50:11] => System.NullReferenceException: Object reference not set to an instance of an object.
+   at PointBlank.Data.Service.Services.GoodService..ctor(Log log) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\Services\GoodService.cs:line 32
+   at PointBlank.Data.Service.ServicesHandler..ctor(Log log, Int32 gameServer) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\ServicesHandler.cs:line 19
+   at PointBlank.Game.GameEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Game\GameEnvironment.cs:line 44
+[24/01/2021 20:51:10] => System.NullReferenceException: Object reference not set to an instance of an object.
+   at PointBlank.Data.Service.Services.GoodService..ctor(Log log) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\Services\GoodService.cs:line 32
+   at PointBlank.Data.Service.ServicesHandler..ctor(Log log, Int32 gameServer) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\ServicesHandler.cs:line 19
+   at PointBlank.Game.GameEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Game\GameEnvironment.cs:line 45
+[24/01/2021 20:51:42] => System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at PointBlank.Data.Service.Services.GoodService..ctor(Log log, ItemService Items) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\Services\GoodService.cs:line 60
+   at PointBlank.Data.Service.ServicesHandler..ctor(Log log, Int32 gameServer) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\ServicesHandler.cs:line 19
+   at PointBlank.Game.GameEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Game\GameEnvironment.cs:line 45
+[24/01/2021 20:52:31] => System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at PointBlank.Data.Service.Services.GoodService..ctor(Log log, ItemService Items) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\Services\GoodService.cs:line 60
+   at PointBlank.Data.Service.ServicesHandler..ctor(Log log, Int32 gameServer) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\ServicesHandler.cs:line 19
+   at PointBlank.Game.GameEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Game\GameEnvironment.cs:line 45
+[24/01/2021 20:52:36] => System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at PointBlank.Data.Service.Services.GoodService..ctor(Log log, ItemService Items) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\Services\GoodService.cs:line 60
+   at PointBlank.Data.Service.ServicesHandler..ctor(Log log, Int32 gameServer) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\ServicesHandler.cs:line 19
+   at PointBlank.Game.GameEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Game\GameEnvironment.cs:line 45
+[24/01/2021 20:53:20] => System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at PointBlank.Data.Service.Services.GoodService..ctor(Log log, ItemService Items) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\Services\GoodService.cs:line 60
+   at PointBlank.Data.Service.ServicesHandler..ctor(Log log, Int32 gameServer) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\ServicesHandler.cs:line 19
+   at PointBlank.Game.GameEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Game\GameEnvironment.cs:line 45
+[24/01/2021 20:53:26] => System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at PointBlank.Data.Service.Services.GoodService..ctor(Log log, ItemService Items) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\Services\GoodService.cs:line 60
+   at PointBlank.Data.Service.ServicesHandler..ctor(Log log, Int32 gameServer) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\ServicesHandler.cs:line 19
+   at PointBlank.Game.GameEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Game\GameEnvironment.cs:line 45
+[24/01/2021 20:53:30] => System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at PointBlank.Data.Service.Services.GoodService..ctor(Log log, ItemService Items) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\Services\GoodService.cs:line 60
+   at PointBlank.Data.Service.ServicesHandler..ctor(Log log, Int32 gameServer) in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\Service\ServicesHandler.cs:line 19
+   at PointBlank.Game.GameEnvironment.Load() in C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Game\GameEnvironment.cs:line 45

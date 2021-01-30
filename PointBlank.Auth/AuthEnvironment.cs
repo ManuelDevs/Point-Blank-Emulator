@@ -41,8 +41,8 @@ namespace PointBlank.Auth
                 else
                     throw new Exception("Check you database connection. Impossible to connect.");
 
-                DataEnvironment.Services = Services;
-                Services = new ServicesHandler(log);
+                DataEnvironment.Services = new ServicesHandler(log);
+                Services = DataEnvironment.Services;
 
                 packetHandler = new ClientPacketHandler();
                 listener = new ClientListener();

@@ -31,6 +31,11 @@ namespace PointBlank.Data.Model
             return Inventory.Where(x => x != null && x.BaseItem != null && x.BaseItem.Type.Equals(type)).ToList();
         }
 
+        public PlayerItem GetItemById(long Id)
+        {
+            return Inventory.Where(x => x != null && x.Id == Id).FirstOrDefault();
+        }
+
         public int GetEquippedItemByItemSpecificType(ItemTypeSpecific type)
         {
             int item = 0;
@@ -166,8 +171,16 @@ namespace PointBlank.Data.Model
                         Location = itemLocation,
                         Count = Convert.ToInt32(row["count"])
                     };
+                    Item template = null;
+                    try
+                    {
+                        template = DataEnvironment.Services.Items.Items.Where(x => x != null && x.Id == Convert.ToInt32(row["item_id"])).FirstOrDefault();
+                    }
+                    catch
+                    {
 
-                    Item template = DataEnvironment.Services.Items.Items.Where(x => x != null && x.Id == Convert.ToInt32(row["item_id"])).FirstOrDefault();
+                    }
+
                     if(template == null)
                     {
                         DataEnvironment.Log.Error("Loaded player item with null template. " + Convert.ToInt32(row["item_id"]));
@@ -242,7 +255,7 @@ namespace PointBlank.Data.Model
             {
                 db.SetQuery("UPDATE players SET rank = @rank, experience = @exp, points = @gp, moneys = @moneys WHERE id = @id;");
                 db.AddParameter("rank", Rank);
-                db.AddParameter("experience", Experience);
+                db.AddParameter("exp", Experience);
                 db.AddParameter("gp", Points);
                 db.AddParameter("moneys", Moneys);
                 db.AddParameter("id", Id);

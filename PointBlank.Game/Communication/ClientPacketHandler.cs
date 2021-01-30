@@ -30,11 +30,13 @@ namespace PointBlank.Game.Communication
                 // Inventory Packets
                 case 3585: return new PROTOCOL_INVENTORY_ENTER_REQ();
                 case 3589: return new PROTOCOL_INVENTORY_LEAVE_REQ();
+                case 534: return new PROTOCOL_INVENTORY_EQUIP_REQ();
 
                 // Shop Packets
                 case 2819: return new PROTOCOL_SHOP_ENTER_REQ();
                 case 2817: return new PROTOCOL_SHOP_LEAVE_REQ();
-                case 2821: return null;
+                case 2821: return new PROTOCOL_SHOP_LIST_REQ();
+                case 530: return new PROTOCOL_SHOP_BUY_REQ();
             }
 
             return null;

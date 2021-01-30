@@ -84,7 +84,7 @@ namespace PointBlank.Game.Communication
                     new Thread(Read).Start();
                 }
             }
-            catch (ObjectDisposedException e)
+            catch (ObjectDisposedException)
             {
 
             }
@@ -198,6 +198,12 @@ namespace PointBlank.Game.Communication
 
             GameEnvironment.GetLogger().Debug("Client closed. [Session: " + SessionId + "; Shift: " + _shift + "]");
             GameEnvironment.GetCommunication().RemoveClient(this);
+
+            if(Player != null)
+            {
+                Player.OnCloseUpdate();
+                Player = null;
+            }
 
             try
             {

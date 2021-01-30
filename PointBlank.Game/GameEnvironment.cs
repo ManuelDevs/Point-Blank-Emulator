@@ -41,8 +41,8 @@ namespace PointBlank.Game
                 else
                     throw new Exception("Check you database connection. Impossible to connect.");
 
-                DataEnvironment.Services = Services;
-                Services = new ServicesHandler(log, config.GetInt("game.id"));
+                DataEnvironment.Services = new ServicesHandler(log, config.GetInt("game.id")); ;
+                Services = DataEnvironment.Services;
 
                 packetHandler = new ClientPacketHandler();
                 listener = new ClientListener();

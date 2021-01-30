@@ -79,9 +79,9 @@ namespace PointBlank.Data.Service.Services
                 
                 log.Debug("Loaded account from login '" + Login + "' and password '" + Password + "' [Id: " + id + "]");
             }
-            catch
+            catch(Exception e)
             {
-                log.Error("Error loading a player.");
+                log.Error("Error loading a player. " + e.ToString());
             }
             return null;
         }

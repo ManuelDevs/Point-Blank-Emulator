@@ -36,7 +36,7 @@ namespace PointBlank.Data.Service.Services
                 }
             }
 
-            log.Debug("ChannelService for gameServer " + gameServer + "ready to use.");
+            log.Debug("ChannelService for gameServer " + gameServer + " ready to use.");
         }
     }
 }

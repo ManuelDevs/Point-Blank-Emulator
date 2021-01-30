@@ -8,5 +8,6 @@ namespace PointBlank.Data.Model
         public ItemConsumeType ConsumeType;
         public ItemType Type;
         public ItemTypeSpecific SpecificType;
+        public int RequiredTitle;
     }
 }

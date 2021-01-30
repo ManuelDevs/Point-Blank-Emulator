@@ -10,7 +10,6 @@ C:\Users\Manuel\Desktop\Point Blank\PointBlank\PointBlank.Data\obj\Debug\netcore
 C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\bin\Debug\netcoreapp3.1\PointBlank.Data.deps.json
 C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\bin\Debug\netcoreapp3.1\PointBlank.Data.dll
 C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\bin\Debug\netcoreapp3.1\PointBlank.Data.pdb
-C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\obj\Debug\netcoreapp3.1\PointBlank.Data.csprojAssemblyReference.cache
 C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\obj\Debug\netcoreapp3.1\PointBlank.Data.csproj.CoreCompileInputs.cache
 C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\obj\Debug\netcoreapp3.1\PointBlank.Data.AssemblyInfoInputs.cache
 C:\Users\Manuel\Desktop\Point Blank\Point-Blank-Emulator\PointBlank.Data\obj\Debug\netcoreapp3.1\PointBlank.Data.AssemblyInfo.cs

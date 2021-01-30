@@ -36,14 +36,15 @@ namespace PointBlank.Data.Service.Services
                         Id = Convert.ToInt32(row["id"]),
                         SpecificType = specificType,
                         Type = itemType,
-                        ConsumeType = consumeType
+                        ConsumeType = consumeType,
+                        RequiredTitle = Convert.ToInt32(row["required_title"])
                     };
 
                     Items.Add(item);
                 }
             }
 
-            log.Debug("ItemService ready to use.");
+            log.Debug("ItemService ready to use. Items => " + Items.Count);
         }
     }
 }
